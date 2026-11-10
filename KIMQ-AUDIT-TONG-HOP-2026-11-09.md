@@ -9,6 +9,8 @@ Tổng hợp các lần kiểm tra `https://kimq.tech/` ngày 09/11/2026:
 
 > Mọi số liệu dưới đây đo trực tiếp trên production ngày 09/11/2026. Kết luận nào chưa đo được đều ghi rõ là "cần xác minh".
 
+> **Cập nhật 10/11/2026:** recheck live, chưa có thay đổi (sitemap 404, soft-404, dev build `jsxDEV` ×143). Thêm mục 10: đối chiếu Google Search updates tháng 05–11/2026 (nguồn Search Engine Roundtable, fetch bằng TinyFish). Bảng chi tiết: [`KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md`](KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md).
+
 ---
 
 ## 0. Tóm tắt điều hành
@@ -25,6 +27,8 @@ Tổng hợp các lần kiểm tra `https://kimq.tech/` ngày 09/11/2026:
 | 8 | 0 JSON-LD trên toàn site; trang chủ thiếu canonical + og:image | P1 | SEO |
 | 9 | Thiếu security headers (CSP, HSTS, frame-ancestors, Referrer-Policy, Permissions-Policy) | P1 | Hardening |
 | 10 | `www.kimq.tech` không có DNS; EN/VI không có URL riêng / hreflang | P1 | SEO |
+| 11 | Chưa xác minh Google Search Console / GA4 → không có baseline trước core update kế tiếp; chưa cấu hình *Search generative AI control* cho khớp robots.txt (đang chặn Google-Extended) | P1 | Đo lường / GEO |
+| 12 | Kế hoạch GEO 90 ngày chưa cấm rõ việc mua/thao túng brand mentions (Google cảnh báo 28/05/2026, coi như paid links) | P1 | Kế hoạch / GEO |
 
 **Điểm tốt:** 1 H1/trang (40/40), title + meta duy nhất sau render, 0 link hỏng, 0 ảnh lỗi, toàn bộ ảnh WebP, mobile responsive, accessibility 100, form "Quan tâm" phản hồi đúng chuẩn UX, không lộ secret trong bundle.
 
@@ -235,7 +239,43 @@ Cả 8 claim đều đang có trên site:
 | W3 | JSON-LD: Organization + WebSite, SoftwareApplication/Service, BreadcrumbList | Rich result và entity |
 | W3 | Security headers ở Cloudflare; `security.txt` | Hardening |
 | W3 | Cập nhật XLSX: thêm 7 URL, cập nhật T02–T07/T14, mở rộng Dashboard | Kế hoạch khớp thực tế |
-| Sau đó | Xác minh 5 mục needs_validation khi có source server; chạy GEO Test Set; xác minh GSC | |
+| **W1 (mới)** | Xác minh GSC (Domain property) + GA4 ngay, trước core update kế tiếp | Có baseline để đo tác động update |
+| W2 | Sitemap: `lastmod` = ngày sửa nội dung thật hoặc bỏ hẳn (không lấy ngày build) | Google tin tưởng lastmod |
+| W2 | Thêm About/đội ngũ/pháp nhân, tác giả + ngày cập nhật cho 19 guide; làm khác biệt nội dung 19 trang sản phẩm | Giảm rủi ro core/spam update |
+| W3 | Chốt chính sách AI: robots.txt (Google-Extended…) và *Search generative AI control* trong GSC nhất quán; ghi vào plan GEO "không mua mentions" | GEO an toàn |
+| Sau đó | Xác minh 5 mục needs_validation khi có source server; chạy GEO Test Set | |
+
+---
+
+## 10. Đối chiếu Google Search updates 05–11/2026 (cập nhật 10/11)
+
+Nguồn: 20 bài trên [Search Engine Roundtable — Google Updates](https://www.seroundtable.com/category/google-updates), từ 21/05 đến 09/11/2026. KimQ chưa có GSC/GA4 nên chỉ đánh giá **rủi ro**, chưa đo được tác động thực tế.
+
+### Timeline chính
+
+| Ngày | Sự kiện |
+|---|---|
+| 21/05 → 02/06 | **May 2026 Broad Core Update** (12 ngày, toàn cầu, lớn hơn March 2026 core) |
+| 28/05 | Google cảnh báo **mua/thao túng brand mentions** để lên AI Overviews/AI Mode |
+| 24–26/06 | June 2026 Spam Update |
+| 16/07 | Gary Illyes: **lastmod sai thì nên bỏ** |
+| 18–21/08 | **August 2026 Spam Update**: đánh mạnh site programmatic/scaled |
+| 18/08 | Google sẽ hỗ trợ HTTP QUERY (faceted nav), vài năm nữa |
+| 08/09 | Tài liệu Regional differences in Search (DMA) |
+| 24/09 → 08/10 | **September 2026 Spam Update**: rollout 2 tuần, tác động "giống core" |
+| 06/10 | GSC *Search generative AI control* đã global; thêm thông báo khi property con override cha |
+| 16/10 → 09/11 | Nhiều đợt biến động chưa xác nhận; giới SEO **đang chờ core update kế tiếp**; báo cáo hiệu suất GSC lỗi với nhiều site |
+
+### Ảnh hưởng tới KimQ
+
+| Update / guidance | Rủi ro | Liên hệ với audit | Hành động |
+|---|---|---|---|
+| Core update (May + sắp tới) | **Cao** | Vấn đề #2, #3, #6: HTML gốc trống, LCP ~7s, claim mâu thuẫn, thiếu About/team/case study | SSR/prerender, build production, sửa claim, bổ sung E-E-A-T |
+| Spam updates (Aug, Sep) | Thấp–TB | 40 URL viết tay (OK); #5 soft-404 + 19 trang sản phẩm cùng template | 404 thật; nội dung riêng cho từng sản phẩm; không bung trang programmatic |
+| Lastmod guidance | TB | #4 chưa có sitemap | Sitemap với lastmod thật hoặc bỏ |
+| Manipulating mentions for AI | TB | #12 kế hoạch GEO trong XLSX | Chỉ PR/đối tác/case study thật; thống nhất tên brand |
+| Search generative AI control | TB | #11 chưa verify GSC; robots chặn Google-Extended, GPTBot, ClaudeBot | Verify GSC, chốt chính sách AI nhất quán |
+| HTTP QUERY, Regional (DMA), AI Mode UI | Không đáng kể | Site không có faceted nav, nhắm VN | Theo dõi |
 
 ---
 
@@ -247,4 +287,5 @@ Cả 8 claim đều đang có trên site:
 - **claude-seo**: `render_page.py`, `sitemap_discovery.py`, `agentic_check.py --ua-matrix`, `preload_check.py`.
 - **cloudflare/security-audit-skill**: guidance mode; phân tích tĩnh bundle public + header.
 - **curl/dig**: header, redirect, DNS TXT, kiểm tra các path nhạy cảm.
+- **TinyFish fetch** (10/11): 20 bài Google updates trên Search Engine Roundtable cho mục 10.
 - Bản XLSX có thêm 2 sheet "Live Check 09-11" và "Đánh giá XLSX" được tạo ở máy audit, chưa đưa vào repo.
