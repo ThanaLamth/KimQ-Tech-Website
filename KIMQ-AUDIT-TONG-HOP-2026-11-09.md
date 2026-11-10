@@ -11,6 +11,8 @@ Tổng hợp các lần kiểm tra `https://kimq.tech/` ngày 09/11/2026:
 
 > **Cập nhật 10/11/2026:** recheck live, chưa có thay đổi (sitemap 404, soft-404, dev build `jsxDEV` ×143). Thêm mục 10: đối chiếu Google Search updates tháng 05–11/2026 (nguồn Search Engine Roundtable, fetch bằng TinyFish). Bảng chi tiết: [`KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md`](KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md).
 
+> **Cập nhật 10/11/2026 (3):** đã kiểm trust pages và footer: **chưa đạt** (vấn đề #13). Đánh giá và bản nháp ở [`seo-content/08-trust-pages-footer.md`](seo-content/08-trust-pages-footer.md).
+>
 > **Cập nhật 10/11/2026 (2):** phần việc SEO/Content đã soạn trong [`seo-content/`](seo-content/README.md): sửa claim AI Gateway, quy ước brand + trang chủ, nháp trang Giới thiệu, title/meta 40 URL, JSON-LD 40 trang, link sản phẩm liên quan, byline cho trang hướng dẫn, checklist GSC/GA4 và chính sách AI. XLSX đã cập nhật: thêm 8 URL, trạng thái roadmap, task T22–T23, 3 claim mới. Sau khi đo lại, nội dung 19 trang sản phẩm trùng ≤ 13,4%, nên không bị coi là scaled content.
 
 ---
@@ -31,6 +33,7 @@ Tổng hợp các lần kiểm tra `https://kimq.tech/` ngày 09/11/2026:
 | 10 | `www.kimq.tech` không có DNS; EN/VI không có URL riêng / hreflang | P1 | SEO |
 | 11 | Chưa xác minh Google Search Console / GA4 → không có baseline trước core update kế tiếp; chưa cấu hình *Search generative AI control* cho khớp robots.txt (đang chặn Google-Extended) | P1 | Đo lường / GEO |
 | 12 | Kế hoạch GEO 90 ngày chưa cấm rõ việc mua/thao túng brand mentions (Google cảnh báo 28/05/2026, coi như paid links) | P1 | Kế hoạch / GEO |
+| 13 | **Không có trang trust nào**: chưa có Giới thiệu, Liên hệ, Chính sách bảo mật, Điều khoản; footer chỉ có `© 2026 KimQ JSC`, không có link. MST và địa chỉ chỉ có trên 2/40 trang. Form email trên 19 trang sản phẩm không có chính sách hay câu đồng ý (Luật BVDLCN 91/2025/QH15) | P0 | Pháp lý / E-E-A-T |
 
 **Điểm tốt:** 1 H1/trang (40/40), title + meta duy nhất sau render, 0 link hỏng, 0 ảnh lỗi, toàn bộ ảnh WebP, mobile responsive, accessibility 100, form "Quan tâm" phản hồi đúng chuẩn UX, không lộ secret trong bundle.
 
@@ -113,7 +116,7 @@ Checklist viết cho site tin tức Headless WP + Next.js; kimq.tech là site do
 | §3 Indexing | ❌ Soft 404 chưa noindex. Canonical: thiếu ở trang chủ. robots không chặn assets ✅, nhưng không khai báo sitemap |
 | §4 Sitemap | ❌ Không có |
 | §5 Structured data | ❌ 0 khối JSON-LD (cần Organization + WebSite, SoftwareApplication/Service, BreadcrumbList) |
-| §6 E-E-A-T | ⚠️ Không có trang About/Contact riêng (chỉ anchor `#about`, `#contact`), không có editorial/team page |
+| §6 E-E-A-T | ❌ Không có trang About/Contact/Privacy/Terms riêng (chỉ anchor `#about`, `#contact`), không có editorial/team page. Chi tiết và bản nháp: `seo-content/08-trust-pages-footer.md` |
 | §7 CWV | ❌ Xem mục 3. Ảnh below-fold đã `loading="lazy"` ✅; ảnh LCP có `fetchpriority="high"` nhưng phát hiện muộn |
 | §8 Bảo mật | ⚠️ Xem mục 6 |
 | §9 Deploy | ❌ Build không phải production mode |
@@ -244,6 +247,7 @@ Cả 8 claim đều đang có trên site:
 | **W1 (mới)** | Xác minh GSC (Domain property) + GA4 ngay, trước core update kế tiếp | Có baseline để đo tác động update |
 | W2 | Sitemap: `lastmod` = ngày sửa nội dung thật hoặc bỏ hẳn (không lấy ngày build) | Google tin tưởng lastmod |
 | W2 | Thêm About/đội ngũ/pháp nhân, tác giả + ngày cập nhật cho 19 guide; làm khác biệt nội dung 19 trang sản phẩm | Giảm rủi ro core/spam update |
+| W1–W2 | Chính sách bảo mật + câu đồng ý cho form (P0 pháp lý); `/lien-he`, `/dieu-khoan-su-dung`; footer 4 cột có NAP + link pháp lý (`seo-content/08`) | Đủ trust pages, giảm rủi ro pháp lý |
 | W3 | Chốt chính sách AI: robots.txt (Google-Extended…) và *Search generative AI control* trong GSC nhất quán; ghi vào plan GEO "không mua mentions" | GEO an toàn |
 | Sau đó | Xác minh 5 mục needs_validation khi có source server; chạy GEO Test Set | |
 
