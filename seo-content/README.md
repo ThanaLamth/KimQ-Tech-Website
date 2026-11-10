@@ -14,6 +14,7 @@ Liên quan: `../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`, `../KIMQ-GOOGLE-UPDATES-COMP
 | 07 | `07-gsc-ga4-chinh-sach-ai-geo.md` | Cài Search Console/GA4, số liệu gốc, nhật ký update, chính sách bot AI, quy tắc không mua mention, kế hoạch test GEO | Checklist | SEO + Dev (DNS) + Owner chốt Q3 |
 | 08 | `08-trust-pages-footer.md` | Đánh giá trust pages và footer (chưa đạt), spec footer 4 cột, nháp `/lien-he`, Chính sách bảo mật, Điều khoản, câu đồng ý cho form, `security.txt` | Nháp, còn `[CẦN ĐIỀN]` | Owner + luật sư rà chính sách → Dev dựng trang và footer |
 | 09 | `09-trust-pages-nghien-cuu.md` | Nghiên cứu 28 site (SaaS VN, CNTT VN, SaaS quốc tế, Portkey): họ có trust pages gì → danh sách 18 trang P0/P1/P2 cho KimQ + những thứ chưa cần làm | Sẵn sàng | Owner duyệt thứ tự |
+| — | `../site-patch/` | **Đã làm** toàn bộ P0–P2 trust: 13 trang nội dung (Markdown, có cơ chế draft/ready), Footer pháp nhân, câu đồng ý cho form, trang 404 + server trả HTTP 404, bảng đồng ý cookie (Consent Mode v2), `security.txt`, script kiểm chỗ trống | Code xong; nội dung chờ điền | Dev lắp theo `site-patch/README.md`; Owner điền 13 mục; luật sư duyệt |
 | — | `schema/` | JSON-LD: `home.jsonld` (Organization + WebSite), `san-pham.jsonld` (CollectionPage + ItemList), 19 trang sản phẩm (SoftwareApplication + Breadcrumb + FAQPage), 19 trang hướng dẫn (TechArticle + Breadcrumb + FAQPage) | Sẵn sàng; hướng dẫn còn thiếu ngày thật | Dev |
 
 ## Ghi chú về schema

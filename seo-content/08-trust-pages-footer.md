@@ -1,5 +1,7 @@
 # 08 — Trust pages và footer: đánh giá + bản nháp
 
+> **Cập nhật 10/11/2026:** bản nháp ở file này đã được viết lại đầy đủ và kèm code trong [`site-patch/`](../site-patch/README.md). Khi có khác biệt, lấy `site-patch/` làm bản chính.
+
 Ngày kiểm: 10/11/2026 · Công cụ: Playwright (render thật, desktop 1366px), TinyFish fetch (`/`, `/san-pham`, `/chinh-sach-bao-mat`), dữ liệu 40 URL (`pages.json`, `render.json`)
 Lưu ý: site bị **soft 404** (URL lạ vẫn trả HTTP 200). Vì vậy mỗi URL được chấm theo H1 và nội dung thật sau render, không theo status code.
 
