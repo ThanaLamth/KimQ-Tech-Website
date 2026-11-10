@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/tinh-luong-phong-kham/huong-dan#article",
+      "headline": "Tính lương tự động cho phòng khám: từ dữ liệu nguồn đến bảng lương được duyệt",
+      "description": "Nguồn dữ liệu HIS, chấm công, MISA và form đánh giá; công thức lương, chu kỳ chốt hằng tháng và hai việc do người làm.",
+      "url": "https://kimq.tech/san-pham/tinh-luong-phong-kham/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/tinh-luong-phong-kham#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/tinh-luong-phong-kham/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tính lương tự động cho phòng khám",
+          "item": "https://kimq.tech/san-pham/tinh-luong-phong-kham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/tinh-luong-phong-kham/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/tinh-luong-phong-kham/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "### Phòng khám có phải bỏ phần mềm đang dùng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Bộ máy nối HIS, chấm công và MISA Kế toán hiện có."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Hệ thống có tự phê duyệt bảng lương không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Phê duyệt bảng lương là việc của người."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Khi HIS chưa có API thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dữ liệu có thể lấy qua tệp XML chuẩn của Bộ Y tế và báo cáo Excel xuất theo lịch hằng ngày."
+          }
+        }
+      ]
+    }
+  ]
+}

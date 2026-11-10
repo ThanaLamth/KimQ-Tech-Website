@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/benh-vien#software",
+      "name": "KimQ Health: AI vận hành bệnh viện",
+      "description": "Ứng dụng cho bệnh nhân xem lịch khám, kết quả; nối dữ liệu HIS, EMR, LIS, kế toán, kho để phát hiện việc cần xử lý về doanh thu, BHYT, dược.",
+      "url": "https://kimq.tech/san-pham/benh-vien",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/benh-vien#webpage",
+      "url": "https://kimq.tech/san-pham/benh-vien",
+      "name": "KimQ Health – Ứng dụng bệnh nhân & AI vận hành bệnh viện",
+      "description": "Ứng dụng cho bệnh nhân xem lịch khám, kết quả; nối dữ liệu HIS, EMR, LIS, kế toán, kho để phát hiện việc cần xử lý về doanh thu, BHYT, dược.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/benh-vien#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KimQ Health: AI vận hành bệnh viện",
+          "item": "https://kimq.tech/san-pham/benh-vien"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/benh-vien#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dữ liệu bệnh nhân lưu ở đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dữ liệu gốc vẫn nằm trong HIS của bệnh viện; ứng dụng chỉ hiển thị phần bệnh viện đã phát hành cho đúng bệnh nhân."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bệnh nhân có thấy hồ sơ của người khác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mỗi bệnh nhân chỉ thấy hồ sơ của mình và hồ sơ người thân đã được cấp quyền."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý AI có chẩn đoán bệnh không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý chỉ giải thích thuật ngữ trên kết quả đã phát hành, dẫn nguồn và khuyên trao đổi với bác sĩ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Một bệnh viện nhiều cơ sở dùng chung được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Một nền cho nhiều cơ sở, mỗi cơ sở cấu hình nhận diện riêng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đăng nhập thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bằng số điện thoại và mã OTP; nhập sai nhiều lần thì khoá tạm để chống dò mã."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lịch đặt trên ứng dụng có chắc chắn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lịch chỉ được xác nhận khi hệ thống bệnh viện phản hồi; trạng thái Đã xác nhận hay Đã huỷ cập nhật theo HIS."
+          }
+        }
+      ]
+    }
+  ]
+}

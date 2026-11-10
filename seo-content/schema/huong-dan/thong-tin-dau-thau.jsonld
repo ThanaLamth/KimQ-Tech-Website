@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau/huong-dan#article",
+      "headline": "Thông tin đấu thầu: tìm đúng cơ hội, đọc kỹ trước khi chọn",
+      "description": "Cách dùng bộ lọc, đọc chi tiết tin, xem giá trúng tham chiếu, lưu tin, theo dõi đơn vị mời thầu và bật nhắc qua email.",
+      "url": "https://kimq.tech/san-pham/thong-tin-dau-thau/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/thong-tin-dau-thau/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Thông tin đấu thầu",
+          "item": "https://kimq.tech/san-pham/thong-tin-dau-thau"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/thong-tin-dau-thau/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "### Các con số trên trang có phải tin còn hạn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Đó là số bản ghi trong kho, gồm cả tin đã đóng; danh sách tìm kiếm cho phép lọc tin còn hạn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Giá trúng có cho mọi gói và tài sản không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Giá trúng và phân tích phụ thuộc dữ liệu kết quả thu thập được; không dùng giá tham chiếu thay cho giá trúng của chính tin đang xem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Dùng trên điện thoại hay qua trợ lý được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Giao diện web có danh sách gói thầu, đấu giá và mục đã lưu trên điện thoại; bộ công cụ cho trợ lý hỗ trợ tìm tin, đọc chi tiết, tra giá, kiểm hồ sơ và quản lý theo dõi."
+          }
+        }
+      ]
+    }
+  ]
+}

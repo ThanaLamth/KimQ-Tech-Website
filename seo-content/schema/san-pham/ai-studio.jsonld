@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/ai-studio#software",
+      "name": "AI Studio",
+      "description": "Từ đoạn mô tả sản phẩm tới video dọc cho TikTok, Reels, Zalo: kịch bản, giọng đọc tiếng Việt, phụ đề và nhiều phiên bản để thử.",
+      "url": "https://kimq.tech/san-pham/ai-studio",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/ai-studio#webpage",
+      "url": "https://kimq.tech/san-pham/ai-studio",
+      "name": "KimQ Studio – Tạo video AI giới thiệu sản phẩm | KimQ",
+      "description": "Từ đoạn mô tả sản phẩm tới video dọc cho TikTok, Reels, Zalo: kịch bản, giọng đọc tiếng Việt, phụ đề và nhiều phiên bản để thử.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/ai-studio#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI Studio",
+          "item": "https://kimq.tech/san-pham/ai-studio"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/ai-studio#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Video dài bao lâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Video giải thích dọc thường 30 đến 60 giây, đủ cho TikTok, Reels và Zalo. Video nhạc có thể dài vài phút như hai video nhạc mẫu ở trên."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giọng đọc có dùng thương mại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. AI Studio chỉ dùng giọng mẫu có giấy phép thương mại và không nhân bản giọng người thật khi chưa có đồng ý của người đó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sửa một câu có phải làm lại cả video không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Giọng được đọc theo từng câu nên chỉ câu đã sửa được đọc lại; hình và phụ đề tự canh theo thời điểm mới."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nội dung có tự thêm số liệu, lời khen của khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mỗi thông tin trong kịch bản phải có nguồn từ brief; nhân vật và số liệu minh hoạ được ghi rõ là ví dụ ngay trên video."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tôi cần chuẩn bị gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mô tả sản phẩm, người xem chính, một thông điệp, lời kêu gọi cuối video, logo và vài ảnh sản phẩm. Không cần quay hay thu âm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có làm được nhiều phiên bản để thử không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Cùng một chủ đề có thể kể theo nhiều cách mở đầu khác nhau, mỗi phiên bản một tệp, để đăng thử trên từng kênh và giữ lại cách kể người xem thích."
+          }
+        }
+      ]
+    }
+  ]
+}

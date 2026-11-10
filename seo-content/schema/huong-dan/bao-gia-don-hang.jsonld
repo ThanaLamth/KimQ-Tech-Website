@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/bao-gia-don-hang/huong-dan#article",
+      "headline": "Báo giá & đơn hàng: từ bảng giá tới đơn đã giao",
+      "description": "Lập báo giá theo bảng giá và bậc số lượng, duyệt giảm giá, chuyển thành đơn, giao nhiều đợt, hạn mức nợ, đơn kẹt và báo cáo doanh số.",
+      "url": "https://kimq.tech/san-pham/bao-gia-don-hang/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/bao-gia-don-hang#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/bao-gia-don-hang/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Báo giá & đơn hàng",
+          "item": "https://kimq.tech/san-pham/bao-gia-don-hang"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/bao-gia-don-hang/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/bao-gia-don-hang/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Giá trên báo giá lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Từ bảng giá còn hiệu lực của nhóm khách; nếu nhóm không có giá riêng thì lấy bảng giá chung, sau cùng là giá niêm yết. Người lập vẫn sửa được đơn giá từng dòng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chiết khấu được cộng thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chiết khấu nhóm khách cộng chiết khấu bậc số lượng cao nhất mà dòng hàng đạt được, tối đa 100%. Bậc riêng của sản phẩm (nếu có) được ưu tiên hơn bậc chung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khi nào báo giá phải chờ quản lý duyệt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Khi có dòng chiết khấu vượt ngưỡng đặt ở Thiết lập bán hàng (mặc định 10%), hoặc giá sau chiết khấu thấp hơn giá bán tối thiểu của mặt hàng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vì sao thuế không bằng tổng thuế từng dòng?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ứng dụng tính thuế theo từng thuế suất trên tổng tiền sau chiết khấu của nhóm hàng cùng suất, giống cách hoá đơn thể hiện tiền thuế theo từng thuế suất. Cách này tránh lệch vài đồng do làm tròn từng dòng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khách nợ quá hạn mức thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Báo giá và đơn vẫn lập được, kèm cảnh báo vượt hạn mức. Riêng bước xác nhận đơn chỉ quản lý làm được. Để trống hạn mức nghĩa là không kiểm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Báo giá hết hiệu lực thì làm gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Báo giá hết hiệu lực không chuyển thành đơn được. Bấm Sửa để gia hạn; nếu báo giá đã gửi khách, lần sửa được lưu thành lần mới và bản cũ vẫn giữ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Thế nào là đơn kẹt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đơn nháp chờ xác nhận quá số ngày đặt ở Thiết lập bán hàng (mặc định 2 ngày), hoặc đơn Nháp, Đã xác nhận, Đang giao đã qua ngày hẹn giao. Đơn kẹt hiện trên Tổng quan kèm số ngày."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ứng dụng có tự gửi báo giá cho khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Người dùng in A4, lưu PDF hoặc xuất Excel rồi tự gửi; trợ lý có thể soạn sẵn tin nhắn Zalo để người dùng gửi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nợ hiện tại của khách có tự lấy từ kế toán không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Nợ hiện tại do trợ lý kinh doanh hoặc quản lý cập nhật theo sổ công nợ, nhập tay hoặc nhập từ Excel. Ứng dụng cộng thêm giá trị đơn đang mở để ra dư nợ dự kiến."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý AI có tự tạo báo giá hay xác nhận đơn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý chỉ tạo yêu cầu chờ duyệt; dữ liệu chỉ đổi khi người có quyền bấm Xác nhận. Các quy tắc duyệt giá và hạn mức nợ áp dụng như khi thao tác tay."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu#software",
+      "name": "Kho, giữ hàng & giá vật liệu",
+      "description": "Hứa hàng theo hạn hẹn, giữ đúng hàng cho từng đơn, kiểm tra trước khi xuất và so giá vật liệu công bố của các tỉnh theo cùng quy cách.",
+      "url": "https://kimq.tech/san-pham/kho-gia-vat-lieu",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu#webpage",
+      "url": "https://kimq.tech/san-pham/kho-gia-vat-lieu",
+      "name": "Quản lý kho, giữ hàng & giá vật liệu xây dựng | KimQ",
+      "description": "Hứa hàng theo hạn hẹn, giữ đúng hàng cho từng đơn, kiểm tra trước khi xuất và so giá vật liệu công bố của các tỉnh theo cùng quy cách.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kho, giữ hàng & giá vật liệu",
+          "item": "https://kimq.tech/san-pham/kho-gia-vat-lieu"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có thay phần mềm ERP hay kế toán không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Đơn, tồn và kế hoạch được nạp từ Excel hoặc kết nối hệ thống đang dùng; phần mềm lo hứa hàng, giữ hàng và xuất kho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giữ hàng trên lô chưa sản xuất được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Lượng còn hứa được tính cả lô theo kế hoạch sản xuất, phiếu giữ ghi rõ lô và hạn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ai được nhả phiếu giữ hay đổi lô?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Theo vai: quản lý, thủ kho, kinh doanh, phân tích. Mọi thay đổi qua xem trước, xác nhận và ghi vào sổ chỉ thêm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự giữ hàng hay dời lịch không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý chỉ soạn đề xuất; người có quyền xem bản xem trước rồi bấm duyệt hoặc từ chối."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giá công bố lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Từ bảng giá công bố chính thức theo tỉnh và kỳ (Excel, PDF hoặc ảnh), được đọc và quy về cùng đơn vị để so."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Thủ kho dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Màn Hôm nay, phiếu giữ và kiểm tra trước khi xuất đều thiết kế cho điện thoại trước."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://kimq.tech/#organization",
+      "name": "KimQ",
+      "legalName": "Công ty Cổ phần KimQ",
+      "url": "https://kimq.tech/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://kimq.tech/logo.webp",
+        "width": 512
+      },
+      "email": "contact@kimq.tech",
+      "taxID": "0319416034",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Tầng 2, số 02 Song Hành, Phường Bình Trưng",
+        "addressLocality": "Thành phố Hồ Chí Minh",
+        "addressCountry": "VN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "contact@kimq.tech",
+        "availableLanguage": [
+          "vi",
+          "en"
+        ]
+      },
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kimq.tech/#website",
+      "url": "https://kimq.tech/",
+      "name": "KimQ",
+      "inLanguage": "vi-VN",
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/#webpage",
+      "url": "https://kimq.tech/",
+      "name": "KimQ – Phần mềm nghiệp vụ & trợ lý AI cho doanh nghiệp",
+      "description": "KimQ xây phần mềm nghiệp vụ theo ngành, ứng dụng cho doanh nghiệp vừa và nhỏ, trợ lý AI trên Zalo và AI Gateway. Dùng tay đầy đủ, AI chỉ đề xuất.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "about": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "inLanguage": "vi-VN"
+    }
+  ]
+}

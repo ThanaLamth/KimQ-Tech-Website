@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat#software",
+      "name": "Bộ giải pháp phân phối hoá chất",
+      "description": "Báo giá, đơn bán, kho theo lô, nhập khẩu, giao hàng, công nợ, giấy phép và khai báo hoá chất trên một hệ thống, có trợ lý Zalo.",
+      "url": "https://kimq.tech/san-pham/giai-phap-hoa-chat",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat#webpage",
+      "url": "https://kimq.tech/san-pham/giai-phap-hoa-chat",
+      "name": "Phần mềm quản lý phân phối hoá chất | KimQ",
+      "description": "Báo giá, đơn bán, kho theo lô, nhập khẩu, giao hàng, công nợ, giấy phép và khai báo hoá chất trên một hệ thống, có trợ lý Zalo.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bộ giải pháp phân phối hoá chất",
+          "item": "https://kimq.tech/san-pham/giai-phap-hoa-chat"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có phải thay phần mềm kế toán đang dùng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Hệ thống nạp tệp xuất hoặc kết nối với phần mềm bán hàng, kế toán đang dùng; hoá đơn và sổ sách kế toán vẫn ở phần mềm cũ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có thể dùng một vài phân hệ trước không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Nhiều doanh nghiệp bắt đầu từ tuân thủ hoặc bán hàng & giao vận, phân hệ thêm sau dùng lại dữ liệu đã có."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khách đặt hàng qua Zalo cá nhân của nhân viên thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nhân viên chuyển tin hoặc ảnh đơn vào nhóm Zalo có trợ lý, hoặc dán vào màn Báo giá; hệ thống lập báo giá nháp từ đó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tệp khai báo có nhập thẳng lên Cổng được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tệp được xuất theo đúng mẫu nhập của Cổng thông tin hoá chất; người phụ trách kiểm tra rồi tải lên bằng tài khoản của doanh nghiệp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hệ thống có chặn đơn bán khi thiếu giấy tờ không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không chặn việc bán. Hệ thống chỉ rõ đơn thiếu chứng từ nào, khách nào chưa có hoặc hết hạn giấy phép, mã hàng nào chưa có giấy, để người phụ trách xử lý trước khi giao. Riêng đơn vượt hạn mức công nợ được giữ chờ duyệt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự gửi báo giá cho khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Báo giá, tin trả lời khách là bản nháp; nhân viên kinh doanh xem và bấm duyệt thì mới gửi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Thủ kho, tài xế, kinh doanh dùng trên điện thoại; trợ lý trả lời ngay trong Zalo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dữ liệu lưu ở đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trong kho dữ liệu riêng của từng doanh nghiệp, tách biệt với doanh nghiệp khác; chứng từ tải lại được cả bộ khi cần."
+          }
+        }
+      ]
+    }
+  ]
+}

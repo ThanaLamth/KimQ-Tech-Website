@@ -11,6 +11,8 @@ Tổng hợp các lần kiểm tra `https://kimq.tech/` ngày 09/11/2026:
 
 > **Cập nhật 10/11/2026:** recheck live, chưa có thay đổi (sitemap 404, soft-404, dev build `jsxDEV` ×143). Thêm mục 10: đối chiếu Google Search updates tháng 05–11/2026 (nguồn Search Engine Roundtable, fetch bằng TinyFish). Bảng chi tiết: [`KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md`](KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md).
 
+> **Cập nhật 10/11/2026 (2):** phần việc SEO/Content đã soạn trong [`seo-content/`](seo-content/README.md): sửa claim AI Gateway, quy ước brand + trang chủ, nháp trang Giới thiệu, title/meta 40 URL, JSON-LD 40 trang, link sản phẩm liên quan, byline cho trang hướng dẫn, checklist GSC/GA4 và chính sách AI. XLSX đã cập nhật: thêm 8 URL, trạng thái roadmap, task T22–T23, 3 claim mới. Sau khi đo lại, nội dung 19 trang sản phẩm trùng ≤ 13,4%, nên không bị coi là scaled content.
+
 ---
 
 ## 0. Tóm tắt điều hành

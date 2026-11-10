@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/cham-cong-luong#software",
+      "name": "Chấm công & lương",
+      "description": "Từ file máy chấm công tới bảng công theo ca, bảng lương có BHXH và thuế TNCN, chốt kỳ và phiếu lương riêng trên điện thoại từng người.",
+      "url": "https://kimq.tech/san-pham/cham-cong-luong",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/cham-cong-luong#webpage",
+      "url": "https://kimq.tech/san-pham/cham-cong-luong",
+      "name": "Phần mềm chấm công & tính lương | KimQ",
+      "description": "Từ file máy chấm công tới bảng công theo ca, bảng lương có BHXH và thuế TNCN, chốt kỳ và phiếu lương riêng trên điện thoại từng người.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/cham-cong-luong#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chấm công & lương",
+          "item": "https://kimq.tech/san-pham/cham-cong-luong"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/cham-cong-luong#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Đọc được file của máy chấm công nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tệp Excel hoặc CSV xuất từ máy chấm công; có tệp mẫu để khớp cột trước khi nhập."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bảo hiểm và thuế TNCN tính theo quy định nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lương tối thiểu vùng, tỷ lệ bảo hiểm, giảm trừ gia cảnh và biểu thuế lưu theo ngày hiệu lực, kèm số hiệu văn bản; xem ở màn Quy định áp dụng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý AI có tự tính lương không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Số liệu do bộ tính của ứng dụng theo công thức cố định; trợ lý chỉ đọc kết quả và giải thích."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên có thấy lương người khác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Quyền kiểm ở máy chủ cho mọi đường vào, kể cả khi hỏi trợ lý."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sai sót sau khi chốt lương thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kỳ đã chốt không sửa được; sai sót thành khoản điều chỉnh cộng vào kỳ sau, có dấu vết."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên xem phiếu lương bằng gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trên điện thoại, hoặc tải PDF, Excel. Không cần gửi file lương qua tin nhắn."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/cong-no#software",
+      "name": "Công nợ & dòng tiền",
+      "description": "Tuổi nợ theo hoá đơn, khớp sao kê ngân hàng, thư nhắc nợ nháp và dự báo dòng tiền 13 tuần trên điện thoại. Mỗi người chỉ thấy phần của mình.",
+      "url": "https://kimq.tech/san-pham/cong-no",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/cong-no#webpage",
+      "url": "https://kimq.tech/san-pham/cong-no",
+      "name": "Phần mềm quản lý công nợ & dòng tiền 13 tuần | KimQ",
+      "description": "Tuổi nợ theo hoá đơn, khớp sao kê ngân hàng, thư nhắc nợ nháp và dự báo dòng tiền 13 tuần trên điện thoại. Mỗi người chỉ thấy phần của mình.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/cong-no#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Công nợ & dòng tiền",
+          "item": "https://kimq.tech/san-pham/cong-no"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/cong-no#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hệ thống có tự ghi sổ hay tự gửi thư cho khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mọi thao tác ghi đều qua bước xem trước và người có quyền duyệt. Thư nhắc là bản nháp, người phụ trách tự gửi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sao kê của ngân hàng nào cũng nhập được?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tệp Excel hoặc CSV sao kê, có tệp mẫu để khớp cột. Giao dịch đã nhập sẽ không bị nhập trùng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Công nợ đang nằm trong nhiều file Excel, chuyển sang thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nhập từ Excel, hệ thống kiểm từng dòng trước khi ghi. Từ đó mọi người làm trên một sổ chung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên kinh doanh xem được gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chỉ khách mình phụ trách: hoá đơn phải thu, tuổi nợ, thư nhắc nháp. Không thấy phải trả, sao kê, dòng tiền."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dòng tiền 13 tuần có chắc chắn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đây là dự báo theo hạn hoá đơn đã ghi sổ, không phải cam kết. Có thể chọn giả định khách trả trễ để xem kịch bản xấu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Mọi màn hình làm cho điện thoại trước, máy tính thấy thêm chi tiết. Có thể hỏi qua Zalo."
+          }
+        }
+      ]
+    }
+  ]
+}

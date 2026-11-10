@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/tu-dong-hoa/huong-dan#article",
+      "headline": "Tự động hoá vận hành: hoá đơn, đối soát và theo dõi lỗi",
+      "description": "Ba luồng tự động: phát hành hoá đơn khi tiền về, đối soát đơn hàng với tiền và hoá đơn theo kỳ, theo dõi lỗi; việc của kế toán và kỹ sư.",
+      "url": "https://kimq.tech/san-pham/tu-dong-hoa/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/tu-dong-hoa#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/tu-dong-hoa/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tự động hoá vận hành",
+          "item": "https://kimq.tech/san-pham/tu-dong-hoa"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/tu-dong-hoa/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/tu-dong-hoa/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "### Có bao giờ một đơn bị xuất hai hoá đơn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mỗi lần phát hành đều kiểm mã đơn đã có hoá đơn chưa và dùng mã đơn làm khoá chống trùng. Số hoá đơn được lưu trước khi gửi email, nên lỗi email hay khởi động lại máy chủ cũng không tạo hoá đơn thứ hai."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Khách quên ghi mã đơn khi chuyển khoản thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hệ thống không tự đoán đơn nào, vì gán nhầm tiền khó gỡ hơn nhiều so với để người gán. Giao dịch đó nằm trong bảng lệch của lần đối soát kế tiếp; kế toán đọc nội dung chuyển khoản và gán đúng đơn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Hoá đơn gửi lỗi mãi thì có bị bỏ quên không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hệ thống thử lại tối đa 8 lần trong chừng 2 giờ. Vẫn lỗi thì việc dừng lại và đơn hiện ở nhóm Missing invoice trong tệp đối soát, nên kế toán thấy và phát hành bù ở kỳ đối soát kế tiếp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Dùng được với phần mềm hoá đơn nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Phần mềm hoá đơn điện tử có kết nối API. KimQ chạy luồng này với MISA cho các sản phẩm của chính mình."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### AI có tự sửa hệ thống đang chạy không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI điều tra và chuẩn bị bản sửa kèm kiểm thử. Bản sửa được hợp nhất theo quy tắc đặt cho từng hệ thống: cần duyệt thì chờ kỹ sư duyệt; cho tự hợp nhất thì chỉ hợp nhất khi kiểm thử đạt. Dữ liệu thật, khoá bí mật và cấu hình thanh toán không bao giờ tự đổi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Đối soát có sửa dữ liệu không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Công cụ đối soát chỉ đọc ba nguồn và xuất tệp Excel. Việc phát hành bù hay gán tiền cho đơn do kế toán làm riêng sau khi xem tệp."
+          }
+        }
+      ]
+    }
+  ]
+}

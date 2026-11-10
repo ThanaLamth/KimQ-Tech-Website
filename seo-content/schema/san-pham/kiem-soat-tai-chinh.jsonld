@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh#software",
+      "name": "Kiểm soát tài chính nội bộ",
+      "description": "Phát hiện bất thường ngay trong kỳ: đối chiếu theo quy tắc, gom tín hiệu thành vấn đề có bằng chứng, người có thẩm quyền kết luận và giao việc.",
+      "url": "https://kimq.tech/san-pham/kiem-soat-tai-chinh",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh#webpage",
+      "url": "https://kimq.tech/san-pham/kiem-soat-tai-chinh",
+      "name": "Phần mềm kiểm soát tài chính nội bộ | KimQ",
+      "description": "Phát hiện bất thường ngay trong kỳ: đối chiếu theo quy tắc, gom tín hiệu thành vấn đề có bằng chứng, người có thẩm quyền kết luận và giao việc.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kiểm soát tài chính nội bộ",
+          "item": "https://kimq.tech/san-pham/kiem-soat-tai-chinh"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Phần mềm có kết luận gian lận không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Phần mềm chỉ nêu tín hiệu và gom bằng chứng; tín hiệu không phải phát hiện, phát hiện không phải gian lận. Người có thẩm quyền kết luận."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có thay phần mềm kế toán không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Dữ liệu được nạp từ sổ sách, báo cáo và giao dịch hiện có, hoặc đọc từ phần mềm kế toán ở chế độ chỉ đọc; phần mềm chỉ kiểm tra và theo dõi khắc phục."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lần nạp sai thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mỗi lần nạp bật/tắt được; tắt thì các dòng đó rời khỏi mọi phân tích, không phải xoá dữ liệu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Số tiền gắn cờ có phải là thiệt hại không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Đó là số tiền cần rà soát, tách riêng với mức độ và độ tin cậy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dữ liệu có lộ ra ngoài không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dữ liệu dùng để phân tích được khử định danh; quyền xem và thao tác chia theo sáu vai, kiểm ở máy chủ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Màn hình dưới 820px dùng bản điện thoại để xem tổng quan, vấn đề và đầu việc; nạp dữ liệu làm trên máy tính."
+          }
+        }
+      ]
+    }
+  ]
+}

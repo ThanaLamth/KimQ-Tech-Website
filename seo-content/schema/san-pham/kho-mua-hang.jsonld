@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/kho-mua-hang#software",
+      "name": "Kho & mua hàng",
+      "description": "Tồn kho nhiều kho, cảnh báo sắp hết theo điểm đặt hàng lại, so báo giá theo chi phí thực, đơn mua có duyệt và kiểm kê có chênh lệch.",
+      "url": "https://kimq.tech/san-pham/kho-mua-hang",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/kho-mua-hang#webpage",
+      "url": "https://kimq.tech/san-pham/kho-mua-hang",
+      "name": "Phần mềm quản lý kho & mua hàng | KimQ",
+      "description": "Tồn kho nhiều kho, cảnh báo sắp hết theo điểm đặt hàng lại, so báo giá theo chi phí thực, đơn mua có duyệt và kiểm kê có chênh lệch.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/kho-mua-hang#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kho & mua hàng",
+          "item": "https://kimq.tech/san-pham/kho-mua-hang"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/kho-mua-hang#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có quản lý nhiều kho không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Tồn, điểm đặt hàng lại, thẻ kho và kiểm kê đều theo từng kho; có phiếu chuyển kho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Điểm đặt hàng lại có phải tự nhập không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Ứng dụng tính từ lịch sử xuất 90 ngày và thời gian giao của nhà cung cấp, tồn an toàn ở mức phục vụ 95%, đã trừ hàng đang về."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự đặt hàng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý chỉ tạo đề xuất; đơn mua được ghi khi người có quyền xác nhận rồi quản lý duyệt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhà cung cấp không xuất hoá đơn thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bảng so sánh ghi rõ và cảnh báo không khấu trừ được thuế GTGT đầu vào, để kế toán quyết."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Danh mục hàng đang ở Excel, chuyển sang được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Hàng hoá, nhà cung cấp, báo giá và tồn đầu kỳ nhập từ Excel, kiểm từng dòng trước khi ghi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Thủ kho dùng điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Nhập, xuất, chuyển kho và nhập số đếm kiểm kê đều làm trên điện thoại."
+          }
+        }
+      ]
+    }
+  ]
+}

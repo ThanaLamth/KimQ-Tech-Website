@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat/huong-dan#article",
+      "headline": "Bộ giải pháp phân phối hoá chất: bán hàng, kho, nhập khẩu, giao hàng, tuân thủ và trợ lý Zalo",
+      "description": "Từng bước báo giá, đơn bán, giao hàng, tồn kho theo lô, nhập khẩu, khai báo hoá chất, giấy phép, công nợ và trợ lý Zalo trong bộ giải pháp.",
+      "url": "https://kimq.tech/san-pham/giai-phap-hoa-chat/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/giai-phap-hoa-chat/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bộ giải pháp phân phối hoá chất",
+          "item": "https://kimq.tech/san-pham/giai-phap-hoa-chat"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/giai-phap-hoa-chat/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Công ty có phải bỏ phần mềm bán hàng đang dùng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Đơn, khách, mã hàng vẫn lên ở phần mềm bán hàng; cổng lấy dữ liệu đó để gom chứng từ, khai báo, công nợ và giao hàng quanh từng đơn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên có phải học thêm ứng dụng chat mới không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý làm việc trong nhóm Zalo sẵn có của các phòng; nhân viên nhắn và gửi ảnh như bình thường."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hệ thống có tự nộp khai báo lên Cổng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Hệ thống chuẩn bị file import và từng trường cần khai, người phụ trách khai trên Cổng rồi bấm Đánh dấu đã khai trên Cổng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhóm khai báo của một mã hàng lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Từ bảng phân loại mã hàng của công ty, xếp theo Phụ lục II và Phụ lục III Nghị định 24/2026/NĐ-CP. Pháp lý đổi nhóm ngay trong bảng, lựa chọn áp cho mọi đơn và file khai báo, mọi lần sửa có lịch sử."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có gửi báo giá hay tin nhắc nợ cho khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý soạn sẵn nội dung; nhân viên xem và tự gửi cho khách."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Một đơn thiếu chứng từ thì biết bằng cách nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ô chứng từ trên từng đơn ghi đủ/thiếu, dòng Thiếu liệt kê tên giấy; Tổng quan có ô Đơn thiếu chứng từ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có cảnh báo hàng tương kỵ khi xếp xe không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Màn Giao hàng cảnh báo khi một chuyến chở chung hàng không được để cùng khoang, ví dụ Javen với axit clohydric, và nhắc giấy phép vận chuyển hàng nguy hiểm của xe sắp hết hạn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhiều kho, kể cả kho thuê, có quản lý được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Tồn kho theo dõi theo lô ở từng kho; Giấy phép & kho ghi kho nào có trong giấy chứng nhận."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Cổng làm cho điện thoại trước: menu ☰, thanh dưới với Đơn bán, Xuất kho, Khai báo, Trợ lý, Khách; trên máy tính có menu bên trái."
+          }
+        }
+      ]
+    }
+  ]
+}

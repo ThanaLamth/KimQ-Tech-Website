@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://kimq.tech/san-pham#webpage",
+      "url": "https://kimq.tech/san-pham",
+      "name": "Phần mềm nghiệp vụ & trợ lý AI cho doanh nghiệp | KimQ",
+      "description": "19 sản phẩm của KimQ: giải pháp theo ngành, ứng dụng kế toán – kho – bán hàng – nhân sự, trợ lý AI trên Zalo, chatbot đa kênh và AI Gateway.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "inLanguage": "vi-VN",
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://kimq.tech/san-pham/nhatdat",
+            "name": "Nhà Đất"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://kimq.tech/san-pham/thong-tin-dau-thau",
+            "name": "Thông tin đấu thầu"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://kimq.tech/san-pham/giai-phap-hoa-chat",
+            "name": "Bộ giải pháp phân phối hoá chất"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://kimq.tech/san-pham/kho-gia-vat-lieu",
+            "name": "Kho, giữ hàng & giá vật liệu"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://kimq.tech/san-pham/lims",
+            "name": "Quản lý phòng thí nghiệm (LIMS)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://kimq.tech/san-pham/benh-vien",
+            "name": "KimQ Health: AI vận hành bệnh viện"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "https://kimq.tech/san-pham/tinh-luong-phong-kham",
+            "name": "Tính lương tự động cho phòng khám"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "url": "https://kimq.tech/san-pham/kiem-soat-tai-chinh",
+            "name": "Kiểm soát tài chính nội bộ"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "https://kimq.tech/san-pham/cong-no",
+            "name": "Công nợ & dòng tiền"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "url": "https://kimq.tech/san-pham/kho-mua-hang",
+            "name": "Kho & mua hàng"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "url": "https://kimq.tech/san-pham/bao-gia-don-hang",
+            "name": "Báo giá & đơn hàng"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "url": "https://kimq.tech/san-pham/hoa-don-dau-vao",
+            "name": "Hoá đơn đầu vào"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "url": "https://kimq.tech/san-pham/cham-cong-luong",
+            "name": "Chấm công & lương"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "url": "https://kimq.tech/san-pham/tro-ly-zalo",
+            "name": "Trợ lý AI trên Zalo"
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "url": "https://kimq.tech/san-pham/chatbot-da-kenh",
+            "name": "Chatbot chăm sóc khách hàng đa kênh"
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "url": "https://kimq.tech/san-pham/tu-dong-hoa",
+            "name": "Tự động hoá vận hành"
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "url": "https://kimq.tech/san-pham/ai-studio",
+            "name": "AI Studio"
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "url": "https://kimq.tech/san-pham/tro-ly-fanpage",
+            "name": "Trợ lý Fanpage"
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "url": "https://kimq.tech/san-pham/ai-gateway",
+            "name": "KimQ AI Gateway"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        }
+      ]
+    }
+  ]
+}

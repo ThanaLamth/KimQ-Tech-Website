@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/bao-gia-don-hang#software",
+      "name": "Báo giá & đơn hàng",
+      "description": "Lập báo giá đúng bảng giá và bậc số lượng, chuyển thành đơn, duyệt giảm giá vượt ngưỡng, chặn đơn vượt hạn mức nợ và theo dõi đơn kẹt.",
+      "url": "https://kimq.tech/san-pham/bao-gia-don-hang",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/bao-gia-don-hang#webpage",
+      "url": "https://kimq.tech/san-pham/bao-gia-don-hang",
+      "name": "Phần mềm báo giá & quản lý đơn hàng | KimQ",
+      "description": "Lập báo giá đúng bảng giá và bậc số lượng, chuyển thành đơn, duyệt giảm giá vượt ngưỡng, chặn đơn vượt hạn mức nợ và theo dõi đơn kẹt.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/bao-gia-don-hang#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Báo giá & đơn hàng",
+          "item": "https://kimq.tech/san-pham/bao-gia-don-hang"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/bao-gia-don-hang#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Giá trên báo giá lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Từ bảng giá của nhóm khách và bậc chiết khấu theo số lượng; thuế suất theo từng mặt hàng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ai được giảm giá sâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chiết khấu vượt ngưỡng do doanh nghiệp đặt (ví dụ 10%) hoặc giá dưới giá tối thiểu phải chờ quản lý duyệt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khách nợ quá hạn mức thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đơn vẫn lập được nhưng nằm ở trạng thái nháp tới khi quản lý xác nhận."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gửi báo giá cho khách thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In A4 có thông tin bên bán và tiền bằng chữ, hoặc xuất Excel. Ứng dụng không tự gửi cho khách."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giao hàng nhiều đợt có theo dõi được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Mỗi đợt giao được ghi nhận; đơn biết còn thiếu bao nhiêu và có thể đổi ngày giao."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Báo giá, duyệt giá, đổi ngày giao đều làm trên điện thoại; máy tính thấy thêm bảng tổng quan cả đội."
+          }
+        }
+      ]
+    }
+  ]
+}

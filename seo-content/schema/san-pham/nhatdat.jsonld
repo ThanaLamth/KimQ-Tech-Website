@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/nhatdat#software",
+      "name": "Nhà Đất",
+      "description": "Tra giá đất theo tuyến và đoạn đường, tài sản so sánh có nguồn, bảng điều chỉnh và xuất Excel theo mẫu cho công ty thẩm định giá.",
+      "url": "https://kimq.tech/san-pham/nhatdat",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/nhatdat#webpage",
+      "url": "https://kimq.tech/san-pham/nhatdat",
+      "name": "Dữ liệu giá đất theo đoạn đường cho thẩm định giá | KimQ",
+      "description": "Tra giá đất theo tuyến và đoạn đường, tài sản so sánh có nguồn, bảng điều chỉnh và xuất Excel theo mẫu cho công ty thẩm định giá.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/nhatdat#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nhà Đất",
+          "item": "https://kimq.tech/san-pham/nhatdat"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/nhatdat#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dữ liệu là giá rao hay giá giao dịch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nguồn tham chiếu là tin rao bán. Hệ thống tính đơn giá đất từ thông tin tài sản và các giả định điều chỉnh; không trình bày giá rao như giá giao dịch đã xác nhận."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có đủ tài sản so sánh cho mọi đoạn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Số tài sản trực tiếp khác nhau theo đoạn. Khi dùng dữ liệu cùng đường hoặc đoạn tương tự, hệ thống ghi rõ phương pháp ước tính để người thẩm định phân biệt với dữ liệu trực tiếp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhà Bè có giống bảng Quận 4 không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nhà Bè có dữ liệu để tra cứu theo quyền tài khoản. Trang này giới thiệu bảng định giá tuyến đường Quận 4; phạm vi dữ liệu và chức năng của từng khu vực được trao đổi cụ thể khi liên hệ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có xuất đúng mẫu Excel của công ty không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hệ thống hỗ trợ các mẫu Excel đã triển khai, trong đó có bảng tuyến đường Quận 4. Mẫu riêng cần đối chiếu cột, cách nhóm và cách tính trước khi thống nhất triển khai; không tự động áp dụng cho mọi mẫu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhà Đất có thay thế thẩm định viên không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Đây là hệ thống dữ liệu tham chiếu và công cụ hỗ trợ đối chiếu, không phải chứng thư thẩm định giá. Kết quả chuyên môn do doanh nghiệp và người có trách nhiệm thẩm định kiểm tra, quyết định."
+          }
+        }
+      ]
+    }
+  ]
+}

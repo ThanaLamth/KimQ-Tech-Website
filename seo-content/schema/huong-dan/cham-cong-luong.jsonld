@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/cham-cong-luong/huong-dan#article",
+      "headline": "Chấm công & lương: từ máy chấm công tới phiếu lương từng người",
+      "description": "Nhập tệp máy chấm công, bảng công theo ca, nghỉ phép có duyệt, bảng lương có BHXH và thuế TNCN, chốt kỳ và phiếu lương riêng tư.",
+      "url": "https://kimq.tech/san-pham/cham-cong-luong/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/cham-cong-luong#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/cham-cong-luong/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chấm công & lương",
+          "item": "https://kimq.tech/san-pham/cham-cong-luong"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/cham-cong-luong/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/cham-cong-luong/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Đọc được tệp của máy chấm công nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tệp Excel (.xlsx) hoặc CSV xuất từ máy chấm công, dạng mỗi lượt chấm một dòng hoặc mỗi ngày một dòng có giờ vào, giờ ra. Ứng dụng tự tìm dòng tiêu đề và khớp tên cột, kể cả viết không dấu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quên chấm công thì sửa thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nhân sự mở bảng công của người đó, bấm vào ngày thiếu chấm, nhập giờ vào, giờ ra và lý do. Thay đổi đi qua xem trước, xác nhận và được ghi nhật ký."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ngày lễ, Tết tính công ra sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ngày lễ rơi vào ngày làm việc được tính là ngày hưởng lương. Đi làm vào ngày lễ hoặc ngày nghỉ hằng tuần được tính tăng ca với hệ số 300% hoặc 200%. Công ty nhập ngày nghỉ thực tế ở Ca & ngày lễ, gồm phương án Tết và ngày nghỉ bù."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bảo hiểm và thuế TNCN tính theo quy định nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Theo bảng quy định có ngày hiệu lực và số hiệu văn bản, chọn đúng mức cho từng kỳ; ví dụ kỳ 2026 dùng giảm trừ bản thân 15.500.000 đ và biểu thuế 5 bậc. Xem toàn bộ ở màn Quy định áp dụng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Thử việc, khoán việc có đóng bảo hiểm không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hợp đồng thử việc riêng và khoán việc không đóng bảo hiểm bắt buộc, thuế TNCN khấu trừ 10% khi khoản trả từ ngưỡng. Phiếu lương ghi rõ lý do không đóng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sai sót sau khi chốt lương thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kỳ đã chốt không sửa được. Nhân sự tạo khoản điều chỉnh (truy lĩnh hoặc truy thu, có lý do), khoản này cộng vào phiếu lương kỳ sau ở dòng Điều chỉnh kỳ trước."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên có thấy lương người khác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Quyền kiểm ở máy chủ cho mọi đường vào; nhân viên chỉ thấy công, phép và phiếu lương đã chốt của mình. Hỏi trợ lý lương người khác cũng bị từ chối."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý AI có tự tính lương hay tự chốt không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Số liệu do bộ tính của ứng dụng; trợ lý chỉ đọc và giải thích. Việc tính lương, chốt, duyệt nghỉ do trợ lý chuẩn bị đều chờ người có quyền bấm Xác nhận."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quy định đổi giữa năm thì bảng lương cũ có bị tính lại không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mỗi bảng lương lưu bản chụp quy định đã dùng, nên kỳ cũ luôn giữ đúng số đã chốt; kỳ mới tự lấy mức có hiệu lực của kỳ đó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có nối được với agent hoặc phần mềm khác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Quản lý hoặc nhân sự tạo khoá kết nối ở Cài đặt; agent KimQ và công cụ khác gọi cùng bộ lệnh với quyền của người tạo khoá, lệnh ghi chỉ tạo đề xuất chờ duyệt."
+          }
+        }
+      ]
+    }
+  ]
+}

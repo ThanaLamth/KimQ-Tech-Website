@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/tro-ly-zalo/huong-dan#article",
+      "headline": "Trợ lý Zalo: hỏi nghiệp vụ, tạo tệp và nhắc việc ngay trong cuộc trò chuyện",
+      "description": "Nhắn riêng hoặc gọi @KimQ trong nhóm, hỏi thuế có căn cứ, tạo Word và Excel, tải tệp trong 60 phút, đặt và huỷ nhắc việc.",
+      "url": "https://kimq.tech/san-pham/tro-ly-zalo/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/tro-ly-zalo#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/tro-ly-zalo/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trợ lý AI trên Zalo",
+          "item": "https://kimq.tech/san-pham/tro-ly-zalo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/tro-ly-zalo/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/tro-ly-zalo/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Tôi có cần cài thêm ứng dụng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không cần. Trợ lý làm việc ngay trong Zalo. Bạn nhắn riêng hoặc thêm trợ lý vào nhóm và gọi @KimQ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tôi nên bắt đầu bằng câu gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bạn có thể gửi “Chào em, em giúp được gì cho cửa hàng của chị?” để xem các việc trợ lý hỗ trợ, rồi nêu việc muốn làm trước."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cần kiểm tra gì trong câu trả lời về thuế?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đọc kết luận cùng bước tính, giả định và phần Căn cứ có số văn bản, điều, khoản, ngày hiệu lực. Con số được tính bằng công cụ; kế toán cần xác nhận điều kiện thực tế trước khi áp dụng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tôi nhận tệp Excel, Word, PowerPoint bằng cách nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trợ lý gửi link ngắn dạng https://agent.kimq.tech/s/<MÃ> để bạn mở và tải. Zalo không gửi tệp trực tiếp. Link hết hạn sau 60 phút, vì vậy hãy tải trong thời gian này."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tôi cần làm gì với file Word và Excel vừa nhận?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Với Word, rà nội dung và điền các ô [số], [địa danh], [chức vụ], [họ và tên người ký] cùng thông tin ban hành. Với Excel, thay dòng [VÍ DỤ] bằng số liệu thực tế, nhập vào ô tô màu và kiểm tra kết quả công thức."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Làm sao xem và huỷ một lời nhắc?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gửi “Cho anh xem các lời nhắc đang có.” để xem danh sách. Khi muốn dừng, nêu tên việc, chẳng hạn “Huỷ lời nhắc báo cáo doanh thu vừa tạo giúp anh.” rồi đọc xác nhận đã huỷ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tạo lịch ngay khi đề xuất việc trong nhóm không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trong nhóm, trợ lý đề xuất nội dung và hỏi ngày, giờ nhắc trước. Lịch chỉ được tạo khi người dùng đồng ý. Bạn cần đọc xác nhận để kiểm tra lịch đã đặt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tệp và lời nhắc của tôi có dùng chung với người khác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tệp, ghi nhớ và lịch nhắc của mỗi người dùng được tách riêng, không dùng chung với người khác. Văn bản gửi ra ngoài luôn là bản nháp để bạn rà trước khi sử dụng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nếu việc cần thêm thời gian thì tôi theo dõi ở đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trợ lý báo đang làm và nhắn lại khi hoàn thành. Bạn theo dõi tin nhắn kết quả trong cuộc trò chuyện."
+          }
+        }
+      ]
+    }
+  ]
+}

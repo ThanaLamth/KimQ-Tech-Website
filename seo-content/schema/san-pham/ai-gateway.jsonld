@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/ai-gateway#software",
+      "name": "KimQ AI Gateway",
+      "description": "Một cổng AI cho cả doanh nghiệp: key ảo theo phòng ban, hạn mức, chi phí từng lượt, che dữ liệu cá nhân, nhật ký và định tuyến model có dự phòng.",
+      "url": "https://kimq.tech/san-pham/ai-gateway",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/ai-gateway#webpage",
+      "url": "https://kimq.tech/san-pham/ai-gateway",
+      "name": "KimQ AI Gateway – Quản lý key, hạn mức & chi phí AI",
+      "description": "Một cổng AI cho cả doanh nghiệp: key ảo theo phòng ban, hạn mức, chi phí từng lượt, che dữ liệu cá nhân, nhật ký và định tuyến model có dự phòng.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/ai-gateway#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KimQ AI Gateway",
+          "item": "https://kimq.tech/san-pham/ai-gateway"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/ai-gateway#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dữ liệu được lưu ở đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mặc định, cổng lưu nhật ký sử dụng (ai, lúc nào, model nào, bao nhiêu token) và nội dung câu hỏi sau khi đã che dữ liệu cá nhân. Doanh nghiệp có thể tắt lưu nội dung hoàn toàn hoặc bỏ ghi từng lượt bằng một header. Bản cài tại chỗ: mọi thứ nằm trên máy chủ của doanh nghiệp; bản dịch vụ: máy chủ đặt tại Việt Nam."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nên chọn cách nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Muốn bắt đầu nhanh, một hoá đơn và chi phí thấp hơn mua trực tiếp như thông thường thì dùng nguồn model qua KimQ. Đã có hợp đồng hoặc giá riêng với nhà cung cấp, hoặc quy định nội bộ yêu cầu tự thanh toán, thì tự kết nối tài khoản của doanh nghiệp. Cả hai dùng chung một cổng nên về sau đổi hoặc kết hợp không phải sửa ứng dụng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có bị khoá vào một nhà cung cấp AI không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Cổng nối song song nhiều nhà cung cấp và model nội bộ; đổi nhà cung cấp là đổi cấu hình tại cổng, ứng dụng không phải sửa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Triển khai mất bao lâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tuỳ số ứng dụng cần chuyển. Cổng được cài trước, sau đó từng ứng dụng chuyển sang mà không phải dừng hệ thống; KimQ chốt lịch cụ thể sau buổi rà các ứng dụng đang dùng AI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đội IT cần làm gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cấp máy chủ (với bản cài tại chỗ), cung cấp tài khoản nhà cung cấp AI đang dùng và đổi địa chỉ gọi của từng ứng dụng sang cổng. KimQ cài đặt, cấu hình hạn mức, quy định định tuyến và hướng dẫn quản trị."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên nghỉ việc thì key AI họ đang dùng xử lý thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mỗi nhân viên chỉ có key riêng do cổng cấp, không cầm key gốc của nhà cung cấp. Khi nghỉ, quản trị thu hồi mọi key của người đó trong một thao tác, hoặc hệ thống tự thu hồi khi tài khoản công ty bị tắt. Key gốc không bị lộ nên không phải đổi; lịch sử sử dụng, chi phí vẫn giữ để xem và hạn mức còn lại chuyển cho người thay thế."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ứng dụng có phải viết lại không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Ứng dụng đang gọi AI theo các chuẩn API phổ biến của những nhà cung cấp lớn chỉ đổi địa chỉ gọi và mã truy cập."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Một nhà cung cấp gặp sự cố thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cổng tự chuyển sang tài khoản hoặc nhà cung cấp dự phòng đã cấu hình ngay trong yêu cầu đó; người dùng vẫn nhận câu trả lời."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/benh-vien/huong-dan#article",
+      "headline": "KimQ Health: ứng dụng bệnh nhân, vận hành và quản trị bệnh viện",
+      "description": "Từng màn hình ứng dụng bệnh nhân, ứng dụng vận hành doanh thu, BHYT, lịch khám, dược; công cụ lễ tân, quản trị, trợ lý AI và tích hợp.",
+      "url": "https://kimq.tech/san-pham/benh-vien/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/benh-vien#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/benh-vien/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KimQ Health: AI vận hành bệnh viện",
+          "item": "https://kimq.tech/san-pham/benh-vien"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/benh-vien/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/benh-vien/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bệnh viện có phải thay phần mềm đang dùng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. KimQ Health kết nối vào HIS, EMR, LIS, PACS, kế toán và kho hiện có. Nhân viên vẫn sửa dữ liệu ở hệ thống gốc như hiện nay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "HIS chưa có API thì kết nối được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Có thể bắt đầu bằng tệp Excel, CSV hoặc XML xuất định kỳ nếu bệnh viện và nhà cung cấp phần mềm cho phép, rồi chuyển sang API khi sẵn sàng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Người bệnh có phải cài ứng dụng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Ứng dụng chạy trên trình duyệt điện thoại, đăng nhập bằng số điện thoại và mã OTP."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có số điện thoại là xem được hồ sơ không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Tài khoản phải liên kết bằng Mã bệnh nhân và Mã tra cứu trên phiếu khám, được hệ thống bệnh viện đối chiếu và nhân viên duyệt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý AI có đọc mọi hồ sơ không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý chỉ dùng tài liệu đã phát hành mà tài khoản được quyền xem, sau khi người dùng đồng ý, và không tự mở rộng sang bệnh viện khác."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI có tự sửa hồ sơ, thu tiền hay đặt hàng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Hệ thống phát hiện, giải thích và gợi ý; người có quyền kiểm tra rồi quyết định, mọi thao tác đều ghi nhật ký."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hồ sơ BHYT hết lỗi có chắc được thanh toán không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không công cụ nào thay được bước giám định của cơ quan bảo hiểm. KimQ Health giúp phát hiện và sửa lỗi dữ liệu trước khi gửi để giảm hồ sơ bị trả về."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ngừng chia sẻ cho người thân thì tài liệu đã tải có mất không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thu hồi quyền chặn mọi lần mở mới. Bản người nhận đã tự lưu trên máy của họ trước đó không thu hồi từ xa được."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dữ liệu được lưu ở đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trên máy chủ của bệnh viện hoặc đám mây đặt tại Việt Nam. Nơi lưu, thời hạn giữ và trách nhiệm xử lý dữ liệu được ghi rõ trong hợp đồng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bệnh viện nhiều cơ sở dùng chung được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Một hệ thống phục vụ nhiều cơ sở; người bệnh chọn cơ sở khi đặt lịch, quyền nhân viên chia theo cơ sở, khoa và vai trò."
+          }
+        }
+      ]
+    }
+  ]
+}

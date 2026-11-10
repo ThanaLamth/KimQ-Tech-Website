@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau#software",
+      "name": "Thông tin đấu thầu",
+      "description": "Tìm gói thầu công và tài sản đấu giá từ nguồn công khai, xem giá trúng tham chiếu, lưu tin, theo dõi đơn vị và nhận nhắc qua email.",
+      "url": "https://kimq.tech/san-pham/thong-tin-dau-thau",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau#webpage",
+      "url": "https://kimq.tech/san-pham/thong-tin-dau-thau",
+      "name": "Phần mềm tra cứu thông tin đấu thầu & đấu giá | KimQ",
+      "description": "Tìm gói thầu công và tài sản đấu giá từ nguồn công khai, xem giá trúng tham chiếu, lưu tin, theo dõi đơn vị và nhận nhắc qua email.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Thông tin đấu thầu",
+          "item": "https://kimq.tech/san-pham/thong-tin-dau-thau"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Thông tin lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hai nguồn trọng tâm là Hệ thống mạng đấu thầu quốc gia và Cổng đấu giá tài sản quốc gia. Trang chi tiết có đường dẫn nguồn và tài liệu để người dùng kiểm tra. Dữ liệu tổng hợp không thay thế thông báo và hồ sơ chính thức."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Các con số trên trang có phải tin còn hạn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Đây là số bản ghi trong kho, gồm cả tin đã đóng. Danh sách tìm kiếm cho phép lọc tin còn hạn; kết quả thay đổi theo loại tin và bộ lọc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giá trúng có cho mọi gói và tài sản không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Giá trúng và phân tích phụ thuộc dữ liệu kết quả thu thập được. Người dùng xem rõ từng kết quả, gói hoặc lô tham chiếu; không dùng giá tham chiếu thay cho giá trúng của chính tin đang xem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Làm sao nhận nhắc và lưu cơ hội riêng?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đăng nhập để lưu tin, lưu tìm kiếm và theo dõi nhà thầu hoặc chủ đầu tư. Cài đặt nhắc cho phép xem email nhận tin, giờ gửi và các mốc nhắc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại hay qua trợ lý được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Giao diện web có danh sách gói thầu, đấu giá và mục đã lưu trên điện thoại. Bộ công cụ cho trợ lý hỗ trợ tìm tin, đọc chi tiết, tra giá, kiểm hồ sơ và quản lý theo dõi trên cùng dữ liệu sản phẩm."
+          }
+        }
+      ]
+    }
+  ]
+}

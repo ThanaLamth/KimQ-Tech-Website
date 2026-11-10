@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/lims/huong-dan#article",
+      "headline": "LIMS: theo dõi mẫu từ tiếp nhận đến phiếu kết quả",
+      "description": "Từ tiếp nhận, lấy mẫu, bàn giao, QC đến phê duyệt bốn cấp, phát hành phiếu kết quả, đính chính và cổng khách hàng trong LIMS của KimQ.",
+      "url": "https://kimq.tech/san-pham/lims/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/lims#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/lims/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Quản lý phòng thí nghiệm (LIMS)",
+          "item": "https://kimq.tech/san-pham/lims"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/lims/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/lims/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vì sao tôi không thấy thao tác của đồng nghiệp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Menu và thao tác phụ thuộc quyền của tài khoản cùng trạng thái hồ sơ. Mở phần việc được giao cho mình; nhờ quản trị kiểm tra quyền khi phạm vi không khớp công việc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mẫu đã bàn giao vận chuyển có được phân công kiểm nghiệm ngay không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lễ tân phải kiểm tra và quyết định nhận mẫu vào Lab trước. Bàn giao vận chuyển và tiếp nhận vào Lab là hai bước riêng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vì sao bước duyệt ghi Đang chờ vai trò khác?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bước hiện tại thuộc vai trò khác. Đọc tên cấp duyệt đang chờ; cấp sau chỉ mở khi đủ điều kiện của cấp trước."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có sửa đè phiếu đã phát hành không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mỗi phiên bản được giữ riêng. Dùng quy trình thay thế hoặc thu hồi theo quyền, kèm lý do để truy lại."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khách hàng có thấy dữ liệu của đơn vị khác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cổng khách hàng giới hạn yêu cầu và phiếu kết quả trong đơn vị được cấp quyền."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khi nhập thiếu thông tin tôi làm gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiểm tra ô bắt buộc, định dạng và trạng thái hồ sơ trước khi gửi lại. Đọc hướng dẫn tại trường nhập hoặc thông báo của thao tác."
+          }
+        }
+      ]
+    }
+  ]
+}

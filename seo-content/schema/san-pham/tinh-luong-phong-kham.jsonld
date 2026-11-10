@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/tinh-luong-phong-kham#software",
+      "name": "Tính lương tự động cho phòng khám",
+      "description": "Lấy doanh thu theo bác sĩ từ HIS, công và ca trực, thực thu từ MISA, điểm đánh giá để tính lương sáu nhóm nhân sự, BHXH và thuế TNCN.",
+      "url": "https://kimq.tech/san-pham/tinh-luong-phong-kham",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/tinh-luong-phong-kham#webpage",
+      "url": "https://kimq.tech/san-pham/tinh-luong-phong-kham",
+      "name": "Phần mềm tính lương tự động cho phòng khám | KimQ",
+      "description": "Lấy doanh thu theo bác sĩ từ HIS, công và ca trực, thực thu từ MISA, điểm đánh giá để tính lương sáu nhóm nhân sự, BHXH và thuế TNCN.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/tinh-luong-phong-kham#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tính lương tự động cho phòng khám",
+          "item": "https://kimq.tech/san-pham/tinh-luong-phong-kham"
+        }
+      ]
+    }
+  ]
+}

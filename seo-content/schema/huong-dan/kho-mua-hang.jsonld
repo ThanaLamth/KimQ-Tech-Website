@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/kho-mua-hang/huong-dan#article",
+      "headline": "Kho & mua hàng: tồn kho nhiều kho, mua hàng có duyệt, kiểm kê có chênh lệch",
+      "description": "Tồn kho từng kho, thẻ kho, điểm đặt hàng lại, so báo giá, đơn mua chờ duyệt, nhận hàng theo đơn, kiểm kê và báo cáo ABC: hướng dẫn từng bước.",
+      "url": "https://kimq.tech/san-pham/kho-mua-hang/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/kho-mua-hang#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/kho-mua-hang/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kho & mua hàng",
+          "item": "https://kimq.tech/san-pham/kho-mua-hang"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/kho-mua-hang/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/kho-mua-hang/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quản lý được nhiều kho không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Tồn, thẻ kho, điểm đặt hàng lại và kiểm kê đều theo từng kho. Chuyển hàng giữa các kho bằng phiếu chuyển kho; báo cáo nhập-xuất-tồn xem được từng kho hoặc gộp mọi kho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Điểm đặt hàng lại lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tính từ lịch sử xuất 90 ngày của mã ở kho đó, thời gian giao của nhà cung cấp và tồn an toàn ở mức phục vụ 95 %, đã trừ hàng đang về. Quản lý có thể đặt Tồn tối thiểu cho từng mã trong Danh mục."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Một mặt hàng có nhiều đơn vị tính (chai, thùng) thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Khai báo Quy đổi đơn vị ở mã hàng, ví dụ thùng=24. Khi lập phiếu chọn đơn vị nào cũng được, hệ thống tự đổi về đơn vị gốc; màn tồn hiện cả hai."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự đặt hàng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý chỉ chuẩn bị đơn; đơn được lập khi người có quyền bấm Xác nhận, và vẫn ở trạng thái Chờ duyệt cho tới khi quản lý bấm Duyệt đơn. Trợ lý không gửi gì cho nhà cung cấp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhà cung cấp không xuất hoá đơn thì ứng dụng xử lý thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Báo giá được ghi là Không hoá đơn. Khi so sánh, phương án đó hiện cảnh báo không khấu trừ được thuế GTGT đầu vào và nhắc hỏi kế toán trước khi chọn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lập nhầm phiếu thì sửa thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quản lý mở phiếu, bấm Huỷ phiếu và nhập lý do. Hệ thống ghi bút toán đảo, phiếu hiện Đã huỷ và tồn trở về như trước; sau đó lập lại phiếu đúng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hàng về thiếu so với đơn thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thủ kho nhận đúng số thực nhận; đơn chuyển sang Nhận một phần và tiếp tục được theo dõi ở tab Giao hàng cho tới khi nhận đủ. Không nhận được nhiều hơn số còn lại của đơn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kiểm kê có tự điều chỉnh sổ không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Chênh lệch chỉ vào sổ khi quản lý bấm Duyệt, sinh phiếu điều chỉnh. Xử lý trách nhiệm và hạch toán thừa thiếu do giám đốc và kế toán quyết."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhập dữ liệu có sẵn từ Excel được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Màn Nhập tệp nhận Excel hoặc CSV cho danh mục hàng hoá và tồn đầu kỳ, tự khớp tên cột, kiểm từng dòng trước khi ghi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giá trị tồn tính theo phương pháp nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bình quân gia quyền di động, tính lại sau mỗi lần nhập. Doanh nghiệp dùng phương pháp khác như nhập trước xuất trước thì giá trị tồn của ứng dụng dùng để tham khảo, sổ kế toán vẫn theo phương pháp của doanh nghiệp."
+          }
+        }
+      ]
+    }
+  ]
+}

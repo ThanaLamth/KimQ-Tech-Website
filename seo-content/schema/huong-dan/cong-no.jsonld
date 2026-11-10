@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/cong-no/huong-dan#article",
+      "headline": "Công nợ & dòng tiền: sổ công nợ theo hoá đơn, khớp sao kê, nhắc nợ và dự báo 13 tuần",
+      "description": "Tuổi nợ, phải thu, phải trả, khớp sao kê, thư nhắc nợ, biên bản đối chiếu, dòng tiền 13 tuần và phân quyền theo vai: hướng dẫn từng bước.",
+      "url": "https://kimq.tech/san-pham/cong-no/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/cong-no#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/cong-no/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Công nợ & dòng tiền",
+          "item": "https://kimq.tech/san-pham/cong-no"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/cong-no/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/cong-no/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự ghi sổ hay tự gửi thư cho khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mọi thao tác ghi đi qua bản xem trước và người có quyền duyệt. Thư nhắc nợ chỉ là bản nháp; người phụ trách tự gửi rồi bấm Đã gửi xong."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhập sao kê của ngân hàng nào được?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tệp Excel (.xlsx) hoặc CSV sao kê có cột ngày giao dịch, ghi có, ghi nợ, nội dung. Máy tự tìm dòng tiêu đề và khớp tên cột theo các tên thường gặp, kể cả viết không dấu. Giao dịch đã nhập không bị nhập trùng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Một lần chuyển khoản trả nhiều hoá đơn thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gợi ý khớp có thể gồm nhiều hoá đơn cùng khách khi tổng đúng số tiền. Khi chưa rõ, kế toán mở Khớp giao dịch, tích các hoá đơn và chia số tiền, kể cả trả một phần. Phần dư ghi thành trả trước."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tuổi nợ được tính thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Theo số ngày quá hạn thanh toán của từng hoá đơn, chia năm nhóm: chưa đến hạn, 1–30, 31–60, 61–90 và trên 90 ngày. Khoản khách trả thừa được tách riêng, không bù vào tuổi nợ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên kinh doanh xem được gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chỉ khách mình phụ trách: tổng quan, hoá đơn phải thu, tuổi nợ, đối tác và thư nhắc nợ nháp. Kinh doanh không thấy phải trả, sao kê, phiếu thu chi, dòng tiền, đối chiếu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sửa nhầm thì có mất dấu vết không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Sổ chỉ thêm: huỷ hoá đơn hay phiếu là bút toán đảo có lý do. Nhật ký ghi người làm, người duyệt và thời điểm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dự báo dòng tiền có chính xác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dự báo dựa trên hạn thu, hạn trả đã ghi sổ và các giả định anh/chị chọn (khách trả trễ, tỉ lệ thu nợ quá hạn). Các giả định được in ở cuối màn hình. Đây là công cụ để thấy trước, không phải cam kết."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Biên bản đối chiếu có dùng được ngay không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Biên bản là số liệu phía công ty với dư đầu kỳ, phát sinh tăng, phát sinh giảm, dư cuối kỳ và chi tiết chứng từ. Xuất Excel để gửi đối tác xác nhận và hai bên ký."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có hỏi được qua Zalo không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Agent KimQ trên Zalo gọi ứng dụng bằng khoá kết nối của người dùng; lệnh đọc trả kết quả trong phạm vi quyền, lệnh ghi chỉ tạo đề xuất chờ duyệt."
+          }
+        }
+      ]
+    }
+  ]
+}

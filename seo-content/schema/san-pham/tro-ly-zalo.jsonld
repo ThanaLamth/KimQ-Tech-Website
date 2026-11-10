@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/tro-ly-zalo#software",
+      "name": "Trợ lý AI trên Zalo",
+      "description": "Gửi Excel, ảnh chứng từ vào Zalo: trợ lý đọc, tổng hợp, soạn Word/Excel, nhắc việc và trả lời câu hỏi thuế có dẫn nguồn. Việc quan trọng chờ bạn duyệt.",
+      "url": "https://kimq.tech/san-pham/tro-ly-zalo",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/tro-ly-zalo#webpage",
+      "url": "https://kimq.tech/san-pham/tro-ly-zalo",
+      "name": "Trợ lý AI trên Zalo cho doanh nghiệp | KimQ",
+      "description": "Gửi Excel, ảnh chứng từ vào Zalo: trợ lý đọc, tổng hợp, soạn Word/Excel, nhắc việc và trả lời câu hỏi thuế có dẫn nguồn. Việc quan trọng chờ bạn duyệt.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/tro-ly-zalo#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trợ lý AI trên Zalo",
+          "item": "https://kimq.tech/san-pham/tro-ly-zalo"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/tro-ly-zalo#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có phải cài ứng dụng mới không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý làm việc ngay trong Zalo bạn đang dùng, nhắn riêng hoặc thêm vào nhóm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự ý gửi tin cho khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Việc quan trọng như gửi tin cho khách, trợ lý chỉ soạn nháp; người phụ trách bấm duyệt thì mới gửi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Câu trả lời về thuế có đáng tin không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mỗi câu trả lời ghi số hiệu văn bản, điều khoản và ngày hiệu lực để bạn tự kiểm; con số được tính bằng công cụ tính, không để AI tự nhẩm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng chung trong nhóm có lẫn dữ liệu không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dữ liệu của từng người được tách riêng và trợ lý chỉ làm những việc vai của người đó được phép."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đọc được những loại tệp nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ảnh chụp, bản scan, PDF, Word, Excel và tin nhắn thoại. Tệp kết quả gửi lại qua link ngắn để mở trên điện thoại."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Việc lâu như đọc tài liệu dài thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trợ lý báo đang làm, xong việc thì tự nhắn lại đúng người hỏi, không cần hỏi lại."
+          }
+        }
+      ]
+    }
+  ]
+}

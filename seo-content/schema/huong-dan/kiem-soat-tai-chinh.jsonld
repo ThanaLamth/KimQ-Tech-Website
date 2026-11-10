@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh/huong-dan#article",
+      "headline": "Kiểm soát tài chính: từ phát hiện đến công việc cần xử lý",
+      "description": "Cách đọc tổng quan, rà từng phát hiện, tra giao dịch, đối chiếu bằng chứng trước khi kết luận và giao, theo dõi đầu việc khắc phục.",
+      "url": "https://kimq.tech/san-pham/kiem-soat-tai-chinh/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/kiem-soat-tai-chinh/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kiểm soát tài chính nội bộ",
+          "item": "https://kimq.tech/san-pham/kiem-soat-tai-chinh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/kiem-soat-tai-chinh/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Phát hiện có phải kết luận sai phạm không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Người rà soát đọc bằng chứng, kiểm tra hồ sơ và xác nhận trước khi kết luận."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giá trị cần rà soát nghĩa là gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đó là giá trị liên quan tới dữ liệu cần kiểm tra. Không dùng số này như khoản thất thoát đã được xác nhận."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vì sao tôi không thể kết luận rà soát?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiểm tra Quyền của vai trò này ở Tôi. Kế toán tổng hợp, Kế toán thanh toán, Trưởng phòng Tài chính và Kiểm soát nội bộ có quyền kết luận rà soát; vai trò khác sẽ thấy nút bị khóa kèm lý do."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Làm sao tìm lại căn cứ của đầu việc?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mở Việc, tìm đầu việc rồi bấm Xem phát hiện liên quan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có thể đọc giao diện tối không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trong Tôi, chọn Tối hoặc Theo hệ thống ở nhóm Giao diện."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/nhatdat/huong-dan#article",
+      "headline": "Nhà Đất: tra giá đất theo đoạn đường, rà tài sản so sánh, xuất Excel",
+      "description": "Cách tra tuyến đường và đoạn giá, chọn tài sản so sánh, lập bảng điều chỉnh và xuất Excel theo mẫu trong ứng dụng Nhà Đất.",
+      "url": "https://kimq.tech/san-pham/nhatdat/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/nhatdat#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/nhatdat/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nhà Đất",
+          "item": "https://kimq.tech/san-pham/nhatdat"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/nhatdat/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/nhatdat/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "### Hệ thống có thay nhận định của thẩm định viên không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Hệ thống giữ căn cứ để kiểm tra; thẩm định viên đối chiếu theo nghiệp vụ của doanh nghiệp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Đơn giá UBND khác đơn giá tham chiếu thị trường thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đơn giá UBND do nhà nước quy định cho đoạn; đơn giá tham chiếu thị trường được tính từ tài sản so sánh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Xuất Excel theo mẫu nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Theo các mẫu đã triển khai; mẫu riêng của công ty trao đổi với KimQ."
+          }
+        }
+      ]
+    }
+  ]
+}

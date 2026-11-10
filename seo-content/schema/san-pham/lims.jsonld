@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/lims#software",
+      "name": "Quản lý phòng thí nghiệm (LIMS)",
+      "description": "Theo dõi mẫu từ tiếp nhận đến phiếu kết quả: QA/QC, phê duyệt nhiều cấp, truy vết từng con số và cổng cho khách hỏi tiến độ qua Zalo.",
+      "url": "https://kimq.tech/san-pham/lims",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/lims#webpage",
+      "url": "https://kimq.tech/san-pham/lims",
+      "name": "Phần mềm LIMS quản lý phòng thí nghiệm | KimQ",
+      "description": "Theo dõi mẫu từ tiếp nhận đến phiếu kết quả: QA/QC, phê duyệt nhiều cấp, truy vết từng con số và cổng cho khách hỏi tiến độ qua Zalo.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/lims#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Quản lý phòng thí nghiệm (LIMS)",
+          "item": "https://kimq.tech/san-pham/lims"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/lims#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có sửa được số liệu sau khi nhập không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được, bằng bản đính chính kèm lý do. Bản cũ vẫn nằm trong nhật ký; cơ sở dữ liệu không cho sửa hay xoá nhật ký."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có bao nhiêu vai trò?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mười bốn vai, từ tiếp nhận, lấy mẫu, kiểm nghiệm, QA/QC, soát xét tới lãnh đạo, quản trị và cổng khách hàng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Phiếu kết quả theo mẫu riêng của phòng được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Phiếu sinh dạng .docx từ mẫu của phòng thí nghiệm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khách có thấy dữ liệu của khách khác không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Cổng khách hàng và trợ lý chỉ đọc mẫu thuộc về người đang hỏi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Phát hành rồi phát hiện sai thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gửi yêu cầu mở lại hồ sơ; khi được duyệt, phát hành phiếu thay thế. Phiếu cũ được đánh dấu đã thay thế hoặc thu hồi, không bị xoá."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Hàng đợi, lấy mẫu, nhận mẫu và tra cứu tiến độ chạy trên điện thoại; nhập liệu dài làm trên máy tính."
+          }
+        }
+      ]
+    }
+  ]
+}

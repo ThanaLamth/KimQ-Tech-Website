@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/chatbot-da-kenh/huong-dan#article",
+      "headline": "Chatbot chăm sóc khách hàng đa kênh: một hộp thư, trợ lý trả lời có căn cứ",
+      "description": "Thiết lập hộp thư chung, kho kiến thức, quy tắc chuyển nhân viên, tiếp quản hội thoại và đọc nhật ký của chatbot chăm sóc khách hàng.",
+      "url": "https://kimq.tech/san-pham/chatbot-da-kenh/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/chatbot-da-kenh#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/chatbot-da-kenh/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chatbot chăm sóc khách hàng đa kênh",
+          "item": "https://kimq.tech/san-pham/chatbot-da-kenh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/chatbot-da-kenh/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/chatbot-da-kenh/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "### Trợ lý có tự bịa giá hay hứa hẹn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Không tìm được căn cứ, hoặc câu hỏi chạm tới tiền, hoàn tiền, khiếu nại thì trợ lý chuyển người."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Có cần lập trình hay đổi phần mềm không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Kênh nối bằng tài khoản Fanpage, OA, website hiện có. Muốn tra đơn trên hệ thống riêng, KimQ viết kết nối chỉ đọc cho đúng hệ thống đó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Dữ liệu khách có lộ qua chat không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tra đơn chỉ trả mã, trạng thái thanh toán và đường dẫn kết quả; đường dẫn gửi vào email chủ đơn, không gửi trong chat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "### Trợ lý có nói rõ là tự động không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Câu chào luôn nói rõ đây là trợ lý tự động."
+          }
+        }
+      ]
+    }
+  ]
+}

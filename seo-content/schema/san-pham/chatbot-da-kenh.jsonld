@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/chatbot-da-kenh#software",
+      "name": "Chatbot chăm sóc khách hàng đa kênh",
+      "description": "Fanpage, Zalo OA, website, Telegram về một hộp thư; trợ lý trả lời theo dữ liệu doanh nghiệp, ca nhạy cảm chuyển nhân viên kèm tóm tắt.",
+      "url": "https://kimq.tech/san-pham/chatbot-da-kenh",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/chatbot-da-kenh#webpage",
+      "url": "https://kimq.tech/san-pham/chatbot-da-kenh",
+      "name": "Chatbot chăm sóc khách hàng đa kênh | KimQ",
+      "description": "Fanpage, Zalo OA, website, Telegram về một hộp thư; trợ lý trả lời theo dữ liệu doanh nghiệp, ca nhạy cảm chuyển nhân viên kèm tóm tắt.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/chatbot-da-kenh#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chatbot chăm sóc khách hàng đa kênh",
+          "item": "https://kimq.tech/san-pham/chatbot-da-kenh"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/chatbot-da-kenh#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kết nối được những kênh nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fanpage Messenger, Instagram, Zalo Official Account, ô chat trên website, Telegram và email. Mọi kênh về một hộp thư chung, mỗi hội thoại ghi rõ khách nhắn từ kênh nào."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự bịa giá hay hứa hẹn với khách không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Trợ lý chỉ hiểu khách đang hỏi gì. Giá, đường dẫn, trạng thái đơn và chính sách lấy từ tài liệu và hệ thống của doanh nghiệp. Không tìm được căn cứ, hoặc câu hỏi chạm tới tiền, hoàn tiền, khiếu nại thì trợ lý chuyển người."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhân viên tiếp quản một hội thoại thế nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trong hội thoại, đổi người phụ trách sang tên mình là trợ lý dừng ngay, kể cả với tin khách gửi trong lúc nhân viên đang giữ. Xử lý xong, chọn lại trợ lý là trợ lý tiếp tục với tin nhắn mới."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có cần lập trình hay đổi phần mềm đang dùng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Kênh được nối bằng tài khoản Fanpage, OA, website hiện có. Muốn trợ lý tra đơn trên hệ thống riêng, KimQ viết kết nối chỉ đọc cho đúng hệ thống đó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý trả lời tiếng Việt có tự nhiên không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trợ lý hiểu cách nhắn quen thuộc như viết tắt, không dấu, nhiều ý trong một tin, và trả lời bằng giọng của doanh nghiệp theo câu mẫu bạn khai. Câu chào luôn nói rõ đây là trợ lý tự động, khách nhắn \"gặp người\" là được chuyển."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dữ liệu khách có bị lộ qua chat không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tra đơn chỉ trả mã, trạng thái thanh toán và đường dẫn kết quả; không đọc email, ngày sinh hay hoá đơn ra chat. Đường dẫn kết quả gửi vào email chủ đơn, không gửi thẳng cho người hỏi trong chat. Mọi lượt trả lời, chuyển người và tiếp quản đều có nhật ký."
+          }
+        }
+      ]
+    }
+  ]
+}

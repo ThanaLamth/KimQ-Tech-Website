@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu/huong-dan#article",
+      "headline": "Kho và giá vật liệu: kiểm tra hàng, hạn hẹn và giá thị trường",
+      "description": "Cách theo dõi đơn hàng, tồn theo lô, lịch nhận hàng và so sánh giá vật liệu; kiểm tra chi tiết và đối chiếu nguồn trước khi quyết định.",
+      "url": "https://kimq.tech/san-pham/kho-gia-vat-lieu/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/kho-gia-vat-lieu/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kho, giữ hàng & giá vật liệu",
+          "item": "https://kimq.tech/san-pham/kho-gia-vat-lieu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/kho-gia-vat-lieu/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vì sao kho còn hàng nhưng đơn vẫn thiếu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiểm tra Tự do và Đã giữ theo đúng lô, kho và mặt hàng. Hàng đã giữ cho đơn khác không nằm trong phần có thể hứa cho đơn mới."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giá giữa các hãng có so trực tiếp được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chọn cùng nhóm hàng, quy cách, bề mặt, tỉnh và kỳ. Đọc đơn vị và trạng thái VAT, rồi tra lại nguồn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhập tệp có ghi ngay vào hệ thống không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Bạn chọn tệp, xem trước, kiểm tra lỗi rồi mới xác nhận ghi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Xoá một lần nhập có ảnh hưởng dữ liệu giá không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Mọi dòng giá của lô nhập đó bị xoá; hãy kiểm tra đúng lô trước khi thao tác."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đề xuất của trợ lý được xử lý ở đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Xem mục Chờ duyệt và kiểm tra nội dung đề xuất trước khi người có quyền phê duyệt."
+          }
+        }
+      ]
+    }
+  ]
+}

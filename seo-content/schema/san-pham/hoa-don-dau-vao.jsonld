@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao#software",
+      "name": "Hoá đơn đầu vào",
+      "description": "Nhập XML hoá đơn điện tử, kiểm từng hoá đơn có căn cứ, đối chiếu ba chiều với đơn mua và phiếu nhập, lập bảng kê trước khi kê khai thuế.",
+      "url": "https://kimq.tech/san-pham/hoa-don-dau-vao",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao#webpage",
+      "url": "https://kimq.tech/san-pham/hoa-don-dau-vao",
+      "name": "Phần mềm kiểm tra hoá đơn đầu vào | KimQ",
+      "description": "Nhập XML hoá đơn điện tử, kiểm từng hoá đơn có căn cứ, đối chiếu ba chiều với đơn mua và phiếu nhập, lập bảng kê trước khi kê khai thuế.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hoá đơn đầu vào",
+          "item": "https://kimq.tech/san-pham/hoa-don-dau-vao"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Nhập hoá đơn bằng cách nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tải tệp XML hoá đơn điện tử hoặc bảng Excel, hệ thống tự khớp tên cột. Hoá đơn đã có sẽ không bị nhập trùng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Căn cứ pháp lý có đáng tin không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mỗi quy tắc ghi số hiệu văn bản, điều khoản, ngày hiệu lực và liên kết văn bản gốc để bạn tự đọc lại."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có tra trạng thái hoá đơn trên cổng thuế không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Hệ thống không tra cổng thuế, không xác thực chữ ký số và không nộp tờ khai. Trợ lý nhắc bạn tự tra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Thư gửi người bán có tự gửi đi không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Chỉ có bản nháp; kế toán tự gửi từ email của mình."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đối chiếu ba chiều cần những gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Đơn mua và phiếu nhập kho, nhập từ Excel. Hệ thống so số lượng, đơn giá từng dòng trong dung sai bạn đặt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng trên điện thoại được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Mọi màn hình làm cho điện thoại trước; máy tính thấy cả kỳ trên một bảng."
+          }
+        }
+      ]
+    }
+  ]
+}

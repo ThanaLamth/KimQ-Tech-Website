@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kimq.tech/san-pham/tu-dong-hoa#software",
+      "name": "Tự động hoá vận hành",
+      "description": "Xuất hoá đơn điện tử khi tiền về, đối soát đơn hàng – tiền – hoá đơn mỗi ngày và cảnh báo lỗi hệ thống trước khi khách phàn nàn.",
+      "url": "https://kimq.tech/san-pham/tu-dong-hoa",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "vi-VN",
+      "provider": {
+        "@id": "https://kimq.tech/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kimq.tech/san-pham/tu-dong-hoa#webpage",
+      "url": "https://kimq.tech/san-pham/tu-dong-hoa",
+      "name": "Tự động hoá hoá đơn, đối soát & giám sát lỗi | KimQ",
+      "description": "Xuất hoá đơn điện tử khi tiền về, đối soát đơn hàng – tiền – hoá đơn mỗi ngày và cảnh báo lỗi hệ thống trước khi khách phàn nàn.",
+      "isPartOf": {
+        "@id": "https://kimq.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://kimq.tech/san-pham/tu-dong-hoa#software"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tự động hoá vận hành",
+          "item": "https://kimq.tech/san-pham/tu-dong-hoa"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/tu-dong-hoa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có bao giờ một đơn bị xuất hai hoá đơn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mỗi lần phát hành đều kiểm mã đơn đó đã có hoá đơn chưa và dùng mã đơn làm khoá chống trùng, nên chạy lại hay mạng chập chờn cũng không ra hoá đơn thứ hai."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khách ghi sai hoặc quên mã đơn khi chuyển khoản thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Giao dịch đó vào danh sách cần người xem. Hệ thống không tự đoán đơn nào, vì gán nhầm tiền khó gỡ hơn nhiều so với để người gán."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dùng được với phần mềm hoá đơn nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Phần mềm hoá đơn điện tử có kết nối API. KimQ chạy luồng này hằng ngày với MISA cho các sản phẩm của chính mình."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI có tự sửa hệ thống đang chạy không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI điều tra và chuẩn bị bản sửa kèm kiểm thử. Việc phát hành theo quy tắc doanh nghiệp đặt, mặc định chờ kỹ sư duyệt. Những việc như đổi dữ liệu thật, đổi cấu hình thanh toán thì không bao giờ tự làm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có phải thay phần mềm kế toán, bán hàng đang dùng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Các luồng nối vào hệ thống đang có: ngân hàng hoặc cổng thanh toán báo giao dịch, phần mềm hoá đơn, nơi lưu đơn hàng. Đội của bạn vẫn làm việc trên phần mềm cũ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ngoài hoá đơn và lỗi hệ thống, còn tự động được gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bất cứ việc lặp lại có quy tắc rõ: nhắc công nợ, gom báo cáo cuối ngày, đồng bộ dữ liệu giữa hai phần mềm. KimQ cùng đội của bạn chọn việc tốn thời gian nhất để làm trước."
+          }
+        }
+      ]
+    }
+  ]
+}

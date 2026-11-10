@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/tro-ly-fanpage/huong-dan#article",
+      "headline": "Trợ lý Fanpage: lịch bài đều mỗi tuần, bạn chỉ việc duyệt",
+      "description": "Thiết lập hồ sơ thương hiệu, lịch bài, duyệt nội dung, đăng qua kết nối chính thức, xử lý bình luận và đọc số liệu tuần.",
+      "url": "https://kimq.tech/san-pham/tro-ly-fanpage/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/tro-ly-fanpage#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/tro-ly-fanpage/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trợ lý Fanpage",
+          "item": "https://kimq.tech/san-pham/tro-ly-fanpage"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/tro-ly-fanpage/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/tro-ly-fanpage/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có phải giao mật khẩu fanpage không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Bạn cấp quyền cho trang qua màn hình kết nối của Meta và thu hồi được bất kỳ lúc nào trong cài đặt của trang."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đăng được lên những đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Facebook Page theo quyền trang bạn cấp; hỗ trợ đăng kèm lên Instagram và Threads của doanh nghiệp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ảnh và video lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ảnh tạo theo màu và phong cách thương hiệu hoặc chỉnh từ ảnh sản phẩm bạn có; video dọc ngắn làm bằng AI Studio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Giá và thông tin sản phẩm trong bài có đúng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lấy từ dữ liệu bạn cung cấp; chỗ không chắc được đánh dấu để người duyệt kiểm."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao/huong-dan#article",
+      "headline": "Hoá đơn đầu vào: kiểm từng hoá đơn, xử lý sai sót và lập bảng kê",
+      "description": "Nhập XML hoá đơn điện tử, 17 phép kiểm có căn cứ, chứng từ thanh toán, thư đề nghị người bán, đối chiếu ba chiều và bảng kê thuế GTGT đầu vào.",
+      "url": "https://kimq.tech/san-pham/hoa-don-dau-vao/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/hoa-don-dau-vao/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hoá đơn đầu vào",
+          "item": "https://kimq.tech/san-pham/hoa-don-dau-vao"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/hoa-don-dau-vao/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Nhập hoá đơn bằng cách nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bấm Nhập tệp XML ở màn Hoá đơn và chọn nhiều tệp XML hoá đơn điện tử cùng lúc, hoặc đính kèm tệp vào khung trợ lý. Bảng kê Excel tải từ cổng thuế nhập ở màn Nhập tệp với loại Bảng kê hoá đơn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nhập trùng một hoá đơn thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hoá đơn trùng mã số thuế người bán, mẫu số, ký hiệu và số hoá đơn bị bỏ qua và được ghi trong bản xem trước, do đó không vào sổ hai lần."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Căn cứ pháp lý của từng lỗi lấy từ đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Từ bảng quy định của ứng dụng: mỗi quy định có số hiệu văn bản, điều khoản, ngày hiệu lực và liên kết văn bản gốc. Màn Quy định áp dụng cho xem văn bản nào áp dụng với hoá đơn lập vào một ngày bất kỳ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ứng dụng có tra cổng thuế hay xác thực chữ ký số không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Ứng dụng không tra mạng và chỉ kiểm hoá đơn có thẻ chữ ký. Màn chi tiết hoá đơn ghi rõ việc kế toán tự làm: tra cứu hoá đơn và trạng thái mã số thuế người bán trên cổng thuế."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Thư đề nghị người bán có tự gửi đi không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Ứng dụng soạn bản nháp trong Hộp thư đi; kế toán bấm Sao chép nội dung, gửi từ email của mình rồi bấm Đã tự gửi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoá đơn trên 5 triệu đồng đã chuyển khoản sao vẫn cảnh báo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vì ứng dụng thiếu chứng từ thanh toán của hoá đơn đó. Mở hoá đơn, bấm Thêm chứng từ thanh toán, chọn Chuyển khoản và nhập số chứng từ; phép kiểm chạy lại ngay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoá đơn còn lỗi có hạch toán được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được, nhưng phải nhập lý do khi đổi trạng thái sang Đã hạch toán. Hoá đơn còn lỗi không được đưa vào bảng kê."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bảng kê có dùng để nộp thẳng cho cơ quan thuế không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Đây là bảng kê nội bộ hỗ trợ lập tờ khai 01/GTGT, gợi ý chỉ tiêu [23], [24], [25]. Kế toán đối chiếu với mẫu tờ khai đang dùng trước khi nộp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đối chiếu 3 chiều cần dữ liệu gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bảng đơn mua và bảng phiếu nhập kho dạng Excel hoặc CSV, nhập ở màn Nhập tệp. Phiếu nhập cần ghi số hoá đơn và mã số thuế nhà cung cấp để ứng dụng gắn được với hoá đơn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trợ lý có tự sửa dữ liệu không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mọi việc ghi, kể cả nhập hoá đơn hay soạn thư, đều thành yêu cầu chờ người bấm xác nhận, và được ghi nhật ký."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/ai-gateway/huong-dan#article",
+      "headline": "KimQ AI Gateway: quản lý key, hạn mức, chi phí và dữ liệu khi doanh nghiệp dùng AI",
+      "description": "Cấp key ảo, đặt hạn mức theo phòng ban, xem chi phí, đọc nhật ký đã che dữ liệu, chặn câu lệnh lừa AI, định tuyến model và nối ứng dụng.",
+      "url": "https://kimq.tech/san-pham/ai-gateway/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/ai-gateway#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/ai-gateway/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KimQ AI Gateway",
+          "item": "https://kimq.tech/san-pham/ai-gateway"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/ai-gateway/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/ai-gateway/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ứng dụng có phải viết lại không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Ứng dụng đổi địa chỉ gọi AI sang gateway và dùng key ảo; cách gọi giữ nguyên."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Key thật của nhà cung cấp nằm ở đâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chỉ nằm trong gateway. Nhân viên và ứng dụng chỉ cầm key ảo, thu hồi lúc nào cũng được."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mất khoá bí mật của key ảo thì sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gateway chỉ lưu mã băm nên không xem lại được. Bấm Đổi khoá bí mật để cấp khoá mới, khoá cũ hết hiệu lực ngay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chi phí tính theo giá nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Theo bảng giá model mỗi 1 triệu token, cập nhật từ nhà cung cấp, có thể đặt giá riêng; quy ra đồng theo tỉ giá cấu hình."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nội dung câu hỏi có bị lưu không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mặc định, cổng lưu nhật ký sử dụng (ai, lúc nào, model nào, bao nhiêu token) và nội dung câu hỏi sau khi đã che dữ liệu cá nhân. Doanh nghiệp có thể tắt lưu nội dung hoàn toàn hoặc bỏ ghi từng lượt bằng một header. Bản cài tại chỗ: mọi thứ nằm trên máy chủ của doanh nghiệp; bản dịch vụ: máy chủ đặt tại Việt Nam."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Một nhà cung cấp lỗi thì người dùng có bị gián đoạn không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gateway thử model khác theo thứ tự trong Định tuyến ngay trong lượt đó, tối đa theo số lần thử đã đặt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Có xem được trên điện thoại không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Trang quản trị có thanh dưới Tổng quan, Key ảo, Phòng ban, Nhật ký, Thêm như một ứng dụng."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://kimq.tech/san-pham/ai-studio/huong-dan#article",
+      "headline": "KimQ Studio: tạo ảnh và video bằng AI cho bán hàng, quảng cáo, mạng xã hội",
+      "description": "Tạo ảnh, tạo video, dùng kho mẫu, hiệu ứng, nhân vật và sản phẩm đã lưu, sửa ảnh nhanh, quản lý thư viện Đã tạo và tải về.",
+      "url": "https://kimq.tech/san-pham/ai-studio/huong-dan",
+      "inLanguage": "vi-VN",
+      "author": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://kimq.tech/#organization"
+      },
+      "about": {
+        "@id": "https://kimq.tech/san-pham/ai-studio#software"
+      },
+      "mainEntityOfPage": "https://kimq.tech/san-pham/ai-studio/huong-dan",
+      "datePublished": "__DIEN_NGAY_THAT_YYYY-MM-DD__",
+      "dateModified": "__DIEN_NGAY_THAT_YYYY-MM-DD__"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://kimq.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sản phẩm",
+          "item": "https://kimq.tech/san-pham"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI Studio",
+          "item": "https://kimq.tech/san-pham/ai-studio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hướng dẫn sử dụng",
+          "item": "https://kimq.tech/san-pham/ai-studio/huong-dan"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kimq.tech/san-pham/ai-studio/huong-dan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Có phải cài ứng dụng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Studio chạy trên trình duyệt của điện thoại và máy tính."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tạo một ảnh mất bao lâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thường khoảng một phút cho ảnh, video lâu hơn. Ô đang tạo luôn hiện thời gian đã chạy và vị trí trong hàng đợi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Viết mô tả bằng tiếng Việt được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được. Bạn viết tiếng Việt bình thường. Khi dùng mẫu, phần Mô tả gửi đi cho bạn xem câu mô tả đầy đủ trước khi bấm Tạo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Muốn chữ hiện trên ảnh thì làm sao?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ghi chữ cần hiện trong ngoặc kép trong mô tả, hoặc điền ô Tên món hiện trên ảnh, Giá… của mẫu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Làm sao giữ đúng gương mặt hoặc sản phẩm qua nhiều ảnh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lưu nhân vật hoặc sản phẩm bằng 2–4 ảnh rõ ở nhiều góc, rồi chạm vào nó trước khi bấm Tạo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Video dài tối đa bao lâu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mặc định 10 giây. Ghi “20 giây” hoặc “30 giây” trong mô tả để có video dài hơn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Đổi máy khác có thấy ảnh cũ không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thư viện lưu trên máy đang dùng. Ảnh cần dùng ở máy khác thì tải về trước."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Huỷ một lượt có bị trừ lượt không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Lượt đã huỷ không tính vào số lượt trong ngày. Dùng cho doanh nghiệp Doanh nghiệp cần thêm lượt, mẫu riêng theo nhận diện thương hiệu hoặc thư viện chung cho cả nhóm, để lại thông tin ở form Quan tâm cuối trang để KimQ liên hệ."
+          }
+        }
+      ]
+    }
+  ]
+}
