@@ -13,7 +13,7 @@ Bản nháp chi tiết các trang P0–P1: xem `08-trust-pages-footer.md`.
 | Nhóm | Site |
 |---|---|
 | SaaS B2B Việt Nam (12) | misa.vn, amis.misa.vn, base.vn, kiotviet.vn, sapo.vn, haravan.com, 1office.vn, getfly.vn, fpt.ai, fastwork.vn, vbee.vn, bizfly.vn |
-| CNTT / doanh nghiệp Việt Nam (5) | fpt-is.com, vnpt.com.vn, meinvoice.vn, kms-technology.com, nashtechglobal.com, savvycomsoftware.com |
+| CNTT / doanh nghiệp Việt Nam (6) | fpt-is.com, vnpt.com.vn, meinvoice.vn, kms-technology.com, nashtechglobal.com, savvycomsoftware.com |
 | SaaS quốc tế (10) | stripe.com, linear.app, notion.com, hubspot.com, zoho.com, xero.com, freshworks.com, vercel.com, intercom.com, **portkey.ai** (AI gateway, đối thủ trực tiếp của KimQ AI Gateway) |
 
 ## 2. Họ có những trang gì
