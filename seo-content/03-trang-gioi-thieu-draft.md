@@ -87,4 +87,4 @@ Email: contact@kimq.tech · Nhóm Zalo cộng đồng KimQ · Địa chỉ: Tầ
 }
 ```
 
-Khi có link mạng xã hội thật (LinkedIn công ty, Facebook, Zalo OA, YouTube), thêm vào `sameAs` trong `schema/home.jsonld`. Hiện để trống.
+`sameAs` trong `schema/home.jsonld` đã có Facebook, Instagram, Threads, TikTok. Thêm LinkedIn công ty, Zalo OA, YouTube khi có.

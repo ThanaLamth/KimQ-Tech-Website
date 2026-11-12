@@ -75,7 +75,7 @@ curl -s  https://kimq.tech/.well-known/security.txt | head -2      # Contact: �
 | 1 | Email nhận yêu cầu về dữ liệu cá nhân (đề xuất `privacy@kimq.tech`) và người/bộ phận phụ trách | Chính sách bảo mật, DPA |
 | 2 | Giấy CNĐKDN: nơi cấp, ngày cấp lần đầu; người đại diện theo pháp luật | Footer (`COMPANY.registration`), Giới thiệu |
 | 3 | Số điện thoại/Zalo công khai, giờ làm việc, kênh hỗ trợ khách đang dùng | Footer (`COMPANY.phone`), Liên hệ, SLA |
-| 4 | Link mạng xã hội thật (LinkedIn công ty, Facebook, Zalo OA, YouTube) | Footer (`COMPANY.social`), `sameAs` trong `seo-content/schema/home.jsonld` |
+| 4 | Link mạng xã hội: ✅ đã điền Facebook, Instagram, Threads, TikTok (12/11/2026). Còn thiếu nếu có: LinkedIn công ty, Zalo OA, YouTube | Footer (`COMPANY.social`), `sameAs` trong `seo-content/schema/home.jsonld` |
 | 5 | Vùng máy chủ Railway; vùng dữ liệu tài khoản Lark; nơi lưu danh sách khách điền form | Chính sách bảo mật, Bên xử lý phụ |
 | 6 | Thời gian lưu: dữ liệu form, email, nhật ký máy chủ, CV ứng viên | Chính sách bảo mật, Tuyển dụng |
 | 7 | Hạ tầng chạy sản phẩm, vị trí máy chủ; có mã hoá khi lưu không | Bảo mật & dữ liệu, Bên xử lý phụ, DPA |

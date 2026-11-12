@@ -21,7 +21,7 @@ Liên quan: `../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`, `../KIMQ-GOOGLE-UPDATES-COMP
 - FAQPage lấy **đúng** các câu hỏi đang hiển thị trên trang (TinyFish 10/11). Riêng AI Gateway viết theo phương án A của file 01. Nếu sửa chữ trên trang thì phải sửa JSON-LD theo.
 - Google hiện chỉ hiện rich result FAQ cho một số site chính phủ và y tế. Markup vẫn hữu ích để máy hiểu nội dung, nhưng đừng kỳ vọng có rich result.
 - SoftwareApplication **không có** `offers` hay `aggregateRating` vì chưa có giá công khai và chưa có đánh giá thật. Vì vậy không đủ điều kiện rich result phần mềm, và đó là chủ ý.
-- `sameAs` để trống tới khi có link mạng xã hội thật.
+- `sameAs` (`schema/home.jsonld`) đã có Facebook, Instagram, Threads, TikTok. Thêm LinkedIn công ty, Zalo OA, YouTube khi có.
 - Kiểm tra bằng Rich Results Test và Schema Markup Validator sau khi deploy.
 
 ## Phát hiện mới khi làm (10/11)

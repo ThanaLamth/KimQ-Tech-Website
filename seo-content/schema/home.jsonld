@@ -29,7 +29,12 @@
           "en"
         ]
       },
-      "sameAs": []
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61595159860837",
+        "https://www.instagram.com/kimqtech/",
+        "https://www.threads.com/@kimqtech",
+        "https://www.tiktok.com/@kimqaitech"
+      ]
     },
     {
       "@type": "WebSite",

@@ -22,6 +22,7 @@ Anh/chị cần tư vấn sản phẩm, xem thử trên dữ liệu của mình,
 | Địa chỉ | Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam |
 | Email | [contact@kimq.tech](mailto:contact@kimq.tech) |
 | Điện thoại / Zalo | [CẦN ĐIỀN] |
+| Mạng xã hội | [Facebook](https://www.facebook.com/profile.php?id=61595159860837) · [Instagram](https://www.instagram.com/kimqtech/) · [Threads](https://www.threads.com/@kimqtech) · [TikTok](https://www.tiktok.com/@kimqaitech) |
 | Giờ làm việc | [CẦN ĐIỀN: ví dụ Thứ Hai – Thứ Sáu, 8:30–17:30] |
 | Bản đồ | [Xem trên Google Maps](https://www.google.com/maps/search/?api=1&query=T%E1%BA%A7ng+2%2C+s%E1%BB%91+02+Song+H%C3%A0nh%2C+Ph%C6%B0%E1%BB%9Dng+B%C3%ACnh+Tr%C6%B0ng%2C+TP+H%E1%BB%93+Ch%C3%AD+Minh) |
 

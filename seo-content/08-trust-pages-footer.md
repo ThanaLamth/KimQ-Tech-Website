@@ -42,7 +42,7 @@ Rủi ro lớn nhất là **pháp lý**: 19 trang sản phẩm có form thu emai
 | Link Chính sách bảo mật / Điều khoản | Không có | ❌ |
 | Link Giới thiệu / Liên hệ | Chỉ có trên menu dạng anchor (`#about`, `#contact`) | ❌ |
 | Link sản phẩm / hướng dẫn | Không có trong footer | ❌ Mất cơ hội internal link sitewide |
-| Mạng xã hội (`sameAs`) | Không có | ❌ Cần cho entity/GEO |
+| Mạng xã hội (`sameAs`) | Không có (lúc audit) | ✅ Đã điền 4 hồ sơ ngày 12/11/2026 (Facebook, Instagram, Threads, TikTok) |
 | Badge Bộ Công Thương | Không có | ✅ Không bắt buộc: site B2B giới thiệu, không bán hàng hay đặt hàng trực tuyến. Chỉ cần nếu sau này có chức năng đặt mua hoặc thanh toán |
 
 **Lưu ý thêm:** form "Quan tâm" trên 19 trang sản phẩm thu `email` (bắt buộc), và có một trường `website` ẩn, có thể là honeypot chống spam. Form không có câu thông báo hay link chính sách.
@@ -57,12 +57,12 @@ Footer phải giống nhau trên mọi trang, render sẵn trong HTML (prerender
 | 2. Sản phẩm | 6–8 sản phẩm chính + "Tất cả sản phẩm" → `/san-pham` |
 | 3. Tài nguyên | "Hướng dẫn sử dụng" (link tới 3–5 trang hướng dẫn nổi bật) · Giới thiệu `/gioi-thieu` · Liên hệ `/lien-he` |
 | 4. Pháp lý | Chính sách bảo mật `/chinh-sach-bao-mat` · Điều khoản sử dụng `/dieu-khoan-su-dung` · (Chính sách cookie `/chinh-sach-cookie` khi có GA4) |
-| Dòng cuối | `© 2026 Công ty Cổ phần KimQ. Mọi quyền được bảo lưu.` · icon mạng xã hội `[CẦN ĐIỀN: LinkedIn, Facebook, Zalo OA, YouTube…]` |
+| Dòng cuối | `© 2026 Công ty Cổ phần KimQ. Mọi quyền được bảo lưu.` · link mạng xã hội: Facebook, Instagram, Threads, TikTok (thêm LinkedIn, Zalo OA, YouTube khi có) |
 
 Yêu cầu:
 - Năm copyright lấy theo năm hiện tại khi build.
 - Thông tin NAP (tên, địa chỉ, SĐT) trong footer **phải trùng từng chữ** với `schema/home.jsonld` và trang `/lien-he`.
-- Khi có link mạng xã hội thật, điền vào `sameAs` trong `schema/home.jsonld`.
+- `sameAs` trong `schema/home.jsonld` và `COMPANY.social` trong `site-patch` đã có 4 hồ sơ.
 - Mobile: các cột chuyển thành accordion hoặc xếp dọc; vùng chạm ≥ 44px.
 - Thêm 4 URL mới vào `sitemap.xml`.
 - Mỗi trang mới cần title, meta, canonical riêng (bảng mục 6).
@@ -170,5 +170,5 @@ Policy: https://kimq.tech/chinh-sach-bao-mat
 - [ ] Copyright: "Công ty Cổ phần KimQ", không còn "KimQ JSC".
 - [ ] Form "Quan tâm" có câu đồng ý + link chính sách.
 - [ ] `security.txt` trả 200.
-- [ ] `sameAs` có ít nhất 1 hồ sơ mạng xã hội thật.
+- [x] `sameAs` có ít nhất 1 hồ sơ mạng xã hội thật.
 - [ ] Gắn GA4 → bổ sung chính sách cookie + thông báo/Consent Mode **trước** khi bật.
