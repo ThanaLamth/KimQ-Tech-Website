@@ -80,7 +80,7 @@ curl -s  https://kimq.tech/.well-known/security.txt | head -2      # Contact: �
 | 6 | Thời gian lưu: dữ liệu form, email, nhật ký máy chủ, CV ứng viên | Chính sách bảo mật, Tuyển dụng |
 | 7 | Hạ tầng chạy sản phẩm, vị trí máy chủ; có mã hoá khi lưu không | Bảo mật & dữ liệu, Bên xử lý phụ, DPA |
 | 8 | Nhà cung cấp mô hình AI; họ có dùng dữ liệu API để huấn luyện không; KimQ có dùng dữ liệu khách để huấn luyện không | Chính sách dữ liệu AI, DPA |
-| 9 | **Q1**: AI Gateway có lưu nội dung câu hỏi không (phương án A hoặc B ở `seo-content/01`) | Chính sách dữ liệu AI |
+| 9 | **Q1**: AI Gateway có lưu nội dung câu hỏi không (phương án A hoặc B ở `seo-content/01`); giải thích Q1–Q4 ở `seo-content/10-cau-hoi-can-chot.md` | Chính sách dữ liệu AI |
 | 10 | Sao lưu (tần suất, nơi lưu, thời gian giữ); quy trình xử lý sự cố; số giờ báo khách khi có sự cố | Bảo mật & dữ liệu, DPA |
 | 11 | Con số SLA (uptime, thời gian phản hồi), có bù phí không | Cam kết SLA |
 | 12 | Đội ngũ (ảnh, tên, vai trò, LinkedIn), các mốc hành trình, khách hàng đồng ý công khai | Giới thiệu, Khách hàng |
