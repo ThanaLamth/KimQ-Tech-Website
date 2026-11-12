@@ -1,6 +1,7 @@
 # Gói việc SEO / Content: KimQ.tech
 
 Ngày: 10/11/2026 · Dữ liệu: TinyFish fetch 40/40 URL live (10/11), crawl Playwright (09/11), bài Google updates trên SER (05–11/2026)
+**Bảng theo dõi trạng thái mọi vấn đề:** `../KIMQ-ISSUE-TRACKER.md`
 Liên quan: `../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`, `../KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md`, `../KimQ_SEO_GEO_Master_Audit_90_Days.xlsx`
 
 | # | File | Nội dung | Trạng thái | Cần ai |
