@@ -54,14 +54,6 @@ Triển khai thường bắt đầu từ một buổi xem thử trên dữ liệ
 
 [CẦN ĐIỀN: mỗi người gồm ảnh thật, họ tên, vai trò, 1–2 câu kinh nghiệm liên quan, link LinkedIn. Tối thiểu: phụ trách sản phẩm, phụ trách kỹ thuật, người rà soát nghiệp vụ (kế toán/thuế, y tế).]
 
-## Hành trình
-
-[CẦN ĐIỀN: các mốc thật theo năm, ví dụ năm thành lập, sản phẩm đầu tiên, khách hàng đầu tiên. Chưa có thì bỏ mục này.]
-
-## Khách hàng
-
-[CẦN ĐIỀN: chỉ đưa khi khách đồng ý công khai. Chưa có thì bỏ mục này và ẩn link tới /khach-hang.]
-
 ## Liên hệ
 
 [Trang liên hệ](/lien-he) · contact@kimq.tech · [Tuyển dụng](/tuyen-dung)

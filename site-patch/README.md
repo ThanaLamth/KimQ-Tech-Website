@@ -74,7 +74,7 @@ curl -s  https://kimq.tech/.well-known/security.txt | head -2      # Contact: �
 
 | # | Thông tin | Dùng ở |
 |---|---|---|
-| 1 | Email nhận yêu cầu về dữ liệu cá nhân (đề xuất `privacy@kimq.tech`) và người/bộ phận phụ trách | Chính sách bảo mật, DPA |
+| 1 | ✅ Email đã điền tạm `contact@kimq.tech` cho dữ liệu cá nhân, báo lỗ hổng, tuyển dụng (13/11/2026); đổi khi có `privacy@`/`security@`. Còn thiếu: người/bộ phận phụ trách | Chính sách bảo mật, DPA |
 | 2 | Giấy CNĐKDN: nơi cấp, ngày cấp lần đầu; người đại diện theo pháp luật | Footer (`COMPANY.registration`), Giới thiệu |
 | 3 | Số điện thoại/Zalo công khai, giờ làm việc, kênh hỗ trợ khách đang dùng | Footer (`COMPANY.phone`), Liên hệ, SLA |
 | 4 | Link mạng xã hội: ✅ đã điền Facebook, Instagram, Threads, TikTok (12/11/2026). Còn thiếu nếu có: LinkedIn công ty, Zalo OA, YouTube | Footer (`COMPANY.social`), `sameAs` trong [`seo-content/schema/home.jsonld`](../seo-content/schema/home.jsonld) |
@@ -85,7 +85,7 @@ curl -s  https://kimq.tech/.well-known/security.txt | head -2      # Contact: �
 | 9 | **Q1**: AI Gateway có lưu nội dung câu hỏi không (phương án A hoặc B ở [`seo-content/01`](../seo-content/01-sua-claim-ai-gateway.md)); giải thích Q1–Q4 ở [`seo-content/10-cau-hoi-can-chot.md`](../seo-content/10-cau-hoi-can-chot.md) | Chính sách dữ liệu AI |
 | 10 | Sao lưu (tần suất, nơi lưu, thời gian giữ); quy trình xử lý sự cố; số giờ báo khách khi có sự cố | Bảo mật & dữ liệu, DPA |
 | 11 | Con số SLA (uptime, thời gian phản hồi), có bù phí không | Cam kết SLA |
-| 12 | Đội ngũ (ảnh, tên, vai trò, LinkedIn), các mốc hành trình, khách hàng đồng ý công khai | Giới thiệu, Khách hàng |
+| 12 | Đội ngũ (ảnh, tên, vai trò, LinkedIn). Mục Hành trình và Khách hàng đã bỏ khỏi Giới thiệu (13/11/2026), thêm lại khi có mốc thật và khách đồng ý công khai | Giới thiệu, Khách hàng |
 | 13 | **Q3**: chính sách bot AI | Điều khoản |
 
 **Luật sư cần xem:** Chính sách bảo mật (cơ sở xử lý, danh sách quyền, thời hạn phản hồi, chuyển dữ liệu ra nước ngoài, việc KimQ có thuộc diện được miễn hoặc hoãn nghĩa vụ dành cho doanh nghiệp nhỏ hay không), DPA, Điều khoản (giới hạn trách nhiệm, giải quyết tranh chấp), nhóm của `kq_lead_src` trong Chính sách cookie.
