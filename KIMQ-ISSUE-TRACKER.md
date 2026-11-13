@@ -1,6 +1,6 @@
 # KimQ.tech — Bảng theo dõi vấn đề & hướng giải quyết
 
-Cập nhật: **12/11/2026** · Kiểm tra lại live ngày 12/11: site **chưa deploy gì mới** từ 09/11 (`last-modified: 09/11/2026`). Vẫn là build dev, HTML gốc vẫn có title "KimQ Studio", URL lạ vẫn trả 200, `/sitemap.xml` vẫn 404, `www` chưa có DNS, chưa có security headers.
+Cập nhật: **13/11/2026** (thêm phần 1 SEO/Content: `seo-content/11–13`) · Kiểm tra lại live ngày 12/11: site **chưa deploy gì mới** từ 09/11 (`last-modified: 09/11/2026`). Vẫn là build dev, HTML gốc vẫn có title "KimQ Studio", URL lạ vẫn trả 200, `/sitemap.xml` vẫn 404, `www` chưa có DNS, chưa có security headers.
 
 Nguồn chi tiết:
 - `KIMQ-AUDIT-TONG-HOP-2026-11-09.md`: audit kỹ thuật.
@@ -24,11 +24,11 @@ Nguồn chi tiết:
 | Trạng thái chính | Số mục |
 |---|---|
 | ✅ Xong | 4 |
-| 📝 Sẵn, chờ Dev | 16 |
-| ⏳ Chờ quyết định / thông tin | 7 |
+| 📝 Sẵn, chờ Dev | 19 |
+| ⏳ Chờ quyết định / thông tin | 6 |
 | ⬜ Chưa làm | 13 |
 | ➖ Không cần làm | 1 |
-| **Tổng** | **41** |
+| **Tổng** | **43** |
 
 Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · ⬜ prerender"); bảng trên tính theo trạng thái ghi đầu tiên.
 
@@ -46,7 +46,7 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 | A6 | `/san-pham/tuan-thu-hoa-chat` là JS redirect | P1 | Đổi sang **301 phía server** về `/san-pham/giai-phap-hoa-chat`; 301 bỏ dấu `/` cuối URL | `site-patch/server/known-routes.ts` | Dev | 📝 |
 | A7 | `www.kimq.tech` không có DNS | P1 | Thêm DNS `www` (proxied) + Redirect Rule 301 về `https://kimq.tech` | Audit §2 | Dev | ⬜ |
 | A8 | Màn hình trống 1–10 giây trên mạng chậm (quy tắc UX loading) | P2 | Thêm skeleton tĩnh trong `index.html` (tự hết khi làm A2) | Audit §5 | Dev | ⬜ |
-| A9 | 5 thumbnail `benh-vien/video-*.webp` thiếu alt; alt ảnh hero bằng tiếng Anh | P2 | Alt mô tả nội dung từng video; hero: `Linh vật rùa của KimQ` | `seo-content/02` (hero) | Dev + Content | 📝 hero · ⬜ 5 thumbnail |
+| A9 | 5 thumbnail `benh-vien/video-*.webp` thiếu alt; alt ảnh hero bằng tiếng Anh | P2 | Alt mô tả nội dung từng video; hero: `Linh vật rùa của KimQ` | `seo-content/02` (hero), `seo-content/13` (5 thumbnail + aria-label video) | Dev + Content | 📝 |
 | A10 | robots.txt: Lighthouse báo lỗi dòng `Content-Signal` | P2 | Chỉ là cảnh báo do Lighthouse chưa hiểu chỉ thị này. Giữ nguyên, không ảnh hưởng Google | Audit §2 | — | ➖ |
 
 ## B. SEO on-page / schema
@@ -66,9 +66,10 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 | # | Vấn đề | Mức | Hướng giải quyết | Tài liệu / code | Ai | Trạng thái |
 |---|---|---|---|---|---|---|
 | C1 | Claim AI Gateway **mâu thuẫn**: trang sản phẩm "không lưu nội dung", trang hướng dẫn "mặc định lưu sau khi che" | P0 | CTO xác nhận trên bản đang chạy → sửa theo phương án A hoặc B | `seo-content/01`, `seo-content/10` (Q1) | CTO/Product | ⏳ Q1 |
-| C2 | Trang sản phẩm thiếu E-E-A-T; 1 trang chưa có FAQ; claim YMYL (thuế, lương, y tế) chưa có người rà | P1 | Khối E-E-A-T, FAQ cho `tinh-luong-phong-kham`, danh sách claim cần chuyên gia rà | `seo-content/05` | Content + chuyên gia | 📝 · ⏳ người rà |
+| C2 | Trang sản phẩm thiếu E-E-A-T; 1 trang chưa có FAQ; claim YMYL (thuế, lương, y tế) chưa có người rà | P1 | Khối E-E-A-T, khối "Phù hợp với ai" cho 19 trang, FAQ cho `tinh-luong-phong-kham`, danh sách claim cần chuyên gia rà | `seo-content/05`, `seo-content/11` + `phu-hop-voi-ai.json` | Content + chuyên gia | 📝 · ⏳ người rà |
 | C3 | 19 trang hướng dẫn không có byline / ngày cập nhật / căn cứ pháp lý | P1 | Mẫu byline + ngày cập nhật thật + TechArticle | `seo-content/06` | Owner gán người rà | ⏳ |
 | C4 | Chưa có case study | P2 | Chỉ làm khi khách đồng ý công khai | `site-patch/.../khach-hang.md` (nháp) | Owner | ⏳ |
+| C5 | Chưa có bài viết hỗ trợ nhắm từ khoá thông tin (XLSX T17) | P2 | 6 bài: hoá đơn sai thuế suất, đối soát công nợ, ROP, chatbot Zalo OA, AI Gateway là gì, LIMS là gì; route `/kien-thuc` | `seo-content/12` | Dev (route) + Content + chuyên gia rà | 📝 kế hoạch · ⬜ viết bài |
 
 ## D. Trang tin cậy / pháp lý (Luật 91/2025/QH15, NĐ 356/2025)
 
@@ -104,6 +105,7 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 | F5 | 22 câu hỏi GEO chưa test | P1 | Chạy sau khi prerender (A2) xong; ghi model, có bật web search không, đối thủ được nhắc, ảnh chụp | `seo-content/07` §4, sheet GEO Test Set | SEO | ⬜ |
 | F6 | Chưa có chiến lược backlink | P2 | Chỉ earned mentions: đối tác, báo ngành, case study thật; không mua link | `seo-content/07` §3, XLSX T20 | Marketing | ⬜ |
 | F7 | Đối chiếu Google updates 05–11/2026 | — | Đã so sánh và đưa vào ưu tiên | `KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md` | SEO | ✅ |
+| F8 | Chưa có `llms.txt` (tuỳ chọn, chưa công cụ lớn nào xác nhận dùng) | P3 | Bản nháp liệt kê 19 sản phẩm, 19 hướng dẫn, trang công ty; chỉ đưa lên khi đã chốt Q3 và trust pages đã live | `seo-content/llms.txt`, `seo-content/13` §2 | Dev | 📝 · ⏳ Q3 |
 
 ## Các mục đã đạt (không cần làm)
 
