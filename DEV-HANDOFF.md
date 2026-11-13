@@ -51,15 +51,6 @@ Không phụ thuộc quyết định nào của Owner.
 | D7 | `/.well-known/security.txt` | [`security.txt`](site-patch/client/public/.well-known/security.txt) |
 | D8 | Trang trạng thái hệ thống (dịch vụ ngoài), điền `STATUS_PAGE_URL` | [`site-patch/README.md`](site-patch/README.md) §5 |
 
-## Chờ Owner chốt — Dev **chưa làm**
-
-| Việc | Chờ gì |
-|---|---|
-| Sửa câu AI Gateway về lưu nội dung prompt; trang Bảo mật & dữ liệu, DPA, Chính sách dữ liệu AI | Q1 — CTO xác nhận ([`10`](seo-content/10-cau-hoi-can-chot.md), [`01`](seo-content/01-sua-claim-ai-gateway.md)) |
-| Đổi robots / bot AI; đưa [`llms.txt`](seo-content/llms.txt) lên | Q3 — Owner ([`07` §2](seo-content/07-gsc-ga4-chinh-sach-ai-geo.md)) |
-| Bản tiếng Anh `/en/...` + hreflang | Q4 — Owner |
-| Đổi trang tin cậy từ `draft` sang `ready` | Owner điền `[CẦN ĐIỀN]` + luật sư duyệt ([`site-patch/README.md`](site-patch/README.md) §4) |
-
 ## Sau mỗi lần deploy
 
 1. Báo SEO ngày deploy và danh sách mục đã xong.
