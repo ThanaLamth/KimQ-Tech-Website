@@ -21,7 +21,7 @@ KimQ là đội ngũ phát triển sản phẩm tại Việt Nam. Chúng tôi x�
 | Giấy chứng nhận đăng ký doanh nghiệp | [CẦN ĐIỀN: nơi cấp, ngày cấp lần đầu] |
 | Người đại diện theo pháp luật | [CẦN ĐIỀN] |
 | Địa chỉ | Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam |
-| Email | contact@kimq.tech |
+| Email | social@kimq.tech |
 | Điện thoại / Zalo | [CẦN ĐIỀN] |
 
 ## Chúng tôi làm gì
@@ -56,4 +56,4 @@ Triển khai thường bắt đầu từ một buổi xem thử trên dữ liệ
 
 ## Liên hệ
 
-[Trang liên hệ](/lien-he) · contact@kimq.tech · [Tuyển dụng](/tuyen-dung)
+[Trang liên hệ](/lien-he) · social@kimq.tech · [Tuyển dụng](/tuyen-dung)

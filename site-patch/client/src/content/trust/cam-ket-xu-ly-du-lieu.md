@@ -83,4 +83,4 @@ Khách hàng có thể yêu cầu KimQ cung cấp thông tin để chứng minh 
 
 ## 9. Liên hệ
 
-[contact@kimq.tech](mailto:contact@kimq.tech) · Công ty Cổ phần KimQ, MST 0319416034.
+[social@kimq.tech](mailto:social@kimq.tech) · Công ty Cổ phần KimQ, MST 0319416034.

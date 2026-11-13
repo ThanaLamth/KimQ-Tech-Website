@@ -1,7 +1,7 @@
 ---
 path: /lien-he
 title: Liên hệ KimQ Tech – Tư vấn & báo giá phần mềm
-description: Liên hệ Công ty Cổ phần KimQ để được tư vấn sản phẩm, báo giá và hỗ trợ kỹ thuật. Email contact@kimq.tech, văn phòng tại Phường Bình Trưng, TP. Hồ Chí Minh.
+description: Liên hệ Công ty Cổ phần KimQ để được tư vấn sản phẩm, báo giá và hỗ trợ kỹ thuật. Email social@kimq.tech, văn phòng tại Phường Bình Trưng, TP. Hồ Chí Minh.
 h1: Liên hệ KimQ Tech
 schemaType: ContactPage
 status: draft
@@ -20,7 +20,7 @@ Anh/chị cần tư vấn sản phẩm, xem thử trên dữ liệu của mình,
 | Công ty | Công ty Cổ phần KimQ |
 | Mã số thuế | 0319416034 |
 | Địa chỉ | Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam |
-| Email | [contact@kimq.tech](mailto:contact@kimq.tech) |
+| Email | [social@kimq.tech](mailto:social@kimq.tech) |
 | Điện thoại / Zalo | [CẦN ĐIỀN] |
 | Mạng xã hội | [Facebook](https://www.facebook.com/profile.php?id=61595159860837) · [Instagram](https://www.instagram.com/kimqtech/) · [Threads](https://www.threads.com/@kimqtech) · [TikTok](https://www.tiktok.com/@kimqaitech) |
 | Giờ làm việc | [CẦN ĐIỀN: ví dụ Thứ Hai – Thứ Sáu, 8:30–17:30] |
@@ -30,8 +30,8 @@ Anh/chị cần tư vấn sản phẩm, xem thử trên dữ liệu của mình,
 
 | Bạn cần | Gửi tới |
 |---|---|
-| Tư vấn, báo giá, xem thử | contact@kimq.tech hoặc form bên dưới |
-| Hỗ trợ khách hàng đang dùng | [CẦN ĐIỀN: kênh hỗ trợ, ví dụ support@kimq.tech hoặc nhóm Zalo hỗ trợ] |
+| Tư vấn, báo giá, xem thử | social@kimq.tech hoặc form bên dưới |
+| Hỗ trợ khách hàng đang dùng | [social@kimq.tech](mailto:social@kimq.tech) |
 | Yêu cầu về dữ liệu cá nhân | Xem [Chính sách bảo vệ dữ liệu cá nhân](/chinh-sach-bao-mat), mục 8 |
 | Báo lỗ hổng bảo mật | Xem [Bảo mật & dữ liệu](/bao-mat-du-lieu#bao-cao-lo-hong) |
 | Ứng tuyển | Xem [Tuyển dụng](/tuyen-dung) |

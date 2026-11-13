@@ -70,7 +70,7 @@ KimQ **chưa có** chứng nhận ISO 27001 hay SOC 2. [CẦN ĐIỀN: nếu đa
 
 ## Báo cáo lỗ hổng {#bao-cao-lo-hong}
 
-Nếu phát hiện lỗ hổng bảo mật trên kimq.tech hoặc sản phẩm của KimQ, xin gửi mô tả và cách tái hiện tới **[contact@kimq.tech](mailto:contact@kimq.tech)**.
+Nếu phát hiện lỗ hổng bảo mật trên kimq.tech hoặc sản phẩm của KimQ, xin gửi mô tả và cách tái hiện tới **[social@kimq.tech](mailto:social@kimq.tech)**.
 
 - Không truy cập, sửa hay xoá dữ liệu của người khác.
 - Không làm gián đoạn dịch vụ.

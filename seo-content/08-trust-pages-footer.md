@@ -37,7 +37,7 @@ Rủi ro lớn nhất là **pháp lý**: 19 trang sản phẩm có form thu emai
 | Ảnh trang trí `footer-lotus.webp` | `alt=""` | ✅ Đúng với ảnh trang trí |
 | Copyright | `© 2026 KimQ JSC.` | ⚠️ "KimQ JSC" là tên thứ 4, không khớp quy ước ở [`02`](02-brand-va-trang-chu.md) |
 | Tên pháp nhân, MST, địa chỉ | Không có trong footer. Chỉ có ở `#contact` trên `/` và `/san-pham` | ❌ |
-| Email | Không có trong footer. 40/40 trang có `contact@kimq.tech` ở section `#contact` | ⚠️ |
+| Email | Không có trong footer. 40/40 trang có `social@kimq.tech` ở section `#contact` | ⚠️ |
 | Số điện thoại / hotline | Không có ở đâu trên site | ❌ (B2B nên có, hoặc ghi rõ kênh Zalo OA) |
 | Link Chính sách bảo mật / Điều khoản | Không có | ❌ |
 | Link Giới thiệu / Liên hệ | Chỉ có trên menu dạng anchor (`#about`, `#contact`) | ❌ |
@@ -53,7 +53,7 @@ Footer phải giống nhau trên mọi trang, render sẵn trong HTML (prerender
 
 | Cột | Nội dung |
 |---|---|
-| 1. Công ty | Logo (có `width`/`height`) · **Công ty Cổ phần KimQ** · MST: 0319416034 · Địa chỉ: Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP. Hồ Chí Minh · Email: contact@kimq.tech · ĐT: `[CẦN ĐIỀN]` |
+| 1. Công ty | Logo (có `width`/`height`) · **Công ty Cổ phần KimQ** · MST: 0319416034 · Địa chỉ: Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP. Hồ Chí Minh · Email: social@kimq.tech · ĐT: `[CẦN ĐIỀN]` |
 | 2. Sản phẩm | 6–8 sản phẩm chính + "Tất cả sản phẩm" → `/san-pham` |
 | 3. Tài nguyên | "Hướng dẫn sử dụng" (link tới 3–5 trang hướng dẫn nổi bật) · Giới thiệu `/gioi-thieu` · Liên hệ `/lien-he` |
 | 4. Pháp lý | Chính sách bảo mật `/chinh-sach-bao-mat` · Điều khoản sử dụng `/dieu-khoan-su-dung` · (Chính sách cookie `/chinh-sach-cookie` khi có GA4) |
@@ -82,7 +82,7 @@ Anh/chị cần tư vấn sản phẩm, báo giá hay hỗ trợ kỹ thuật? G
 | Công ty | Công ty Cổ phần KimQ |
 | Mã số thuế | 0319416034 |
 | Địa chỉ | Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam |
-| Email | contact@kimq.tech |
+| Email | social@kimq.tech |
 | Điện thoại / Zalo | `[CẦN ĐIỀN]` |
 | Giờ làm việc | `[CẦN ĐIỀN: ví dụ Thứ 2–Thứ 6, 8:30–17:30]` |
 
@@ -100,7 +100,7 @@ Căn cứ cần luật sư xác nhận:
 **H1:** Chính sách bảo mật
 
 1. **Phạm vi:** áp dụng cho website kimq.tech. Dữ liệu trong từng sản phẩm (Công nợ, KimQ Health, AI Gateway…) được điều chỉnh bởi hợp đồng và thoả thuận xử lý dữ liệu riêng: `[CẦN ĐIỀN: có/không]`.
-2. **Bên kiểm soát dữ liệu:** Công ty Cổ phần KimQ, MST 0319416034, địa chỉ như trên. Đầu mối bảo vệ dữ liệu: `[CẦN ĐIỀN: tên bộ phận/email, ví dụ privacy@kimq.tech]`.
+2. **Bên kiểm soát dữ liệu:** Công ty Cổ phần KimQ, MST 0319416034, địa chỉ như trên. Đầu mối bảo vệ dữ liệu: `[CẦN ĐIỀN: tên bộ phận/email, social@kimq.tech]`.
 3. **Dữ liệu chúng tôi thu thập trên website:**
    - Email anh/chị nhập vào form "Quan tâm".
    - Tên trang/sản phẩm anh/chị quan tâm.
@@ -129,7 +129,7 @@ Căn cứ cần luật sư xác nhận:
 6. Giới hạn trách nhiệm `[luật sư soạn]`.
 7. Điều khoản dịch vụ của từng sản phẩm được quy định trong hợp đồng riêng.
 8. Luật áp dụng: pháp luật Việt Nam. Cơ quan giải quyết tranh chấp: `[CẦN ĐIỀN]`.
-9. Liên hệ: contact@kimq.tech. Ngày hiệu lực: `[CẦN ĐIỀN]`.
+9. Liên hệ: social@kimq.tech. Ngày hiệu lực: `[CẦN ĐIỀN]`.
 
 ### 4.4 Câu đồng ý cho form "Quan tâm" (19 trang sản phẩm + `/lien-he`)
 
@@ -141,14 +141,14 @@ Căn cứ cần luật sư xác nhận:
 ## 5. `/.well-known/security.txt` (Dev)
 
 ```
-Contact: mailto:security@kimq.tech
+Contact: mailto:social@kimq.tech
 Expires: 2027-11-10T00:00:00.000Z
 Preferred-Languages: vi, en
 Canonical: https://kimq.tech/.well-known/security.txt
 Policy: https://kimq.tech/chinh-sach-bao-mat
 ```
 
-- `security@` là đề xuất. Nếu chưa có hộp thư này, dùng `contact@`.
+- Email chính thức: `social@kimq.tech`.
 - Đặt lịch gia hạn `Expires` trước ngày hết hạn.
 
 ## 6. Metadata cho trang mới
@@ -156,7 +156,7 @@ Policy: https://kimq.tech/chinh-sach-bao-mat
 | URL | Title | Meta description | Schema |
 |---|---|---|---|
 | `/gioi-thieu` | Giới thiệu Công ty Cổ phần KimQ | xem [`03`](03-trang-gioi-thieu-draft.md) | `AboutPage` |
-| `/lien-he` | Liên hệ KimQ – Tư vấn & báo giá phần mềm | Liên hệ Công ty Cổ phần KimQ: email contact@kimq.tech, địa chỉ tại TP. Hồ Chí Minh. Tư vấn sản phẩm, báo giá và hỗ trợ kỹ thuật. | `ContactPage` |
+| `/lien-he` | Liên hệ KimQ – Tư vấn & báo giá phần mềm | Liên hệ Công ty Cổ phần KimQ: email social@kimq.tech, địa chỉ tại TP. Hồ Chí Minh. Tư vấn sản phẩm, báo giá và hỗ trợ kỹ thuật. | `ContactPage` |
 | `/chinh-sach-bao-mat` | Chính sách bảo mật – KimQ | KimQ thu thập dữ liệu gì trên website, dùng để làm gì, lưu bao lâu và cách anh/chị yêu cầu xem, sửa hoặc xoá dữ liệu cá nhân. | `WebPage` |
 | `/dieu-khoan-su-dung` | Điều khoản sử dụng website – KimQ | Điều khoản khi sử dụng website kimq.tech: quyền sở hữu nội dung, giới hạn trách nhiệm, liên kết bên ngoài và luật áp dụng. | `WebPage` |
 

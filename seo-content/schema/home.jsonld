@@ -15,7 +15,7 @@
         "url": "https://kimq.tech/logo.webp",
         "width": 512
       },
-      "email": "contact@kimq.tech",
+      "email": "social@kimq.tech",
       "taxID": "0319416034",
       "address": {
         "@type": "PostalAddress",
@@ -26,7 +26,7 @@
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "sales",
-        "email": "contact@kimq.tech",
+        "email": "social@kimq.tech",
         "availableLanguage": [
           "vi",
           "en"
