@@ -38,8 +38,17 @@ export function isKnownRoute(url: string): boolean {
   return KNOWN.has(normalizePath(url));
 }
 
+// distPath = thư mục build client (thường là dist/public). Bản prerender nằm ở dist/prerender
+// (ngoài thư mục public, để không bị truy cập trực tiếp). Không có bản prerender thì dùng index.html.
+// Lưu ý: express.static phải đặt { index: false }, nếu không "/" sẽ trả index.html trống thay vì bản prerender.
 export function serveSpaWithRealStatus(app: Express, distPath: string) {
   const indexHtml = path.resolve(distPath, "index.html");
+  const prerenderDir = path.resolve(distPath, "..", "prerender");
+  const htmlFor = (pathname: string) => {
+    const file = pathname === "/" ? path.join(prerenderDir, "index.html") : path.join(prerenderDir, pathname, "index.html");
+    return file.startsWith(prerenderDir) && fs.existsSync(file) ? file : indexHtml;
+  };
+  app.all("/api/*", (_req: Request, res: Response) => res.status(404).json({ error: "not_found" }));
   app.use("*", (req: Request, res: Response) => {
     const pathname = normalizePath(req.originalUrl);
     const target = REDIRECTS[pathname];
@@ -47,7 +56,7 @@ export function serveSpaWithRealStatus(app: Express, distPath: string) {
     if (pathname !== "/" && req.originalUrl.split("?")[0].endsWith("/") && KNOWN.has(pathname)) {
       return res.redirect(301, pathname + (req.originalUrl.includes("?") ? req.originalUrl.slice(req.originalUrl.indexOf("?")) : ""));
     }
-    if (KNOWN.has(pathname)) return res.status(200).sendFile(indexHtml);
+    if (KNOWN.has(pathname)) return res.status(200).sendFile(htmlFor(pathname));
     res.setHeader("X-Robots-Tag", "noindex");
     return res.status(404).sendFile(indexHtml);
   });

@@ -54,6 +54,8 @@ Repo này **không chứa mã nguồn site**. Site thật chạy React + Vite + 
 | 8 | `PRODUCT_SLUGS` trong [`known-routes.ts`](server/known-routes.ts) phải khớp catalog sản phẩm | Thêm sản phẩm mới mà quên cập nhật thì trang đó sẽ bị trả 404 |
 | 9 | Copy [`client/public/.well-known/security.txt`](client/public/.well-known/security.txt) | |
 | 10 | Thêm vào `sitemap.xml` các trang `ready` (script in sẵn đoạn XML) | |
+| 11 | Copy [`scripts/prerender.mjs`](scripts/prerender.mjs), [`scripts/sitemap.mjs`](scripts/sitemap.mjs), [`client/public/robots.txt`](client/public/robots.txt), [`client/src/components/FitBlock.tsx`](client/src/components/FitBlock.tsx); copy `seo-content/` thành `seo/` | Cách chạy: [`DEV-HANDOFF.md`](../DEV-HANDOFF.md) mục A2, A4, C2 |
+| 12 | `serveStatic`: `express.static(distPath, { index: false })` | Để `/` trả bản prerender thay vì `index.html` rỗng |
 
 **Nghiệm thu sau deploy:**
 
