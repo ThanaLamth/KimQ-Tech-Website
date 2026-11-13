@@ -5,7 +5,7 @@ export const COMPANY = {
   legalName: "Công ty Cổ phần KimQ",
   legalNameEn: "KimQ Joint Stock Company",
   taxId: "0319416034",
-  registration: "",
+  registration: "MST/MSDN 0319416034, đăng ký lần đầu ngày 23/02/2026 tại TP. Hồ Chí Minh",
   address: "Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam",
   addressEn: "2nd Floor, No. 02 Song Hanh, Binh Trung Ward, Ho Chi Minh City, Vietnam",
   email: "contact@kimq.tech",

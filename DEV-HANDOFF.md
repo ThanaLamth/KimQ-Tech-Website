@@ -22,7 +22,7 @@ Không phụ thuộc quyết định nào của Owner.
 | [A5, A6](#a5) | URL lạ trả **HTTP 404** (trang 404 tiếng Việt); `/san-pham/tuan-thu-hoa-chat` → **301** | [`known-routes.ts`](site-patch/server/known-routes.ts), [`not-found.tsx`](site-patch/client/src/pages/not-found.tsx) | `curl -I /abc-xyz` → 404; `curl -I /san-pham/tuan-thu-hoa-chat` → 301 |
 | D3 | Footer pháp nhân 4 cột (MST, địa chỉ, email, link SP, mạng xã hội) | [`Footer.tsx`](site-patch/client/src/components/Footer.tsx), [`site-config.ts`](site-patch/client/src/lib/site-config.ts) | Footer có trên cả 40 trang |
 | D2 | Câu đồng ý + link chính sách dưới form "Quan tâm" | [`ConsentNote.tsx`](site-patch/client/src/components/ConsentNote.tsx) | Có trên 19 trang sản phẩm |
-| D1–D6 | **Lắp cơ chế trang tin cậy** (bước 1–10 trong README). Bắt buộc làm cùng D2, D3 vì Footer và câu đồng ý dùng chung `trust-pages.ts`. 13 trang đang `draft` nên **chưa hiện**; footer và câu đồng ý tự thêm link khi trang chuyển `ready` | [`site-patch/README.md`](site-patch/README.md) §3 | `node scripts/trust-check.mjs` chạy không lỗi; `/chinh-sach-bao-mat` hiện trả 404 (đúng, vì còn nháp) |
+| D1–D6 | **Lắp cơ chế trang tin cậy** (bước 1–10 trong README). Bắt buộc làm cùng D2, D3 vì Footer và câu đồng ý dùng chung `trust-pages.ts`. 13 trang đã `ready`; footer và câu đồng ý tự thêm link | [`site-patch/README.md`](site-patch/README.md) §3 | `node scripts/trust-check.mjs` chạy không lỗi; 13 trang tin cậy trả 200 |
 | [A3](#a3) | Hiệu năng mobile: `srcset` + `preload` ảnh hero, `width/height` cho logo, giảm CSS chặn render | [Audit §3](KIMQ-AUDIT-TONG-HOP-2026-11-09.md) | Lighthouse mobile ≥ 80, LCP < 2,5 s |
 | [F1](#f1) | Thêm bản ghi **TXT DNS** để verify Google Search Console (SEO gửi mã) | [`07` §1](seo-content/07-gsc-ga4-chinh-sach-ai-geo.md) | GSC báo đã xác minh |
 
@@ -239,32 +239,32 @@ Hai câu AI Gateway về **dữ liệu** (trang sản phẩm "che trước khi g
 
 Dev chỉ cần dựng mục (C5 ở Đợt 2). Bài viết do Content gửi riêng khi xong; kế hoạch 6 bài ở [`12`](seo-content/12-ke-hoach-bai-viet-ho-tro.md).
 
-## Trang tin cậy (13 trang) — nội dung đã viết, chờ điền thông tin
+## Trang tin cậy (13 trang) — đã viết đủ, `status: ready`
 
-Chữ đã viết sẵn trong [`site-patch/client/src/content/trust/`](site-patch/client/src/content/trust/). Mỗi trang còn chỗ `[CẦN ĐIỀN]` (thông tin chỉ KimQ biết: điện thoại, máy chủ, thời gian lưu dữ liệu…). **Dev không viết hay sửa nội dung các trang này.**
+Chữ trong [`site-patch/client/src/content/trust/`](site-patch/client/src/content/trust/). Ngày 13/11/2026 cả 13 trang đã điền đủ (0 chỗ `[CẦN ĐIỀN]`) và chuyển `ready`. **Dev không viết hay sửa nội dung các trang này.**
 
-| Ưu tiên | Trang | File | Chỗ trống | Ai điền / duyệt |
-|---|---|---|---|---|
-| **P0** | `/chinh-sach-bao-mat` — Chính sách bảo vệ dữ liệu cá nhân | [`chinh-sach-bao-mat.md`](site-patch/client/src/content/trust/chinh-sach-bao-mat.md) | 18 | Owner + **luật sư** |
-| P1 | `/gioi-thieu` — Giới thiệu | [`gioi-thieu.md`](site-patch/client/src/content/trust/gioi-thieu.md) | 10 | Owner |
-| P1 | `/lien-he` — Liên hệ | [`lien-he.md`](site-patch/client/src/content/trust/lien-he.md) | 5 | Owner |
-| P1 | `/dieu-khoan-su-dung` — Điều khoản sử dụng | [`dieu-khoan-su-dung.md`](site-patch/client/src/content/trust/dieu-khoan-su-dung.md) | 5 | Owner + luật sư (chờ Q3) |
-| P1 | `/bao-mat-du-lieu` — Bảo mật & dữ liệu | [`bao-mat-du-lieu.md`](site-patch/client/src/content/trust/bao-mat-du-lieu.md) | 9 | CTO |
-| P1 | `/cam-ket-xu-ly-du-lieu` — Cam kết xử lý dữ liệu (DPA) | [`cam-ket-xu-ly-du-lieu.md`](site-patch/client/src/content/trust/cam-ket-xu-ly-du-lieu.md) | 15 | CTO + luật sư |
-| P1 | `/chinh-sach-du-lieu-ai` — Chính sách dữ liệu AI | [`chinh-sach-du-lieu-ai.md`](site-patch/client/src/content/trust/chinh-sach-du-lieu-ai.md) | 6 | CTO (chờ Q1) |
-| P2 | `/chinh-sach-cookie` — Cookie (bắt buộc trước khi bật GA4) | [`chinh-sach-cookie.md`](site-patch/client/src/content/trust/chinh-sach-cookie.md) | 3 | Owner + luật sư |
-| P2 | `/ben-xu-ly-phu` — Bên xử lý dữ liệu phụ | [`ben-xu-ly-phu.md`](site-patch/client/src/content/trust/ben-xu-ly-phu.md) | 7 | CTO |
-| P2 | `/cam-ket-sla` — Cam kết SLA | [`cam-ket-sla.md`](site-patch/client/src/content/trust/cam-ket-sla.md) | 20 | Owner + CTO |
-| P2 | `/khach-hang` — Khách hàng / case study | [`khach-hang.md`](site-patch/client/src/content/trust/khach-hang.md) | 9 | Owner (khi khách đồng ý) |
-| P2 | `/tuyen-dung` — Tuyển dụng | [`tuyen-dung.md`](site-patch/client/src/content/trust/tuyen-dung.md) | 6 | Owner |
-| P2 | `/tuyen-bo-tiep-can` — Tuyên bố tiếp cận | [`tuyen-bo-tiep-can.md`](site-patch/client/src/content/trust/tuyen-bo-tiep-can.md) | 4 | Owner |
+| Ưu tiên | Trang | File | Xác nhận nội dung |
+|---|---|---|---|
+| **P0** | `/chinh-sach-bao-mat` — Chính sách bảo vệ dữ liệu cá nhân | [`chinh-sach-bao-mat.md`](site-patch/client/src/content/trust/chinh-sach-bao-mat.md) | Owner + **luật sư** |
+| P1 | `/gioi-thieu` — Giới thiệu | [`gioi-thieu.md`](site-patch/client/src/content/trust/gioi-thieu.md) | Owner |
+| P1 | `/lien-he` — Liên hệ | [`lien-he.md`](site-patch/client/src/content/trust/lien-he.md) | Owner |
+| P1 | `/dieu-khoan-su-dung` — Điều khoản sử dụng | [`dieu-khoan-su-dung.md`](site-patch/client/src/content/trust/dieu-khoan-su-dung.md) | Owner + luật sư |
+| P1 | `/bao-mat-du-lieu` — Bảo mật & dữ liệu | [`bao-mat-du-lieu.md`](site-patch/client/src/content/trust/bao-mat-du-lieu.md) | CTO |
+| P1 | `/cam-ket-xu-ly-du-lieu` — Cam kết xử lý dữ liệu (DPA) | [`cam-ket-xu-ly-du-lieu.md`](site-patch/client/src/content/trust/cam-ket-xu-ly-du-lieu.md) | CTO + luật sư |
+| P1 | `/chinh-sach-du-lieu-ai` — Chính sách dữ liệu AI | [`chinh-sach-du-lieu-ai.md`](site-patch/client/src/content/trust/chinh-sach-du-lieu-ai.md) | CTO |
+| P2 | `/chinh-sach-cookie` — Chính sách cookie | [`chinh-sach-cookie.md`](site-patch/client/src/content/trust/chinh-sach-cookie.md) | Owner + luật sư |
+| P2 | `/ben-xu-ly-phu` — Bên xử lý dữ liệu phụ | [`ben-xu-ly-phu.md`](site-patch/client/src/content/trust/ben-xu-ly-phu.md) | CTO |
+| P2 | `/cam-ket-sla` — Cam kết dịch vụ (SLA) | [`cam-ket-sla.md`](site-patch/client/src/content/trust/cam-ket-sla.md) | Owner + CTO |
+| P2 | `/khach-hang` — Khách hàng và triển khai theo ngành | [`khach-hang.md`](site-patch/client/src/content/trust/khach-hang.md) | Owner |
+| P2 | `/tuyen-dung` — Tuyển dụng | [`tuyen-dung.md`](site-patch/client/src/content/trust/tuyen-dung.md) | Owner |
+| P2 | `/tuyen-bo-tiep-can` — Tuyên bố tiếp cận | [`tuyen-bo-tiep-can.md`](site-patch/client/src/content/trust/tuyen-bo-tiep-can.md) | Dev |
 
-Danh sách thông tin cần điền (13 nhóm, điền một lần dùng cho nhiều trang): [`site-patch/README.md`](site-patch/README.md) §4.
+Một số con số (SLA, sao lưu, thời gian lưu dữ liệu, số giờ báo sự cố…) là **đề xuất**, Owner/CTO cần xác nhận trước khi deploy: danh sách ở [`site-patch/README.md`](site-patch/README.md) §4. Sửa giá trị thì sửa thẳng file `.md`, không cần đổi code.
 
-**Khi một trang đã điền xong và được duyệt**, Dev làm:
-1. Đổi `status: draft` → `status: ready`, điền `updated` / `effective` (dd/mm/yyyy).
-2. Chạy `node scripts/trust-check.mjs` (báo lỗi nếu còn `[CẦN ĐIỀN]`).
-3. Deploy. Route, link footer, câu đồng ý dưới form và sitemap tự cập nhật.
+**Dev làm:**
+1. Lắp cơ chế trang tin cậy (D1–D6) như README §3.
+2. Chạy `node scripts/trust-check.mjs`: phải ra 13 trang `ready`, 0 chỗ trống; script ghi `server/trust-routes.json` và in đoạn sitemap.
+3. Deploy. Route, link footer, câu đồng ý dưới form và sitemap tự cập nhật. Kiểm tra 13 URL trả 200 và có trong `sitemap.xml`.
 
 Đăng **`/chinh-sach-bao-mat` trước tiên**: form "Quan tâm" đang thu email trên 19 trang mà chưa có chính sách (Luật BVDLCN 91/2025/QH15, hiệu lực 01/01/2026).
 

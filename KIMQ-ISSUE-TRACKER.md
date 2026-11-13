@@ -32,7 +32,7 @@ Nguồn chi tiết:
 
 Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · ⬜ prerender"); bảng trên tính theo trạng thái ghi đầu tiên.
 
-**Nút thắt lớn nhất:** gần như mọi thứ đều chờ **Dev deploy**, vì mã nguồn site không nằm trong repo này. Tiếp theo là **4 câu hỏi Q1–Q4** ([`seo-content/10-cau-hoi-can-chot.md`](seo-content/10-cau-hoi-can-chot.md)) và **thông tin Owner cần điền** ([`site-patch/README.md`](site-patch/README.md)).
+**Nút thắt lớn nhất:** gần như mọi thứ đều chờ **Dev deploy**, vì mã nguồn site không nằm trong repo này. Tiếp theo là **4 câu hỏi Q1–Q4** ([`seo-content/10-cau-hoi-can-chot.md`](seo-content/10-cau-hoi-can-chot.md)) và **13 giá trị đề xuất cần Owner/CTO xác nhận** ([`site-patch/README.md`](site-patch/README.md) §4).
 
 ## A. Kỹ thuật / hiệu năng (Dev)
 
@@ -69,22 +69,22 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 | C1 | Claim AI Gateway **mâu thuẫn**: trang sản phẩm "không lưu nội dung", trang hướng dẫn "mặc định lưu sau khi che" | P0 | CTO xác nhận trên bản đang chạy → sửa theo phương án A hoặc B | [`seo-content/01`](seo-content/01-sua-claim-ai-gateway.md), [`seo-content/10`](seo-content/10-cau-hoi-can-chot.md) (Q1) | CTO/Product | ⏳ Q1 |
 | C2 | Trang sản phẩm thiếu E-E-A-T; 1 trang chưa có FAQ; claim YMYL (thuế, lương, y tế) chưa có người rà | P1 | Khối E-E-A-T, khối "Phù hợp với ai" cho 19 trang, FAQ cho `tinh-luong-phong-kham`, danh sách claim cần chuyên gia rà | [`seo-content/05`](seo-content/05-noi-dung-trang-san-pham.md), [`seo-content/11`](seo-content/11-phu-hop-voi-ai.md) + [`phu-hop-voi-ai.json`](seo-content/phu-hop-voi-ai.json) | Content + chuyên gia | 📝 · ⏳ người rà |
 | C3 | 19 trang hướng dẫn không có byline / ngày cập nhật / căn cứ pháp lý | P1 | Mẫu byline + ngày cập nhật thật + TechArticle | [`seo-content/06`](seo-content/06-byline-ngay-cap-nhat-huong-dan.md) | Owner gán người rà | ⏳ |
-| C4 | Chưa có case study | P2 | Chỉ làm khi khách đồng ý công khai | [`site-patch/.../khach-hang.md`](site-patch/client/src/content/trust/khach-hang.md) (nháp) | Owner | ⏳ |
+| C4 | Chưa có case study | P2 | Trang `/khach-hang` mô tả ngành, quy trình triển khai, nguyên tắc công bố; tên khách chỉ thêm khi khách đồng ý bằng văn bản | [`khach-hang.md`](site-patch/client/src/content/trust/khach-hang.md) | Owner | 📝 ready · ⏳ có khách đồng ý |
 | C5 | Chưa có bài viết hỗ trợ nhắm từ khoá thông tin (XLSX T17) | P2 | 6 bài: hoá đơn sai thuế suất, đối soát công nợ, ROP, chatbot Zalo OA, AI Gateway là gì, LIMS là gì; route `/kien-thuc` | [`seo-content/12`](seo-content/12-ke-hoach-bai-viet-ho-tro.md) | Dev (route) + Content + chuyên gia rà | 📝 kế hoạch · ⬜ viết bài |
 
 ## D. Trang tin cậy / pháp lý (Luật 91/2025/QH15, NĐ 356/2025)
 
 | # | Vấn đề | Mức | Hướng giải quyết | Tài liệu / code | Ai | Trạng thái |
 |---|---|---|---|---|---|---|
-| D1 | Không có Chính sách bảo vệ dữ liệu cá nhân | P0 | Trang `/chinh-sach-bao-mat` | [`site-patch/client/src/content/trust/chinh-sach-bao-mat.md`](site-patch/client/src/content/trust/chinh-sach-bao-mat.md) | Owner + luật sư + Dev | 📝 nháp · ⏳ điền + duyệt |
+| D1 | Không có Chính sách bảo vệ dữ liệu cá nhân | P0 | Trang `/chinh-sach-bao-mat` | [`site-patch/client/src/content/trust/chinh-sach-bao-mat.md`](site-patch/client/src/content/trust/chinh-sach-bao-mat.md) | Owner + luật sư + Dev | 📝 ready · ⏳ Owner xác nhận + luật sư · Dev deploy |
 | D2 | Form email trên 19 trang SP không có câu đồng ý | P0 | Câu đồng ý + link chính sách dưới form | [`site-patch/client/src/components/ConsentNote.tsx`](site-patch/client/src/components/ConsentNote.tsx) | Dev | 📝 |
 | D3 | Footer chỉ có `© 2026 KimQ JSC`; MST/địa chỉ chỉ trên 2/40 trang | P0 | Footer 4 cột: pháp nhân, MST, địa chỉ, email, link SP, link pháp lý, mạng xã hội | [`site-patch/client/src/components/Footer.tsx`](site-patch/client/src/components/Footer.tsx) | Dev | 📝 |
-| D4 | Không có Giới thiệu, Liên hệ, Điều khoản sử dụng | P1 | 3 trang nháp | [`site-patch/.../gioi-thieu.md`](site-patch/client/src/content/trust/gioi-thieu.md), [`lien-he.md`](site-patch/client/src/content/trust/lien-he.md), [`dieu-khoan-su-dung.md`](site-patch/client/src/content/trust/dieu-khoan-su-dung.md) | Owner + Dev | 📝 · ⏳ điền (Điều khoản chờ Q3) |
-| D5 | Không có Bảo mật & dữ liệu, DPA, Chính sách dữ liệu AI | P1 | 3 trang nháp | [`bao-mat-du-lieu.md`](site-patch/client/src/content/trust/bao-mat-du-lieu.md), [`cam-ket-xu-ly-du-lieu.md`](site-patch/client/src/content/trust/cam-ket-xu-ly-du-lieu.md), [`chinh-sach-du-lieu-ai.md`](site-patch/client/src/content/trust/chinh-sach-du-lieu-ai.md) | CTO + luật sư | 📝 · ⏳ Q1 |
-| D6 | Thiếu các trang P2: bên xử lý phụ, SLA, cookie, tuyển dụng, tuyên bố tiếp cận | P2 | 5 trang nháp; banner cookie chỉ bật khi có GA4 (Consent Mode v2, mặc định từ chối) | [`site-patch/.../*.md`](site-patch/client/src/content/trust/), [`CookieConsent.tsx`](site-patch/client/src/components/CookieConsent.tsx) | Owner + Dev | 📝 |
+| D4 | Không có Giới thiệu, Liên hệ, Điều khoản sử dụng | P1 | 3 trang đã viết | [`site-patch/.../gioi-thieu.md`](site-patch/client/src/content/trust/gioi-thieu.md), [`lien-he.md`](site-patch/client/src/content/trust/lien-he.md), [`dieu-khoan-su-dung.md`](site-patch/client/src/content/trust/dieu-khoan-su-dung.md) | Owner + Dev | 📝 ready · ⏳ Owner xác nhận · Dev deploy |
+| D5 | Không có Bảo mật & dữ liệu, DPA, Chính sách dữ liệu AI | P1 | 3 trang đã viết | [`bao-mat-du-lieu.md`](site-patch/client/src/content/trust/bao-mat-du-lieu.md), [`cam-ket-xu-ly-du-lieu.md`](site-patch/client/src/content/trust/cam-ket-xu-ly-du-lieu.md), [`chinh-sach-du-lieu-ai.md`](site-patch/client/src/content/trust/chinh-sach-du-lieu-ai.md) | CTO + luật sư | 📝 ready (Q1 điền phương án A) · ⏳ CTO xác nhận · Dev deploy |
+| D6 | Thiếu các trang P2: bên xử lý phụ, SLA, cookie, tuyển dụng, tuyên bố tiếp cận | P2 | 5 trang đã viết; banner cookie chỉ bật khi có GA4 (Consent Mode v2, mặc định từ chối) | [`site-patch/.../*.md`](site-patch/client/src/content/trust/), [`CookieConsent.tsx`](site-patch/client/src/components/CookieConsent.tsx) | Owner + Dev | 📝 ready · ⏳ Dev deploy |
 | D7 | Không có [`security.txt`](site-patch/client/public/.well-known/security.txt) | P2 | `/.well-known/security.txt` (hết hạn 10/11/2027) | [`site-patch/client/public/.well-known/security.txt`](site-patch/client/public/.well-known/security.txt) | Dev | 📝 |
 | D8 | Chưa có trang trạng thái hệ thống | P2 | Dùng dịch vụ status page ngoài, gắn link vào `STATUS_PAGE_URL` | [`site-patch/README.md`](site-patch/README.md) | Dev | ⬜ |
-| D9 | Thiếu thông tin để hoàn thiện ~120 chỗ `[CẦN ĐIỀN]` | P0 | Owner điền 12 nhóm thông tin còn lại (điện thoại, giờ làm việc, người phụ trách dữ liệu, đội ngũ…) | [`site-patch/README.md`](site-patch/README.md) (bảng 13 mục) | Owner | ⏳ (1/13 xong: mạng xã hội) |
+| D9 | Thiếu thông tin để hoàn thiện ~120 chỗ `[CẦN ĐIỀN]` | P0 | Đã điền hết bằng dữ liệu đăng ký doanh nghiệp, DNS/header và giá trị đề xuất; còn 13 giá trị cần Owner/CTO xác nhận | [`site-patch/README.md`](site-patch/README.md) §4 | Owner + CTO | 📝 0 chỗ trống · ⏳ xác nhận |
 
 ## E. Bảo mật (Dev)
 

@@ -70,23 +70,25 @@ curl -s  https://kimq.tech/.well-known/security.txt | head -2      # Contact: �
 - Form "Quan tâm" có câu đồng ý.
 - Rich Results Test cho trang trust: `WebPage`/`AboutPage`/`ContactPage` + `BreadcrumbList`.
 
-## 4. Thông tin Owner cần điền (điền một lần, dùng cho nhiều trang)
+## 4. Giá trị đã điền — cần Owner/CTO xác nhận trước khi deploy
 
-| # | Thông tin | Dùng ở |
-|---|---|---|
-| 1 | ✅ Email đã điền tạm `contact@kimq.tech` cho dữ liệu cá nhân, báo lỗ hổng, tuyển dụng (13/11/2026); đổi khi có `privacy@`/`security@`. Còn thiếu: người/bộ phận phụ trách | Chính sách bảo mật, DPA |
-| 2 | Giấy CNĐKDN: nơi cấp, ngày cấp lần đầu; người đại diện theo pháp luật | Footer (`COMPANY.registration`), Giới thiệu |
-| 3 | Số điện thoại/Zalo công khai, giờ làm việc, kênh hỗ trợ khách đang dùng | Footer (`COMPANY.phone`), Liên hệ, SLA |
-| 4 | Link mạng xã hội: ✅ đã điền Facebook, Instagram, Threads, TikTok (12/11/2026). Còn thiếu nếu có: LinkedIn công ty, Zalo OA, YouTube | Footer (`COMPANY.social`), `sameAs` trong [`seo-content/schema/home.jsonld`](../seo-content/schema/home.jsonld) |
-| 5 | Vùng máy chủ Railway; vùng dữ liệu tài khoản Lark; nơi lưu danh sách khách điền form | Chính sách bảo mật, Bên xử lý phụ |
-| 6 | Thời gian lưu: dữ liệu form, email, nhật ký máy chủ, CV ứng viên | Chính sách bảo mật, Tuyển dụng |
-| 7 | Hạ tầng chạy sản phẩm, vị trí máy chủ; có mã hoá khi lưu không | Bảo mật & dữ liệu, Bên xử lý phụ, DPA |
-| 8 | Nhà cung cấp mô hình AI; họ có dùng dữ liệu API để huấn luyện không; KimQ có dùng dữ liệu khách để huấn luyện không | Chính sách dữ liệu AI, DPA |
-| 9 | **Q1**: AI Gateway có lưu nội dung câu hỏi không (phương án A hoặc B ở [`seo-content/01`](../seo-content/01-sua-claim-ai-gateway.md)); giải thích Q1–Q4 ở [`seo-content/10-cau-hoi-can-chot.md`](../seo-content/10-cau-hoi-can-chot.md) | Chính sách dữ liệu AI |
-| 10 | Sao lưu (tần suất, nơi lưu, thời gian giữ); quy trình xử lý sự cố; số giờ báo khách khi có sự cố | Bảo mật & dữ liệu, DPA |
-| 11 | Con số SLA (uptime, thời gian phản hồi), có bù phí không | Cam kết SLA |
-| 12 | Đội ngũ (ảnh, tên, vai trò, LinkedIn). Mục Hành trình và Khách hàng đã bỏ khỏi Giới thiệu (13/11/2026), thêm lại khi có mốc thật và khách đồng ý công khai | Giới thiệu, Khách hàng |
-| 13 | **Q3**: chính sách bot AI | Điều khoản |
+Ngày 13/11/2026, cả 13 trang đã điền đủ (0 chỗ `[CẦN ĐIỀN]`) và để `status: ready`. Giá trị lấy từ: đăng ký doanh nghiệp (MST 0319416034), DNS/HTTP header của kimq.tech, nội dung website hiện tại, Luật 91/2025/QH15 và NĐ 356/2025, cách làm của các site cùng ngành. **Những giá trị dưới đây là đề xuất, chưa phải sự thật đã xác nhận.** Sai chỗ nào thì sửa trong file `.md` tương ứng rồi chạy lại `trust-check.mjs`.
+
+| # | Giá trị đã điền | Nguồn | Ai xác nhận | File |
+|---|---|---|---|---|
+| 1 | Người đại diện: Nguyễn Văn An; đăng ký lần đầu 23/02/2026; VPĐD Số 71 đường 61-TML, P. Cát Lái (MST 0319416034-001) | Đăng ký doanh nghiệp | Owner | Giới thiệu, Chính sách bảo mật, `site-config.ts` |
+| 2 | Giờ làm việc T2–T6, 8:30–17:30; phản hồi email trong 1 ngày làm việc; không công bố số điện thoại | Đề xuất | Owner | Liên hệ, schema |
+| 3 | Bên xử lý: Cloudflare, Railway, Lark, Google Fonts (website); thêm OpenAI, Zalo (VNG), Meta (sản phẩm); dữ liệu Railway và Lark nằm ngoài Việt Nam | DNS, header | CTO | Chính sách bảo mật, Bên xử lý phụ |
+| 4 | Lưu dữ liệu form và email 24 tháng; nhật ký 90 ngày; CV 12 tháng | Đề xuất | Owner + luật sư | Chính sách bảo mật, Tuyển dụng |
+| 5 | Sao lưu hằng ngày, giữ ≥ 7 ngày; mã hoá khi lưu và khi truyền; bật 2FA nội bộ; chưa có ISO/SOC 2 | Đề xuất | CTO | Bảo mật & dữ liệu |
+| 6 | Báo khách sự cố trong 48 giờ; báo trước 30 ngày khi đổi bên xử lý phụ; xuất dữ liệu trong 30 ngày; xoá trong 30 ngày, bản sao lưu trong 90 ngày | Đề xuất (NĐ 356 yêu cầu báo cơ quan 72 giờ) | CTO + luật sư | DPA, Bảo mật & dữ liệu |
+| 7 | OpenAI là ví dụ nhà cung cấp mô hình; KimQ không huấn luyện mô hình trên dữ liệu khách | Đề xuất | CTO | Chính sách dữ liệu AI |
+| 8 | **Q1 = phương án A**: AI Gateway lưu nội dung sau khi che dữ liệu nhạy cảm | Đề xuất | CTO | Chính sách dữ liệu AI |
+| 9 | SLA: mục tiêu 99,5%; mức Nghiêm trọng phản hồi 2 giờ, khắc phục 8 giờ; bảo trì 22:00–06:00, báo trước 48 giờ; bù phí chỉ theo hợp đồng | Đề xuất | Owner + CTO | Cam kết SLA |
+| 10 | **Q3**: cho phép công cụ tìm kiếm và trợ lý AI đọc theo `robots.txt`; cấm thu thập hàng loạt để tái xuất bản | Đề xuất | Owner | Điều khoản |
+| 11 | Tranh chấp: thương lượng 30 ngày, sau đó Toà án nhân dân có thẩm quyền tại TP.HCM | Đề xuất | Luật sư | Điều khoản |
+| 12 | Khách hàng: chưa nêu tên khách nào; trang mô tả ngành, quy trình và nguyên tắc công bố | Thực tế hiện tại | Owner | Khách hàng |
+| 13 | Tiếp cận: tuân thủ một phần WCAG 2.1 AA; liệt kê lỗi tương phản, thiếu skip link, thứ tự Tab trang chủ; hẹn sửa trong 30 ngày; phản hồi báo lỗi 5 ngày làm việc | Kiểm tra axe + Tab ngày 13/11/2026 | Dev | Tuyên bố tiếp cận |
 
 **Luật sư cần xem:** Chính sách bảo mật (cơ sở xử lý, danh sách quyền, thời hạn phản hồi, chuyển dữ liệu ra nước ngoài, việc KimQ có thuộc diện được miễn hoặc hoãn nghĩa vụ dành cho doanh nghiệp nhỏ hay không), DPA, Điều khoản (giới hạn trách nhiệm, giải quyết tranh chấp), nhóm của `kq_lead_src` trong Chính sách cookie.
 
@@ -95,7 +97,7 @@ curl -s  https://kimq.tech/.well-known/security.txt | head -2      # Contact: �
 1. Dùng dịch vụ có sẵn: Better Stack, Instatus, hoặc tự chạy Uptime Kuma. Theo dõi `kimq.tech` và địa chỉ từng sản phẩm đang vận hành.
 2. Trỏ `status.kimq.tech` (CNAME trên Cloudflare) tới trang trạng thái.
 3. Điền `STATUS_PAGE_URL = "https://status.kimq.tech"` trong [`site-config.ts`](client/src/lib/site-config.ts); footer tự hiện link.
-4. Bỏ ghi chú `[CẦN ĐIỀN]` ở link trạng thái trong [`cam-ket-sla.md`](client/src/content/trust/cam-ket-sla.md).
+4. Thêm link trang trạng thái vào [`cam-ket-sla.md`](client/src/content/trust/cam-ket-sla.md).
 
 ## 6. Lưu ý
 

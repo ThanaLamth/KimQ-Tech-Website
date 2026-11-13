@@ -8,7 +8,7 @@ Liên quan: [`../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`](../KIMQ-AUDIT-TONG-HOP-2026
 |---|---|---|---|---|
 | 01 | [`01-sua-claim-ai-gateway.md`](01-sua-claim-ai-gateway.md) | Câu sửa cụ thể cho mâu thuẫn "có lưu nội dung câu hỏi không", 2 phương án | Nháp sẵn sàng | Product chốt Q1 → Dev/Content sửa trang |
 | 02 | [`02-brand-va-trang-chu.md`](02-brand-va-trang-chu.md) | Quy ước tên (**KimQ Tech** / Công ty Cổ phần KimQ / AI Studio, Q2 đã chốt 13/11), title–meta–H1–alt trang chủ, mục sản phẩm trên trang chủ, đoạn mở đầu `/san-pham` | Tên đã chốt; trang chủ chờ duyệt | Dev/Content áp dụng |
-| 03 | [`03-trang-gioi-thieu-draft.md`](03-trang-gioi-thieu-draft.md) | Bản nháp trang `/gioi-thieu` + schema AboutPage | Nháp, còn `[CẦN ĐIỀN]` | Owner điền đội ngũ, năm thành lập, khách hàng |
+| 03 | [`03-trang-gioi-thieu-draft.md`](03-trang-gioi-thieu-draft.md) | Bản nháp trang `/gioi-thieu` + schema AboutPage | Đã thay bằng bản chính trong [`gioi-thieu.md`](../site-patch/client/src/content/trust/gioi-thieu.md) (13/11/2026) | — |
 | 04 | [`04-metadata-40-url.md`](04-metadata-40-url.md) + [`meta-40-url.json`](meta-40-url.json) | Title, meta cho 40 URL; đều đạt độ dài | Sẵn sàng | Dev đưa vào prerender |
 | 05 | [`05-noi-dung-trang-san-pham.md`](05-noi-dung-trang-san-pham.md) | Sửa link "sản phẩm liên quan", FAQ cho trang tính lương phòng khám, khối E-E-A-T, claim cần chuyên gia rà | Nháp | Content + kế toán/luật rà số liệu |
 | 06 | [`06-byline-ngay-cap-nhat-huong-dan.md`](06-byline-ngay-cap-nhat-huong-dan.md) | Mẫu byline, ngày cập nhật, căn cứ pháp lý; checklist 19 trang hướng dẫn | Mẫu | Owner gán người rà soát |

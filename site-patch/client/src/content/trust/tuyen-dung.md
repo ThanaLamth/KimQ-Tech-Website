@@ -1,28 +1,61 @@
 ---
 path: /tuyen-dung
 title: Tuyển dụng – Làm việc tại KimQ Tech
-description: Cơ hội làm việc tại KimQ, TP. Hồ Chí Minh: phát triển phần mềm nghiệp vụ và trợ lý AI cho doanh nghiệp Việt Nam. Vị trí đang tuyển và cách ứng tuyển.
+description: Làm việc tại KimQ, TP. Hồ Chí Minh: cách chúng tôi làm việc, quy trình ứng tuyển và cách KimQ xử lý dữ liệu ứng viên.
 h1: Làm việc tại KimQ Tech
 schemaType: WebPage
-status: draft
+status: ready
 priority: P2
-updated: "[CẦN ĐIỀN: dd/mm/yyyy]"
+updated: "13/11/2026"
 review: Owner
-publishRule: Chưa có vị trí nào thì vẫn có thể đăng, với mục "Ứng tuyển tự do". Mỗi vị trí đang tuyển nên có schema JobPosting và hạn nộp thật.
+publishRule: Khi mở vị trí, mỗi vị trí là một trang con /tuyen-dung/<slug> có schema JobPosting, mô tả đầy đủ, validThrough (hạn nộp) và cách ứng tuyển. Hết hạn thì gỡ trang hoặc để validThrough ở quá khứ. Không gắn JobPosting lên trang danh sách này.
 ---
 
-KimQ xây phần mềm nghiệp vụ và trợ lý AI cho doanh nghiệp Việt Nam: công nợ, kho, lương, phòng thí nghiệm, bệnh viện, AI Gateway. Chúng tôi làm việc tại Phường Bình Trưng, TP. Hồ Chí Minh.
+**KimQ Tech** là thương hiệu của Công ty Cổ phần KimQ. Chúng tôi xây phần mềm nghiệp vụ và trợ lý AI cho doanh nghiệp Việt Nam: công nợ, kho, lương, phòng thí nghiệm, bệnh viện, đấu thầu, dữ liệu giá đất, KimQ AI Gateway và AI Studio. Văn phòng tại Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP. Hồ Chí Minh.
 
 ## Cách chúng tôi làm việc
 
-[CẦN ĐIỀN: 3–4 ý thật, ví dụ đi khảo sát quy trình cùng khách, mỗi tính năng có người dùng thật kiểm thử, làm việc tại văn phòng hay từ xa…]
+- **Bắt đầu từ việc thật.** Trước khi viết code, chúng tôi xem file Excel, phiếu in, tin nhắn Zalo mà khách đang dùng. Mỗi tính năng được người dùng thật thử trên dữ liệu của họ trước khi chốt.
+- **Nhóm nhỏ, chịu trách nhiệm trọn vẹn.** Một người theo một tính năng từ lúc hỏi khách tới lúc chạy thật và sửa lỗi sau đó.
+- **AI có kỷ luật.** Chúng tôi dùng AI hằng ngày trong sản phẩm và trong công việc, nhưng mọi thứ AI làm đều có người xem lại, có nhật ký, có phân quyền.
+- **Viết ra để người sau hiểu.** Hướng dẫn sử dụng, ghi chú kỹ thuật và quyết định sản phẩm đều được viết lại, bằng tiếng Việt rõ ràng.
+- **Bảo mật là việc của mọi người.** Bật xác thực hai lớp, không chia sẻ tài khoản, chỉ truy cập dữ liệu khách hàng khi cần cho công việc và có ghi nhận.
+
+## Chúng tôi thường cần
+
+| Nhóm | Ví dụ công việc |
+|---|---|
+| Kỹ thuật | Phát triển web (TypeScript, React), backend và cơ sở dữ liệu, tích hợp Zalo/Facebook, trợ lý AI, hạ tầng đám mây |
+| Sản phẩm | Khảo sát quy trình khách hàng, viết đặc tả và hướng dẫn sử dụng, kiểm thử |
+| Nghiệp vụ | Kế toán, thuế, lương và bảo hiểm xã hội, y tế, phòng thí nghiệm: rà soát nội dung chuyên môn |
+| Nội dung và video AI | Kịch bản, dựng video với AI Studio, nội dung cho website và mạng xã hội |
 
 ## Vị trí đang tuyển
 
-[CẦN ĐIỀN: với mỗi vị trí: tên, cấp độ, địa điểm/hình thức, mô tả công việc, yêu cầu, quyền lợi, mức lương hoặc khoảng lương nếu công khai, hạn nộp.]
+Hiện **chưa có vị trí nào đang mở công khai**. Khi mở vị trí, chúng tôi đăng tại trang này kèm mô tả công việc, yêu cầu, quyền lợi, hình thức làm việc và hạn nộp.
 
-Chưa có vị trí phù hợp? Gửi CV tới [contact@kimq.tech](mailto:contact@kimq.tech), tiêu đề "Ứng tuyển tự do – [vị trí mong muốn]".
+## Ứng tuyển tự do
+
+Anh/chị vẫn có thể gửi hồ sơ để chúng tôi liên hệ khi có vị trí phù hợp:
+
+1. Gửi CV (PDF) tới [contact@kimq.tech](mailto:contact@kimq.tech), tiêu đề **"Ứng tuyển tự do – [nhóm hoặc vị trí mong muốn]"**.
+2. Kèm vài dòng: anh/chị muốn làm gì ở KimQ, và một sản phẩm, bài viết hay dự án anh/chị tự hào (đường dẫn nếu có).
+3. Chúng tôi xác nhận đã nhận trong **5 ngày làm việc**. Nếu phù hợp, quy trình thường gồm: trao đổi ngắn 30 phút, một bài thực hành gắn với công việc thật (không quá 3 giờ), buổi gặp nhóm.
+
+KimQ **không thu bất kỳ khoản phí nào** của ứng viên. KimQ chỉ liên hệ tuyển dụng từ email `@kimq.tech`. Nếu ai đó nhân danh KimQ đòi phí hay đề nghị chuyển tiền, xin báo về [contact@kimq.tech](mailto:contact@kimq.tech).
+
+Chúng tôi đánh giá ứng viên theo năng lực và sự phù hợp với công việc, không phân biệt giới tính, tuổi, dân tộc, tôn giáo, tình trạng hôn nhân hay khuyết tật.
 
 ## Dữ liệu ứng viên
 
-CV và thông tin anh/chị gửi chỉ dùng để tuyển dụng. Chúng tôi lưu trong [CẦN ĐIỀN: ví dụ 12 tháng] rồi xoá, trừ khi anh/chị đồng ý giữ lâu hơn. Anh/chị có thể yêu cầu xoá bất cứ lúc nào. Xem [Chính sách bảo vệ dữ liệu cá nhân](/chinh-sach-bao-mat). [CẦN ĐIỀN: luật sư xác nhận, và bổ sung mục ứng viên vào chính sách chính]
+| | |
+|---|---|
+| Dữ liệu | Thông tin trong CV và email anh/chị gửi; ghi chú phỏng vấn |
+| Mục đích | Chỉ để đánh giá và liên hệ tuyển dụng |
+| Cơ sở | Sự đồng ý của anh/chị khi chủ động gửi hồ sơ |
+| Thời gian lưu | **12 tháng** kể từ lần liên hệ cuối, rồi xoá; trừ khi anh/chị đồng ý giữ lâu hơn hoặc trở thành nhân viên |
+| Ai được xem | Người phụ trách tuyển dụng và trưởng nhóm liên quan |
+| Nơi lưu | Hộp thư và tài liệu nội bộ của KimQ (Lark) |
+| Quyền của anh/chị | Xem, sửa, rút hồ sơ, yêu cầu xoá bất cứ lúc nào qua [contact@kimq.tech](mailto:contact@kimq.tech) |
+
+Xin không gửi dữ liệu nhạy cảm (tình trạng sức khoẻ, tôn giáo, số căn cước…) nếu không được yêu cầu. Chi tiết: [Chính sách bảo vệ dữ liệu cá nhân](/chinh-sach-bao-mat).

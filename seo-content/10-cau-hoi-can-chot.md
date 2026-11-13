@@ -91,7 +91,7 @@ Trả lời ngắn là đủ, ví dụ:
 
 > Q1: A · Q2: đồng ý đề xuất · Q3: giữ nguyên · Q4: chưa làm
 
-Sau khi có câu trả lời, SEO/Content sẽ cập nhật các trang và file liên quan. Các trang tin cậy liên quan sẽ được chuyển sang `ready` khi đã điền hết chỗ `[CẦN ĐIỀN]` và luật sư đã duyệt.
+Cập nhật 13/11/2026: các trang tin cậy đã điền đủ và để `ready` với **đáp án đề xuất**: Q1 = phương án A (lưu nội dung sau khi che dữ liệu nhạy cảm), Q3 = cho phép công cụ tìm kiếm và trợ lý AI đọc theo `robots.txt`. Q2 (tên thương hiệu "KimQ Tech") đã áp dụng. Q4 chưa làm. Owner/CTO đổi ý thì báo SEO/Content sửa lại; danh sách giá trị đề xuất ở [`../site-patch/README.md`](../site-patch/README.md) §4.
 
 | Câu | Trả lời | Ngày | Người chốt |
 |---|---|---|---|

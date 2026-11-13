@@ -6,7 +6,9 @@
       "@id": "https://kimq.tech/#organization",
       "name": "KimQ Tech",
       "alternateName": [
-        "KimQ"
+        "KimQ",
+        "KIMQ JSC",
+        "KIMQ JOINT STOCK COMPANY"
       ],
       "legalName": "Công ty Cổ phần KimQ",
       "url": "https://kimq.tech/",
@@ -21,7 +23,8 @@
         "@type": "PostalAddress",
         "streetAddress": "Tầng 2, số 02 Song Hành, Phường Bình Trưng",
         "addressLocality": "Thành phố Hồ Chí Minh",
-        "addressCountry": "VN"
+        "addressCountry": "VN",
+        "addressRegion": "Thành phố Hồ Chí Minh"
       },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -30,14 +33,42 @@
         "availableLanguage": [
           "vi",
           "en"
-        ]
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:30",
+          "closes": "17:30"
+        }
       },
       "sameAs": [
         "https://www.facebook.com/profile.php?id=61595159860837",
         "https://www.instagram.com/kimqtech/",
         "https://www.threads.com/@kimqtech",
         "https://www.tiktok.com/@kimqaitech"
-      ]
+      ],
+      "foundingDate": "2026-02-23",
+      "vatID": "0319416034",
+      "department": [
+        {
+          "@type": "Organization",
+          "name": "Văn phòng đại diện Công ty Cổ phần KimQ",
+          "taxID": "0319416034-001",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Số 71 đường 61-TML, khu phố 14, Phường Cát Lái",
+            "addressLocality": "Thành phố Hồ Chí Minh",
+            "addressCountry": "VN"
+          }
+        }
+      ],
+      "publishingPrinciples": "https://kimq.tech/dieu-khoan-su-dung"
     },
     {
       "@type": "WebSite",
