@@ -26,9 +26,9 @@ Nguồn chi tiết:
 | ✅ Xong | 4 |
 | 📝 Sẵn, chờ Dev | 19 |
 | ⏳ Chờ quyết định / thông tin | 6 |
-| ⬜ Chưa làm | 12 |
+| ⬜ Chưa làm | 13 |
 | ➖ Không cần làm | 1 |
-| **Tổng** | **42** |
+| **Tổng** | **43** |
 
 Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · ⬜ prerender"); bảng trên tính theo trạng thái ghi đầu tiên.
 
@@ -48,6 +48,7 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 | A8 | Màn hình trống 1–10 giây trên mạng chậm (quy tắc UX loading) | P2 | Thêm skeleton tĩnh trong `index.html` (tự hết khi làm A2) | Audit §5 | Dev | ⬜ |
 | A9 | 5 thumbnail `benh-vien/video-*.webp` thiếu alt; alt ảnh hero bằng tiếng Anh | P2 | Alt mô tả nội dung từng video; hero: `Linh vật rùa của KimQ` | [`seo-content/02`](seo-content/02-brand-va-trang-chu.md) (hero), [`seo-content/13`](seo-content/13-alt-text-va-llms-txt.md) (5 thumbnail + aria-label video) | Dev + Content | 📝 |
 | A10 | robots.txt: Lighthouse báo lỗi dòng `Content-Signal` | P2 | Chỉ là cảnh báo do Lighthouse chưa hiểu chỉ thị này. Giữ nguyên, không ảnh hưởng Google | Audit §2 | — | ➖ |
+| A11 | HTML gốc khai báo `<html lang="en">` dù nội dung tiếng Việt (JS mới đổi sang `vi`) — phát hiện 13/11 | P1 | Đặt `lang="vi"` trong `index.html` / bản prerender | [`DEV-HANDOFF.md`](DEV-HANDOFF.md) A2 | Dev | ⬜ |
 
 ## B. SEO on-page / schema
 
