@@ -54,4 +54,4 @@ KimQ có thể cập nhật điều khoản. Ngày hiệu lực ghi ở đầu t
 
 ## 9. Liên hệ
 
-social@kimq.tech · Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP. Hồ Chí Minh.
+contact@kimq.tech · Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP. Hồ Chí Minh.

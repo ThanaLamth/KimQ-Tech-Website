@@ -24,7 +24,7 @@ Căn cứ: Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị 
 | Bên kiểm soát và xử lý dữ liệu | Công ty Cổ phần KimQ |
 | Mã số thuế | 0319416034 |
 | Địa chỉ | Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam |
-| Email về dữ liệu cá nhân | [social@kimq.tech](mailto:social@kimq.tech) |
+| Email về dữ liệu cá nhân | [contact@kimq.tech](mailto:contact@kimq.tech) |
 | Người/bộ phận phụ trách bảo vệ dữ liệu | [CẦN ĐIỀN: tên hoặc chức danh] |
 
 ## 2. Dữ liệu chúng tôi thu thập
@@ -107,7 +107,7 @@ Theo pháp luật về bảo vệ dữ liệu cá nhân, anh/chị có quyền:
 
 [CẦN ĐIỀN: luật sư đối chiếu danh sách quyền với Luật 91/2025].
 
-**Cách yêu cầu:** gửi email tới [social@kimq.tech](mailto:social@kimq.tech), ghi rõ yêu cầu và email đã dùng để gửi form. Chúng tôi có thể hỏi thêm thông tin để xác minh đúng là anh/chị. Thời hạn phản hồi: [CẦN ĐIỀN: số ngày theo quy định].
+**Cách yêu cầu:** gửi email tới [contact@kimq.tech](mailto:contact@kimq.tech), ghi rõ yêu cầu và email đã dùng để gửi form. Chúng tôi có thể hỏi thêm thông tin để xác minh đúng là anh/chị. Thời hạn phản hồi: [CẦN ĐIỀN: số ngày theo quy định].
 
 ## 9. Bảo vệ dữ liệu
 
@@ -128,4 +128,4 @@ Khi chính sách thay đổi, chúng tôi cập nhật ngày ở đầu trang v�
 
 ## 12. Liên hệ
 
-Công ty Cổ phần KimQ · [social@kimq.tech](mailto:social@kimq.tech) · Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP. Hồ Chí Minh.
+Công ty Cổ phần KimQ · [contact@kimq.tech](mailto:contact@kimq.tech) · Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP. Hồ Chí Minh.

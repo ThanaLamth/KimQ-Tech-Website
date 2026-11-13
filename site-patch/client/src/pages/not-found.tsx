@@ -51,7 +51,7 @@ export default function NotFound() {
         </ul>
         <p className="mt-10 text-sm text-[#0F2C59]/70">
           {vi ? "Cần hỗ trợ? Email " : "Need help? Email "}
-          <a href="mailto:social@kimq.tech" className="underline underline-offset-4">social@kimq.tech</a>
+          <a href="mailto:contact@kimq.tech" className="underline underline-offset-4">contact@kimq.tech</a>
         </p>
       </main>
       <Footer />

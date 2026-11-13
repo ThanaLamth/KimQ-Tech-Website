@@ -35,4 +35,4 @@ Kiểm tra tự động chỉ phát hiện được một phần lỗi. [CẦN �
 
 ## Báo lỗi tiếp cận
 
-Nếu anh/chị gặp khó khi dùng website, xin email [social@kimq.tech](mailto:social@kimq.tech), ghi rõ trang và thiết bị hay phần mềm hỗ trợ đang dùng. Chúng tôi phản hồi trong [CẦN ĐIỀN] ngày làm việc.
+Nếu anh/chị gặp khó khi dùng website, xin email [contact@kimq.tech](mailto:contact@kimq.tech), ghi rõ trang và thiết bị hay phần mềm hỗ trợ đang dùng. Chúng tôi phản hồi trong [CẦN ĐIỀN] ngày làm việc.

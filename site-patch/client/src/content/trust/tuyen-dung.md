@@ -21,7 +21,7 @@ KimQ xây phần mềm nghiệp vụ và trợ lý AI cho doanh nghiệp Việt 
 
 [CẦN ĐIỀN: với mỗi vị trí: tên, cấp độ, địa điểm/hình thức, mô tả công việc, yêu cầu, quyền lợi, mức lương hoặc khoảng lương nếu công khai, hạn nộp.]
 
-Chưa có vị trí phù hợp? Gửi CV tới [social@kimq.tech](mailto:social@kimq.tech), tiêu đề "Ứng tuyển tự do – [vị trí mong muốn]".
+Chưa có vị trí phù hợp? Gửi CV tới [contact@kimq.tech](mailto:contact@kimq.tech), tiêu đề "Ứng tuyển tự do – [vị trí mong muốn]".
 
 ## Dữ liệu ứng viên
 

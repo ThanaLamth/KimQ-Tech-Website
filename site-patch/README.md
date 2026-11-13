@@ -74,7 +74,7 @@ curl -s  https://kimq.tech/.well-known/security.txt | head -2      # Contact: �
 
 | # | Thông tin | Dùng ở |
 |---|---|---|
-| 1 | ✅ Email chính thức `social@kimq.tech` (Owner chốt 13/11/2026) cho liên hệ, dữ liệu cá nhân, báo lỗ hổng, tuyển dụng, hỗ trợ. Còn thiếu: người/bộ phận phụ trách | Chính sách bảo mật, DPA |
+| 1 | ✅ Email đã điền tạm `contact@kimq.tech` cho dữ liệu cá nhân, báo lỗ hổng, tuyển dụng (13/11/2026); đổi khi có `privacy@`/`security@`. Còn thiếu: người/bộ phận phụ trách | Chính sách bảo mật, DPA |
 | 2 | Giấy CNĐKDN: nơi cấp, ngày cấp lần đầu; người đại diện theo pháp luật | Footer (`COMPANY.registration`), Giới thiệu |
 | 3 | Số điện thoại/Zalo công khai, giờ làm việc, kênh hỗ trợ khách đang dùng | Footer (`COMPANY.phone`), Liên hệ, SLA |
 | 4 | Link mạng xã hội: ✅ đã điền Facebook, Instagram, Threads, TikTok (12/11/2026). Còn thiếu nếu có: LinkedIn công ty, Zalo OA, YouTube | Footer (`COMPANY.social`), `sameAs` trong [`seo-content/schema/home.jsonld`](../seo-content/schema/home.jsonld) |

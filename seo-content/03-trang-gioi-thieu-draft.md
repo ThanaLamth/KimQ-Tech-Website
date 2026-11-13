@@ -21,7 +21,7 @@ KimQ là đội ngũ phát triển sản phẩm tại Việt Nam. Chúng tôi x�
 | Tên công ty | Công ty Cổ phần KimQ |
 | Mã số thuế | 0319416034 |
 | Địa chỉ | Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam |
-| Email | social@kimq.tech |
+| Email | contact@kimq.tech |
 | Năm thành lập | [CẦN ĐIỀN, theo giấy ĐKKD] |
 | Người đại diện | [CẦN ĐIỀN] |
 | Điện thoại / Zalo | [CẦN ĐIỀN, nếu muốn công khai] |
@@ -68,7 +68,7 @@ Triển khai thường bắt đầu từ một buổi xem thử trên dữ liệ
 
 ## Liên hệ
 
-Email: social@kimq.tech · Nhóm Zalo cộng đồng KimQ · Địa chỉ: Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP.HCM
+Email: contact@kimq.tech · Nhóm Zalo cộng đồng KimQ · Địa chỉ: Tầng 2, số 02 Song Hành, Phường Bình Trưng, TP.HCM
 
 ---
 
