@@ -2,9 +2,9 @@
 
 Ngày: 10/11/2026
 Phương pháp:
-- TinyFish fetch trang chủ 28 site, lấy toàn bộ link (`--links`).
+- Fetch trang chủ 28 site, lấy toàn bộ link (`--links`).
 - Playwright đọc footer của 12 site SaaS Việt Nam.
-- TinyFish đọc 20 trang pháp lý/trust mẫu.
+- Đọc 20 trang pháp lý/trust mẫu.
 Phát hiện dựa trên link có trên **trang chủ**. Trang nào chỉ được link từ chỗ khác thì có thể bị sót.
 Bản nháp chi tiết các trang P0–P1: xem [`08-trust-pages-footer.md`](08-trust-pages-footer.md).
 

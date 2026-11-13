@@ -63,4 +63,4 @@ Không phụ thuộc quyết định nào của Owner.
 ## Sau mỗi lần deploy
 
 1. Báo SEO ngày deploy và danh sách mục đã xong.
-2. SEO kiểm tra lại live bằng TinyFish/curl, cập nhật [`KIMQ-ISSUE-TRACKER.md`](KIMQ-ISSUE-TRACKER.md), gửi sitemap trong Search Console.
+2. SEO kiểm tra lại live bằng curl/trình duyệt, cập nhật [`KIMQ-ISSUE-TRACKER.md`](KIMQ-ISSUE-TRACKER.md), gửi sitemap trong Search Console.

@@ -1,6 +1,6 @@
 # Gói việc SEO / Content: KimQ.tech
 
-Ngày: 10/11/2026 · Dữ liệu: TinyFish fetch 40/40 URL live (10/11), crawl Playwright (09/11), bài Google updates trên SER (05–11/2026)
+Ngày: 10/11/2026 · Dữ liệu: fetch 40/40 URL live (10/11), crawl Playwright (09/11), bài Google updates trên SER (05–11/2026)
 **Bảng theo dõi trạng thái mọi vấn đề:** [`../KIMQ-ISSUE-TRACKER.md`](../KIMQ-ISSUE-TRACKER.md)
 Liên quan: [`../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`](../KIMQ-AUDIT-TONG-HOP-2026-11-09.md), [`../KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md`](../KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md), [`../KimQ_SEO_GEO_Master_Audit_90_Days.xlsx`](../KimQ_SEO_GEO_Master_Audit_90_Days.xlsx)
 
@@ -23,7 +23,7 @@ Liên quan: [`../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`](../KIMQ-AUDIT-TONG-HOP-2026
 | — | [`schema/`](schema/) | JSON-LD: [`home.jsonld`](schema/home.jsonld) (Organization + WebSite), [`san-pham.jsonld`](schema/san-pham.jsonld) (CollectionPage + ItemList), 19 trang sản phẩm (SoftwareApplication + Breadcrumb + FAQPage), 19 trang hướng dẫn (TechArticle + Breadcrumb + FAQPage) | Sẵn sàng; hướng dẫn còn thiếu ngày thật | Dev |
 
 ## Ghi chú về schema
-- FAQPage lấy **đúng** các câu hỏi đang hiển thị trên trang (TinyFish 10/11). Riêng AI Gateway viết theo phương án A của file 01. Nếu sửa chữ trên trang thì phải sửa JSON-LD theo.
+- FAQPage lấy **đúng** các câu hỏi đang hiển thị trên trang (fetch 10/11). Riêng AI Gateway viết theo phương án A của file 01. Nếu sửa chữ trên trang thì phải sửa JSON-LD theo.
 - Google hiện chỉ hiện rich result FAQ cho một số site chính phủ và y tế. Markup vẫn hữu ích để máy hiểu nội dung, nhưng đừng kỳ vọng có rich result.
 - SoftwareApplication **không có** `offers` hay `aggregateRating` vì chưa có giá công khai và chưa có đánh giá thật. Vì vậy không đủ điều kiện rich result phần mềm, và đó là chủ ý.
 - `sameAs` ([`schema/home.jsonld`](schema/home.jsonld)) đã có Facebook, Instagram, Threads, TikTok. Thêm LinkedIn công ty, Zalo OA, YouTube khi có.

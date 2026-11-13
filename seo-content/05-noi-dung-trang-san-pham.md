@@ -1,6 +1,6 @@
 # 05 — Nội dung 19 trang sản phẩm: liên kết, FAQ, E-E-A-T, claim
 
-Trạng thái: **Nháp, chờ duyệt** · Nguồn: TinyFish fetch 40/40 URL ngày 10/11/2026
+Trạng thái: **Nháp, chờ duyệt** · Nguồn: fetch 40/40 URL ngày 10/11/2026
 
 ## 0. Kết luận về trùng lặp nội dung
 

@@ -1,6 +1,6 @@
 # 06 — Byline, ngày cập nhật và căn cứ cho 19 trang hướng dẫn
 
-Trạng thái: **Mẫu + checklist; cần Owner điền tên người thật** · Nguồn: TinyFish fetch 10/11/2026
+Trạng thái: **Mẫu + checklist; cần Owner điền tên người thật** · Nguồn: fetch 10/11/2026
 
 ## Hiện trạng
 - 19/19 trang hướng dẫn **không có** tác giả, người rà soát hay ngày cập nhật hiển thị.

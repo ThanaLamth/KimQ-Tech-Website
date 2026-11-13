@@ -1,6 +1,6 @@
 # 01 — Sửa mâu thuẫn claim lưu dữ liệu của KimQ AI Gateway
 
-Trạng thái: **Nháp, chờ Product/Owner chốt Q1** · Nguồn: TinyFish fetch ngày 10/11/2026 (`/san-pham/ai-gateway`, `/san-pham/ai-gateway/huong-dan`)
+Trạng thái: **Nháp, chờ Product/Owner chốt Q1** · Nguồn: fetch ngày 10/11/2026 (`/san-pham/ai-gateway`, `/san-pham/ai-gateway/huong-dan`)
 
 ## Vấn đề
 

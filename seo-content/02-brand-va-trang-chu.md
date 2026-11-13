@@ -1,6 +1,6 @@
 # 02 — Quy ước tên thương hiệu và nội dung trang chủ
 
-Trạng thái: **Q2 đã chốt ngày 13/11/2026: thương hiệu là KimQ Tech** · Phần trang chủ: đề xuất, chờ duyệt · Nguồn: TinyFish fetch 10/11/2026, crawl Playwright 09/11/2026
+Trạng thái: **Q2 đã chốt ngày 13/11/2026: thương hiệu là KimQ Tech** · Phần trang chủ: đề xuất, chờ duyệt · Nguồn: fetch 10/11/2026, crawl Playwright 09/11/2026
 
 ## 1. Hiện trạng: 4 tên, dùng lẫn lộn
 

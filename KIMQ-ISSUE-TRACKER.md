@@ -26,9 +26,9 @@ Nguồn chi tiết:
 | ✅ Xong | 4 |
 | 📝 Sẵn, chờ Dev | 19 |
 | ⏳ Chờ quyết định / thông tin | 6 |
-| ⬜ Chưa làm | 13 |
+| ⬜ Chưa làm | 12 |
 | ➖ Không cần làm | 1 |
-| **Tổng** | **43** |
+| **Tổng** | **42** |
 
 Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · ⬜ prerender"); bảng trên tính theo trạng thái ghi đầu tiên.
 
@@ -92,7 +92,6 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 | E1 | Thiếu security headers (chỉ có `nosniff`) | P1 | CSP, HSTS, `frame-ancestors`, Referrer-Policy, Permissions-Policy qua Cloudflare Transform Rules | Audit §6 | Dev | ⬜ |
 | E2 | 5 điểm cần source server để xác minh: rate limit theo IP nào, cờ `?kqtest=1`, escape dữ liệu lead, email xác nhận, truy cập thẳng origin Railway | P1 | Dev rà code server theo danh sách | Audit §6 "needs_validation" | Dev | ⬜ |
 | E3 | `/api/*` không tồn tại trả HTML 200 | P2 | Trả JSON 404 | Audit §6 | Dev | ⬜ |
-| E4 | 6 TinyFish API key bị lộ trong chat | P0 | Rotate cả 6 key | — | Owner | ⬜ |
 
 ## F. Đo lường / GEO / off-page
 
@@ -115,7 +114,7 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 
 | Tuần | Việc | Mục |
 |---|---|---|
-| Ngay | Rotate TinyFish key; CTO trả lời Q1; Owner trả lời Q2–Q4 | E4, C1, B6, F2, B5 |
+| Ngay | CTO trả lời Q1; Owner trả lời Q3, Q4 (Q2 đã chốt: KimQ Tech) | C1, F2, B5 |
 | W1 | Build production; verify GSC + GA4; ảnh hero responsive | A1, F1, A3 |
 | W1–W2 | Ghép [`site-patch`](site-patch/) (404 thật, 301, footer, câu đồng ý, security.txt); Owner điền thông tin, luật sư duyệt Chính sách bảo mật | A5, A6, D1–D3, D7, D9 |
 | W2 | Prerender 40 route + title/meta/schema; sitemap; DNS `www` | A2, B1–B3, A4, A7 |

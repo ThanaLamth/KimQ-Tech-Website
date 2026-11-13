@@ -9,7 +9,7 @@ Tổng hợp các lần kiểm tra `https://kimq.tech/` ngày 09/11/2026:
 
 > Mọi số liệu dưới đây đo trực tiếp trên production ngày 09/11/2026. Kết luận nào chưa đo được đều ghi rõ là "cần xác minh".
 
-> **Cập nhật 10/11/2026:** recheck live, chưa có thay đổi (sitemap 404, soft-404, dev build `jsxDEV` ×143). Thêm mục 10: đối chiếu Google Search updates tháng 05–11/2026 (nguồn Search Engine Roundtable, fetch bằng TinyFish). Bảng chi tiết: [`KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md`](KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md).
+> **Cập nhật 10/11/2026:** recheck live, chưa có thay đổi (sitemap 404, soft-404, dev build `jsxDEV` ×143). Thêm mục 10: đối chiếu Google Search updates tháng 05–11/2026 (nguồn Search Engine Roundtable). Bảng chi tiết: [`KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md`](KIMQ-GOOGLE-UPDATES-COMPARE-2026-11-10.md).
 
 > **Cập nhật 10/11/2026 (3):** đã kiểm trust pages và footer: **chưa đạt** (vấn đề #13). Đánh giá và bản nháp ở [`seo-content/08-trust-pages-footer.md`](seo-content/08-trust-pages-footer.md).
 >
@@ -68,7 +68,7 @@ Danh sách 19 sản phẩm: `nhatdat`, `thong-tin-dau-thau`, `giai-phap-hoa-chat
 | Core Web Vitals | ❌ | Xem mục 3 |
 | sitemap.xml | ❌ | 404 (`sitemap.xml`, `sitemap_index.xml`, `sitemap-index.xml`), robots.txt không khai báo |
 | og:image | ⚠️ | 39/40. **Trang chủ thiếu** (file `/opengraph.jpg` có sẵn). HTML gốc không có og:image |
-| Broken links | ✅ | 0 link hỏng (Playwright + TinyFish). Link ngoài: `mailto:contact@kimq.tech`, `dauthau.io` |
+| Broken links | ✅ | 0 link hỏng (Playwright, kiểm 2 lần). Link ngoài: `mailto:contact@kimq.tech`, `dauthau.io` |
 | Header hierarchy | ✅ | Không nhảy cấp heading |
 | Backlink strategy | — | Ngoài phạm vi audit kỹ thuật |
 | URL slugs | ✅ | Sạch, tiếng Việt không dấu |
@@ -128,7 +128,7 @@ Checklist viết cho site tin tức Headless WP + Next.js; kimq.tech là site do
 
 | Tình huống | Quy tắc | Thực tế | Đánh giá |
 |---|---|---|---|
-| Dưới 1 giây | Không cần loading | Mạng thật: trang chủ, danh mục, sản phẩm, hướng dẫn hiện nội dung trong 0.1–0.7s (TinyFish + Playwright) | ✅ |
+| Dưới 1 giây | Không cần loading | Mạng thật: trang chủ, danh mục, sản phẩm, hướng dẫn hiện nội dung trong 0.1–0.7s (trình duyệt thật + Playwright) | ✅ |
 | 1–10 giây | Skeleton | Mạng mobile chậm (Lighthouse): FCP ~3s, người dùng chỉ thấy **màn hình be trống** (`#root` rỗng, fallback `Suspense` là div trống) | ⚠️ Thêm skeleton trong `index.html`, hoặc prerender |
 | Trên 10 giây | Hiển thị tiến độ | Không có thao tác nào | N/A |
 | Thao tác đơn giản | Phản hồi ngay | Form "Quan tâm": validate email tức thì, trạng thái "Đang gửi…", `aria-busy`, thông báo rate-limit; anchor menu cuộn ngay | ✅ |
@@ -289,9 +289,9 @@ Nguồn: 20 bài trên [Search Engine Roundtable — Google Updates](https://www
 
 - **Playwright** (Pixel 5): crawl và render 40 URL; trích title/meta/canonical/og/H1/ảnh/link/lỗi console.
 - **Lighthouse 12** mobile: 3 lần cho trang chủ (lấy median), 1 lần cho trang sản phẩm.
-- **TinyFish agent** (trình duyệt thật): UX loading, tương tác form, link header/footer, chuyển ngôn ngữ.
+- **Trình duyệt thật (agent)**: UX loading, tương tác form, link header/footer, chuyển ngôn ngữ.
 - **claude-seo**: `render_page.py`, `sitemap_discovery.py`, `agentic_check.py --ua-matrix`, `preload_check.py`.
 - **cloudflare/security-audit-skill**: guidance mode; phân tích tĩnh bundle public + header.
 - **curl/dig**: header, redirect, DNS TXT, kiểm tra các path nhạy cảm.
-- **TinyFish fetch** (10/11): 20 bài Google updates trên Search Engine Roundtable cho mục 10.
+- **Fetch nội dung** (10/11): 20 bài Google updates trên Search Engine Roundtable cho mục 10.
 - Bản XLSX có thêm 2 sheet "Live Check 09-11" và "Đánh giá XLSX" được tạo ở máy audit, chưa đưa vào repo.

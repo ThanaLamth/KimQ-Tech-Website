@@ -1,6 +1,6 @@
 # 13 — Alt text ảnh trang Bệnh viện và [`llms.txt`](llms.txt)
 
-Ngày: 13/11/2026 · Trạng thái: **Sẵn sàng, chờ Dev đưa lên** · Nguồn: chú thích đang hiển thị trên https://kimq.tech/san-pham/benh-vien (crawl 09/11, TinyFish 10/11)
+Ngày: 13/11/2026 · Trạng thái: **Sẵn sàng, chờ Dev đưa lên** · Nguồn: chú thích đang hiển thị trên https://kimq.tech/san-pham/benh-vien (crawl 09/11, fetch 10/11)
 
 ## 1. Alt text cho 5 ảnh thumbnail video (tracker A9)
 

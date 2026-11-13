@@ -1,6 +1,6 @@
 # 11 — Khối "Phù hợp với ai" cho 19 trang sản phẩm
 
-Ngày: 13/11/2026 · Trạng thái: **Sẵn sàng, chờ Dev đưa lên** · Nguồn: nội dung live của từng trang (crawl 09/11, TinyFish 10/11)
+Ngày: 13/11/2026 · Trạng thái: **Sẵn sàng, chờ Dev đưa lên** · Nguồn: nội dung live của từng trang (crawl 09/11, fetch 10/11)
 
 Làm theo [`05-noi-dung-trang-san-pham.md`](05-noi-dung-trang-san-pham.md) §3, khối 1. **Không thêm thông tin mới.** Mỗi ý đều lấy từ mô tả đầu trang, FAQ hoặc giới hạn mà trang đã tự nêu; cột "Căn cứ" ghi rõ lấy từ đâu.
 
