@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/lims#webpage",
       "url": "https://kimq.tech/san-pham/lims",
-      "name": "Phần mềm LIMS quản lý phòng thí nghiệm | KimQ",
+      "name": "Phần mềm LIMS quản lý phòng thí nghiệm | KimQ Tech",
       "description": "Theo dõi mẫu từ tiếp nhận đến phiếu kết quả: QA/QC, phê duyệt nhiều cấp, truy vết từng con số và cổng cho khách hỏi tiến độ qua Zalo.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

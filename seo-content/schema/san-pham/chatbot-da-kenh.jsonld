@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/chatbot-da-kenh#webpage",
       "url": "https://kimq.tech/san-pham/chatbot-da-kenh",
-      "name": "Chatbot chăm sóc khách hàng đa kênh | KimQ",
+      "name": "Chatbot chăm sóc khách hàng đa kênh | KimQ Tech",
       "description": "Fanpage, Zalo OA, website, Telegram về một hộp thư; trợ lý trả lời theo dữ liệu doanh nghiệp, ca nhạy cảm chuyển nhân viên kèm tóm tắt.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

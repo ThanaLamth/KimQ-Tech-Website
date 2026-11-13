@@ -1,8 +1,8 @@
 ---
 path: /tuyen-dung
-title: Tuyển dụng – Làm việc tại KimQ
+title: Tuyển dụng – Làm việc tại KimQ Tech
 description: Cơ hội làm việc tại KimQ, TP. Hồ Chí Minh: phát triển phần mềm nghiệp vụ và trợ lý AI cho doanh nghiệp Việt Nam. Vị trí đang tuyển và cách ứng tuyển.
-h1: Làm việc tại KimQ
+h1: Làm việc tại KimQ Tech
 schemaType: WebPage
 status: draft
 priority: P2

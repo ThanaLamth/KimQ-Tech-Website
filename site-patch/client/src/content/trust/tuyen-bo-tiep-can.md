@@ -1,6 +1,6 @@
 ---
 path: /tuyen-bo-tiep-can
-title: Tuyên bố tiếp cận (accessibility) | KimQ
+title: Tuyên bố tiếp cận (accessibility) | KimQ Tech
 description: KimQ hướng tới website dùng được cho mọi người, kể cả người dùng trình đọc màn hình và bàn phím. Mục tiêu WCAG 2.1 AA, điểm còn hạn chế và cách báo lỗi.
 h1: Tuyên bố tiếp cận
 schemaType: WebPage

@@ -1,6 +1,6 @@
 ---
 path: /chinh-sach-bao-mat
-title: Chính sách bảo vệ dữ liệu cá nhân | KimQ
+title: Chính sách bảo vệ dữ liệu cá nhân | KimQ Tech
 description: KimQ thu thập dữ liệu gì trên kimq.tech, dùng để làm gì, lưu ở đâu và bao lâu, chia sẻ với ai, và cách anh/chị yêu cầu xem, sửa, xoá dữ liệu cá nhân.
 h1: Chính sách bảo vệ dữ liệu cá nhân
 schemaType: WebPage

@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/thong-tin-dau-thau#webpage",
       "url": "https://kimq.tech/san-pham/thong-tin-dau-thau",
-      "name": "Phần mềm tra cứu thông tin đấu thầu & đấu giá | KimQ",
+      "name": "Phần mềm tra cứu thông tin đấu thầu & đấu giá | KimQ Tech",
       "description": "Tìm gói thầu công và tài sản đấu giá từ nguồn công khai, xem giá trúng tham chiếu, lưu tin, theo dõi đơn vị và nhận nhắc qua email.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

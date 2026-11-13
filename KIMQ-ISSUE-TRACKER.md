@@ -54,11 +54,11 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 | # | Vấn đề | Mức | Hướng giải quyết | Tài liệu / code | Ai | Trạng thái |
 |---|---|---|---|---|---|---|
 | B1 | 0 JSON-LD trên 40 URL | P1 | Organization + WebSite (trang chủ), SoftwareApplication + Breadcrumb + FAQPage (19 SP), TechArticle (19 hướng dẫn) | `seo-content/schema/` (40 file) | Dev | 📝 |
-| B2 | Trang chủ thiếu canonical và og:image; title chỉ 11 ký tự | P1 | Canonical `https://kimq.tech/`, og:image `/opengraph.jpg`, title mới | `seo-content/02`, `seo-content/04` | Dev | 📝 · ⏳ Q2 cho title |
+| B2 | Trang chủ thiếu canonical và og:image; title chỉ 11 ký tự | P1 | Canonical `https://kimq.tech/`, og:image `/opengraph.jpg`, title mới | `seo-content/02`, `seo-content/04` | Dev | 📝 |
 | B3 | Title/meta 40 URL chưa tối ưu, HTML gốc dùng chung 1 câu | P1 | Bộ title/meta mới, đều đạt độ dài | `seo-content/04-metadata-40-url.md`, `meta-40-url.json` | Dev | 📝 |
 | B4 | Internal link: trang chủ không link thẳng tới sản phẩm; khối "Sản phẩm liên quan" chưa hợp lý | P1 | Mục sản phẩm trên trang chủ; sửa link liên quan theo nhóm nghiệp vụ | `seo-content/02`, `seo-content/05` §1 | Dev + Content | 📝 |
 | B5 | Bản tiếng Anh không có URL riêng / hreflang, nên không được index | P1 | Tuỳ thị trường: làm `/en/...` + hreflang, hoặc chỉ giữ tiếng Việt | `seo-content/10` (Q4) | Owner | ⏳ Q4 |
-| B6 | Tên thương hiệu lẫn lộn (KimQ Studio / AI Studio / KimQ / KimQ AI Tech) | P0 | KimQ (thương hiệu) · Công ty Cổ phần KimQ (pháp nhân) · KimQ Studio (sản phẩm video) | `seo-content/02`, `seo-content/10` (Q2) | Owner | ⏳ Q2 |
+| B6 | Tên thương hiệu lẫn lộn (KimQ Studio / AI Studio / KimQ / KimQ AI Tech) | P0 | **Đã chốt 13/11: KimQ Tech** (thương hiệu) · Công ty Cổ phần KimQ (pháp nhân) · AI Studio (sản phẩm video). Title, meta, schema, site-patch, XLSX đã đổi; Dev bỏ "KimQ Studio" trên site | `seo-content/02`, `04`, `10` | Dev + Content | 📝 |
 | B7 | File XLSX lỗi thời (thiếu 7/40 URL, T07 sai, dashboard cố định phạm vi) | P0 | Thêm URL, cập nhật T02–T07/T14, mở rộng công thức Dashboard, thêm T22–T26 | `KimQ_SEO_GEO_Master_Audit_90_Days.xlsx` | SEO | ✅ |
 
 ## C. Nội dung / E-E-A-T

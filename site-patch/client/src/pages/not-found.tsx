@@ -15,7 +15,7 @@ export default function NotFound() {
   const { language } = useLanguage();
   const vi = language !== "en";
   usePageMeta({
-    title: vi ? "Không tìm thấy trang | KimQ" : "Page not found | KimQ",
+    title: vi ? "Không tìm thấy trang | KimQ Tech" : "Page not found | KimQ Tech",
     noindex: true,
   });
 

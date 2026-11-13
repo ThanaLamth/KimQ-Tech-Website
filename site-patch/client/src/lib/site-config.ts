@@ -1,7 +1,7 @@
 export const SITE_URL = "https://kimq.tech";
 
 export const COMPANY = {
-  brand: "KimQ",
+  brand: "KimQ Tech",
   legalName: "Công ty Cổ phần KimQ",
   legalNameEn: "KimQ Joint Stock Company",
   taxId: "0319416034",

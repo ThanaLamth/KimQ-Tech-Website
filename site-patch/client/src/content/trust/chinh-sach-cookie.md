@@ -1,6 +1,6 @@
 ---
 path: /chinh-sach-cookie
-title: Chính sách cookie và lưu trữ trên trình duyệt | KimQ
+title: Chính sách cookie và lưu trữ trên trình duyệt | KimQ Tech
 description: kimq.tech lưu gì trên trình duyệt của anh/chị, nhóm nào luôn bật, nhóm nào chỉ bật khi anh/chị đồng ý, và cách thay đổi lựa chọn.
 h1: Chính sách cookie
 schemaType: WebPage

@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/cham-cong-luong#webpage",
       "url": "https://kimq.tech/san-pham/cham-cong-luong",
-      "name": "Phần mềm chấm công & tính lương | KimQ",
+      "name": "Phần mềm chấm công & tính lương | KimQ Tech",
       "description": "Từ file máy chấm công tới bảng công theo ca, bảng lương có BHXH và thuế TNCN, chốt kỳ và phiếu lương riêng trên điện thoại từng người.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

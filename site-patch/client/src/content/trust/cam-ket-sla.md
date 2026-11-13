@@ -1,6 +1,6 @@
 ---
 path: /cam-ket-sla
-title: Cam kết dịch vụ (SLA) và hỗ trợ | KimQ
+title: Cam kết dịch vụ (SLA) và hỗ trợ | KimQ Tech
 description: Cam kết thời gian hoạt động, thời gian phản hồi hỗ trợ theo mức độ sự cố, lịch bảo trì và cách KimQ thông báo khi dịch vụ gặp sự cố.
 h1: Cam kết dịch vụ và hỗ trợ
 schemaType: WebPage

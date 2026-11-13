@@ -1,6 +1,6 @@
 ---
 path: /ben-xu-ly-phu
-title: Danh sách bên xử lý phụ (nhà cung cấp hạ tầng) | KimQ
+title: Danh sách bên xử lý phụ (nhà cung cấp hạ tầng) | KimQ Tech
 description: Danh sách nhà cung cấp hạ tầng, email và AI mà KimQ dùng để vận hành website và sản phẩm, kèm mục đích, loại dữ liệu và nơi xử lý.
 h1: Bên xử lý phụ
 schemaType: WebPage

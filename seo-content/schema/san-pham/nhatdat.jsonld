@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/nhatdat#webpage",
       "url": "https://kimq.tech/san-pham/nhatdat",
-      "name": "Dữ liệu giá đất theo đoạn đường cho thẩm định giá | KimQ",
+      "name": "Giá đất theo đoạn đường cho thẩm định giá | KimQ Tech",
       "description": "Tra giá đất theo tuyến và đoạn đường, tài sản so sánh có nguồn, bảng điều chỉnh và xuất Excel theo mẫu cho công ty thẩm định giá.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

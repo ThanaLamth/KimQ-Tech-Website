@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/tu-dong-hoa#webpage",
       "url": "https://kimq.tech/san-pham/tu-dong-hoa",
-      "name": "Tự động hoá hoá đơn, đối soát & giám sát lỗi | KimQ",
+      "name": "Tự động hoá hoá đơn, đối soát & giám sát lỗi | KimQ Tech",
       "description": "Xuất hoá đơn điện tử khi tiền về, đối soát đơn hàng – tiền – hoá đơn mỗi ngày và cảnh báo lỗi hệ thống trước khi khách phàn nàn.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

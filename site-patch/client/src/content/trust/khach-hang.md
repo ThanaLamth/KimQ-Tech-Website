@@ -1,6 +1,6 @@
 ---
 path: /khach-hang
-title: Khách hàng & câu chuyện triển khai | KimQ
+title: Khách hàng & câu chuyện triển khai | KimQ Tech
 description: Doanh nghiệp đã dùng phần mềm và trợ lý AI của KimQ: bài toán ban đầu, cách triển khai và kết quả đo được, đều được khách hàng đồng ý công bố.
 h1: Khách hàng và câu chuyện triển khai
 schemaType: CollectionPage

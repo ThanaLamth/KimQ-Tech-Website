@@ -1,6 +1,6 @@
 ---
 path: /cam-ket-xu-ly-du-lieu
-title: Cam kết xử lý dữ liệu cho khách hàng doanh nghiệp | KimQ
+title: Cam kết xử lý dữ liệu cho doanh nghiệp | KimQ Tech
 description: Khi doanh nghiệp đưa dữ liệu vào sản phẩm KimQ, KimQ là bên xử lý theo chỉ dẫn của doanh nghiệp. Phạm vi, bảo mật, bên xử lý phụ, sự cố, xoá và trả dữ liệu.
 h1: Cam kết xử lý dữ liệu cho khách hàng doanh nghiệp
 schemaType: WebPage

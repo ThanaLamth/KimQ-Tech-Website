@@ -1,8 +1,8 @@
 ---
 path: /lien-he
-title: Liên hệ KimQ – Tư vấn & báo giá phần mềm
+title: Liên hệ KimQ Tech – Tư vấn & báo giá phần mềm
 description: Liên hệ Công ty Cổ phần KimQ để được tư vấn sản phẩm, báo giá và hỗ trợ kỹ thuật. Email contact@kimq.tech, văn phòng tại Phường Bình Trưng, TP. Hồ Chí Minh.
-h1: Liên hệ KimQ
+h1: Liên hệ KimQ Tech
 schemaType: ContactPage
 status: draft
 priority: P1

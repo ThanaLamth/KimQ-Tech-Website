@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/hoa-don-dau-vao#webpage",
       "url": "https://kimq.tech/san-pham/hoa-don-dau-vao",
-      "name": "Phần mềm kiểm tra hoá đơn đầu vào | KimQ",
+      "name": "Phần mềm kiểm tra hoá đơn đầu vào | KimQ Tech",
       "description": "Nhập XML hoá đơn điện tử, kiểm từng hoá đơn có căn cứ, đối chiếu ba chiều với đơn mua và phiếu nhập, lập bảng kê trước khi kê khai thuế.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/giai-phap-hoa-chat#webpage",
       "url": "https://kimq.tech/san-pham/giai-phap-hoa-chat",
-      "name": "Phần mềm quản lý phân phối hoá chất | KimQ",
+      "name": "Phần mềm quản lý phân phối hoá chất | KimQ Tech",
       "description": "Báo giá, đơn bán, kho theo lô, nhập khẩu, giao hàng, công nợ, giấy phép và khai báo hoá chất trên một hệ thống, có trợ lý Zalo.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

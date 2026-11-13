@@ -58,7 +58,7 @@ export default function Footer() {
     <footer className="border-t border-[#0F2C59]/10 bg-[#F9F7F0] text-[#0F2C59]">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 md:grid-cols-2 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <Link href="/" aria-label="KimQ">
+          <Link href="/" aria-label="KimQ Tech">
             <img src="/logo.webp" alt={COMPANY.legalName} width={144} height={36} loading="lazy" decoding="async" className="h-9 w-auto object-contain" />
           </Link>
           <address className="mt-4 space-y-1.5 text-sm not-italic text-[#0F2C59]/80">

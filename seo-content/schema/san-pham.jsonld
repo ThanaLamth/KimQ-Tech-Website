@@ -5,8 +5,8 @@
       "@type": "CollectionPage",
       "@id": "https://kimq.tech/san-pham#webpage",
       "url": "https://kimq.tech/san-pham",
-      "name": "Phần mềm nghiệp vụ & trợ lý AI cho doanh nghiệp | KimQ",
-      "description": "19 sản phẩm của KimQ: giải pháp theo ngành, ứng dụng kế toán – kho – bán hàng – nhân sự, trợ lý AI trên Zalo, chatbot đa kênh và AI Gateway.",
+      "name": "Phần mềm nghiệp vụ & trợ lý AI cho doanh nghiệp | KimQ Tech",
+      "description": "19 sản phẩm của KimQ Tech: giải pháp theo ngành, ứng dụng kế toán – kho – bán hàng – nhân sự, trợ lý AI trên Zalo, chatbot đa kênh và AI Gateway.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"
       },

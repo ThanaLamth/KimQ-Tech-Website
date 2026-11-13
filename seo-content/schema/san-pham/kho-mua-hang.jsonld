@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/kho-mua-hang#webpage",
       "url": "https://kimq.tech/san-pham/kho-mua-hang",
-      "name": "Phần mềm quản lý kho & mua hàng | KimQ",
+      "name": "Phần mềm quản lý kho & mua hàng | KimQ Tech",
       "description": "Tồn kho nhiều kho, cảnh báo sắp hết theo điểm đặt hàng lại, so báo giá theo chi phí thực, đơn mua có duyệt và kiểm kê có chênh lệch.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

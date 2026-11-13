@@ -4,7 +4,10 @@
     {
       "@type": "Organization",
       "@id": "https://kimq.tech/#organization",
-      "name": "KimQ",
+      "name": "KimQ Tech",
+      "alternateName": [
+        "KimQ"
+      ],
       "legalName": "Công ty Cổ phần KimQ",
       "url": "https://kimq.tech/",
       "logo": {
@@ -40,7 +43,10 @@
       "@type": "WebSite",
       "@id": "https://kimq.tech/#website",
       "url": "https://kimq.tech/",
-      "name": "KimQ",
+      "name": "KimQ Tech",
+      "alternateName": [
+        "KimQ"
+      ],
       "inLanguage": "vi-VN",
       "publisher": {
         "@id": "https://kimq.tech/#organization"
@@ -50,8 +56,8 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/#webpage",
       "url": "https://kimq.tech/",
-      "name": "KimQ – Phần mềm nghiệp vụ & trợ lý AI cho doanh nghiệp",
-      "description": "KimQ xây phần mềm nghiệp vụ theo ngành, ứng dụng cho doanh nghiệp vừa và nhỏ, trợ lý AI trên Zalo và AI Gateway. Dùng tay đầy đủ, AI chỉ đề xuất.",
+      "name": "KimQ Tech – Phần mềm nghiệp vụ & trợ lý AI cho doanh nghiệp",
+      "description": "KimQ Tech xây phần mềm nghiệp vụ theo ngành, ứng dụng cho doanh nghiệp vừa và nhỏ, trợ lý AI trên Zalo và AI Gateway. Dùng tay đầy đủ, AI chỉ đề xuất.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"
       },

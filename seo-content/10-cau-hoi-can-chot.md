@@ -9,7 +9,7 @@ Ngày: 12/11/2026 · Trạng thái: **Chờ trả lời**
 | Câu | Hỏi gì | Ai trả lời | Đang chặn việc gì | Đề xuất |
 |---|---|---|---|---|
 | Q1 | AI Gateway có lưu nội dung câu hỏi không? | CTO / Product | Chính sách dữ liệu AI, DPA, Bảo mật & dữ liệu, sửa trang AI Gateway | Phương án A, nếu đúng với bản đang chạy |
-| Q2 | Tên thương hiệu dùng thế nào? | Owner | Title, schema, nội dung trang chủ, mạng xã hội | KimQ / Công ty Cổ phần KimQ / KimQ Studio |
+| Q2 | Tên thương hiệu dùng thế nào? | Owner | ✅ **Đã chốt 13/11: KimQ Tech** | KimQ Tech / Công ty Cổ phần KimQ / AI Studio |
 | Q3 | Chính sách với bot AI ra sao? | Owner | Điều khoản sử dụng, `robots.txt`, cài đặt AI trong Search Console | Giữ nguyên (tạm thời) |
 | Q4 | Bản tiếng Anh có URL riêng (hreflang) không? | Owner | Bản tiếng Anh, sitemap, cấu trúc URL | Tuỳ thị trường mục tiêu |
 
@@ -34,7 +34,11 @@ Ngày: 12/11/2026 · Trạng thái: **Chờ trả lời**
 
 **Cách trả lời:** CTO kiểm tra trên bản đang chạy thật, không dựa vào tài liệu.
 
-## Q2 — Tên thương hiệu dùng thế nào?
+## Q2 — Tên thương hiệu dùng thế nào? ✅ ĐÃ CHỐT
+
+**Kết quả (13/11/2026):** thương hiệu công khai là **KimQ Tech**. Không dùng "KimQ Studio". Pháp nhân giữ **Công ty Cổ phần KimQ**. Sản phẩm video giữ tên **AI Studio**. Đã cập nhật: `02`, `04`, `meta-40-url.json`, `schema/`, `site-patch/`, XLSX.
+
+Phần dưới là lý do ban đầu, giữ lại để tham khảo.
 
 **Tại sao phải hỏi:** site đang dùng lẫn lộn 4–5 tên.
 
@@ -48,13 +52,13 @@ Ngày: 12/11/2026 · Trạng thái: **Chờ trả lời**
 
 **Rủi ro:** Google và các công cụ AI khó hiểu KimQ là công ty hay là một sản phẩm, nên entity bị tách và tín hiệu thương hiệu yếu đi.
 
-**Đề xuất** (chi tiết ở `02-brand-va-trang-chu.md`):
-- **KimQ:** thương hiệu công khai, title, schema `name`, mạng xã hội.
+**Quy ước đã chốt** (chi tiết ở `02-brand-va-trang-chu.md`):
+- **KimQ Tech:** thương hiệu công khai, title (` | KimQ Tech`), schema `name`, tên hiển thị mạng xã hội. Trong đoạn văn, lần sau được viết gọn "KimQ".
 - **Công ty Cổ phần KimQ:** pháp nhân, footer, hợp đồng, schema `legalName`.
-- **KimQ Studio:** chỉ dùng cho sản phẩm video/ảnh AI. URL `/san-pham/ai-studio` giữ nguyên.
-- Bỏ tên "KimQ AI Tech".
+- **AI Studio:** sản phẩm video/ảnh AI. Bỏ "KimQ Studio".
+- "KimQ AI Tech" → "KimQ Tech".
 
-Riêng handle TikTok là `@kimqaitech`. Không bắt buộc đổi, nhưng tên hiển thị trên TikTok nên là "KimQ".
+Handle TikTok `@kimqaitech` không bắt buộc đổi. Tên hiển thị trên Facebook, Instagram, Threads, TikTok nên đổi từ "KimQ" thành **"KimQ Tech"**.
 
 ## Q3 — Chính sách với bot AI ra sao?
 
@@ -92,6 +96,6 @@ Sau khi có câu trả lời, SEO/Content sẽ cập nhật các trang và file 
 | Câu | Trả lời | Ngày | Người chốt |
 |---|---|---|---|
 | Q1 | | | |
-| Q2 | | | |
+| Q2 | KimQ Tech (không dùng KimQ Studio) | 13/11/2026 | Owner |
 | Q3 | | | |
 | Q4 | | | |

@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/cong-no#webpage",
       "url": "https://kimq.tech/san-pham/cong-no",
-      "name": "Phần mềm quản lý công nợ & dòng tiền 13 tuần | KimQ",
+      "name": "Phần mềm quản lý công nợ & dòng tiền 13 tuần | KimQ Tech",
       "description": "Tuổi nợ theo hoá đơn, khớp sao kê ngân hàng, thư nhắc nợ nháp và dự báo dòng tiền 13 tuần trên điện thoại. Mỗi người chỉ thấy phần của mình.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

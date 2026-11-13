@@ -1,6 +1,6 @@
 ---
 path: /bao-mat-du-lieu
-title: Bảo mật & dữ liệu trong sản phẩm KimQ
+title: Bảo mật & dữ liệu trong sản phẩm KimQ Tech
 description: Cách KimQ bảo vệ dữ liệu doanh nghiệp: kiểm quyền ở máy chủ, nhật ký không sửa xoá được, AI chỉ đề xuất, che dữ liệu cá nhân, mã hoá key, cài tại chỗ.
 h1: Bảo mật & dữ liệu
 schemaType: WebPage

@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/kho-gia-vat-lieu#webpage",
       "url": "https://kimq.tech/san-pham/kho-gia-vat-lieu",
-      "name": "Quản lý kho, giữ hàng & giá vật liệu xây dựng | KimQ",
+      "name": "Quản lý kho, giữ hàng & giá vật liệu xây dựng | KimQ Tech",
       "description": "Hứa hàng theo hạn hẹn, giữ đúng hàng cho từng đơn, kiểm tra trước khi xuất và so giá vật liệu công bố của các tỉnh theo cùng quy cách.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

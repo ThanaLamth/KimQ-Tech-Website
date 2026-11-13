@@ -1,8 +1,8 @@
 ---
 path: /gioi-thieu
-title: Giới thiệu KimQ – Công ty Cổ phần KimQ
+title: Giới thiệu KimQ Tech – Công ty Cổ phần KimQ
 description: KimQ là đội ngũ phát triển phần mềm nghiệp vụ và trợ lý AI tại TP. Hồ Chí Minh. Thông tin pháp nhân, nguyên tắc sản phẩm, đội ngũ và cách liên hệ.
-h1: Về KimQ
+h1: Về KimQ Tech
 schemaType: AboutPage
 status: draft
 priority: P1
@@ -28,7 +28,7 @@ KimQ là đội ngũ phát triển sản phẩm tại Việt Nam. Chúng tôi x�
 
 - **Phần mềm theo ngành:** thẩm định giá, đấu thầu, phân phối hoá chất, vật liệu xây dựng, phòng thí nghiệm, bệnh viện và phòng khám.
 - **Ứng dụng cho doanh nghiệp vừa và nhỏ:** công nợ, kho và mua hàng, báo giá, hoá đơn đầu vào, chấm công và lương.
-- **Trợ lý AI và tự động hoá:** trợ lý trên Zalo, chatbot đa kênh, tự động xuất hoá đơn và đối soát, KimQ Studio làm video AI, Trợ lý Fanpage, KimQ AI Gateway.
+- **Trợ lý AI và tự động hoá:** trợ lý trên Zalo, chatbot đa kênh, tự động xuất hoá đơn và đối soát, AI Studio làm video AI, Trợ lý Fanpage, KimQ AI Gateway.
 - **Dịch vụ:** phát triển phần mềm web và di động, đồng hành chuyển đổi AI, sản xuất video AI.
 
 [Xem tất cả sản phẩm →](/san-pham)

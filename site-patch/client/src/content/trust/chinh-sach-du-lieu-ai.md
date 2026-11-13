@@ -1,6 +1,6 @@
 ---
 path: /chinh-sach-du-lieu-ai
-title: Chính sách dữ liệu AI – AI dùng dữ liệu thế nào | KimQ
+title: Chính sách dữ liệu AI – AI dùng dữ liệu thế nào | KimQ Tech
 description: Trợ lý AI và AI Gateway của KimQ dùng dữ liệu thế nào: AI chỉ đề xuất, chạy đúng quyền người dùng, che dữ liệu cá nhân, nội dung lưu gì, nhà cung cấp model nào.
 h1: Chính sách dữ liệu AI
 schemaType: WebPage
@@ -10,7 +10,7 @@ updated: "[CẦN ĐIỀN: dd/mm/yyyy]"
 review: Owner + CTO (cần chốt Q1 trước)
 ---
 
-Nhiều sản phẩm KimQ có trợ lý AI: trợ lý trong ứng dụng, trợ lý trên Zalo, chatbot đa kênh, Trợ lý Fanpage, KimQ Studio. KimQ AI Gateway là cổng để doanh nghiệp quản lý việc dùng AI. Trang này giải thích AI được làm gì và dữ liệu đi đâu.
+Nhiều sản phẩm KimQ có trợ lý AI: trợ lý trong ứng dụng, trợ lý trên Zalo, chatbot đa kênh, Trợ lý Fanpage, AI Studio. KimQ AI Gateway là cổng để doanh nghiệp quản lý việc dùng AI. Trang này giải thích AI được làm gì và dữ liệu đi đâu.
 
 ## 1. AI chỉ đề xuất, người quyết định
 
@@ -46,7 +46,7 @@ Khi anh/chị hỏi trợ lý, phần dữ liệu cần để trả lời (câu 
 ## 5. Nội dung do AI tạo
 
 - **Trợ lý Fanpage:** không bài nào lên trang khi chưa duyệt. Chỉ người được giao quyền duyệt mới đưa bài vào lịch đăng. Chỗ AI không chắc được đánh dấu để người duyệt kiểm.
-- **KimQ Studio:** doanh nghiệp duyệt kịch bản và bản dựng trước khi nhận video.
+- **AI Studio:** doanh nghiệp duyệt kịch bản và bản dựng trước khi nhận video.
 - **Chatbot đa kênh:** mỗi loại câu chỉ được bật tự trả lời sau khi đã soạn đúng ở chế độ duyệt nháp. Không có căn cứ trong tài liệu và hệ thống, hoặc câu hỏi chạm tới tiền, hoàn tiền, khiếu nại, thì trợ lý chuyển cho người, kèm tóm tắt.
 - Doanh nghiệp chịu trách nhiệm cuối cùng về nội dung đăng trên kênh của mình.
 - AI có thể sai. Với số liệu kế toán, thuế hay y tế, người có chuyên môn phải kiểm tra trước khi dùng.

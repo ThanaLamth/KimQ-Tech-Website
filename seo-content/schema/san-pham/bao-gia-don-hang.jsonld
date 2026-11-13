@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/bao-gia-don-hang#webpage",
       "url": "https://kimq.tech/san-pham/bao-gia-don-hang",
-      "name": "Phần mềm báo giá & quản lý đơn hàng | KimQ",
+      "name": "Phần mềm báo giá & quản lý đơn hàng | KimQ Tech",
       "description": "Lập báo giá đúng bảng giá và bậc số lượng, chuyển thành đơn, duyệt giảm giá vượt ngưỡng, chặn đơn vượt hạn mức nợ và theo dõi đơn kẹt.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

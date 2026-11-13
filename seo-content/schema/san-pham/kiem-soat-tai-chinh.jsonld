@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/kiem-soat-tai-chinh#webpage",
       "url": "https://kimq.tech/san-pham/kiem-soat-tai-chinh",
-      "name": "Phần mềm kiểm soát tài chính nội bộ | KimQ",
+      "name": "Phần mềm kiểm soát tài chính nội bộ | KimQ Tech",
       "description": "Phát hiện bất thường ngay trong kỳ: đối chiếu theo quy tắc, gom tín hiệu thành vấn đề có bằng chứng, người có thẩm quyền kết luận và giao việc.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"

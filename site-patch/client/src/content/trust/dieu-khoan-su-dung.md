@@ -1,6 +1,6 @@
 ---
 path: /dieu-khoan-su-dung
-title: Điều khoản sử dụng website | KimQ
+title: Điều khoản sử dụng website | KimQ Tech
 description: Điều khoản khi sử dụng website kimq.tech: phạm vi nội dung tham khảo, quyền sở hữu, hành vi bị cấm, liên kết bên ngoài, giới hạn trách nhiệm và luật áp dụng.
 h1: Điều khoản sử dụng website
 schemaType: WebPage

@@ -18,7 +18,7 @@
       "@type": "WebPage",
       "@id": "https://kimq.tech/san-pham/tinh-luong-phong-kham#webpage",
       "url": "https://kimq.tech/san-pham/tinh-luong-phong-kham",
-      "name": "Phần mềm tính lương tự động cho phòng khám | KimQ",
+      "name": "Phần mềm tính lương tự động cho phòng khám | KimQ Tech",
       "description": "Lấy doanh thu theo bác sĩ từ HIS, công và ca trực, thực thu từ MISA, điểm đánh giá để tính lương sáu nhóm nhân sự, BHXH và thuế TNCN.",
       "isPartOf": {
         "@id": "https://kimq.tech/#website"
