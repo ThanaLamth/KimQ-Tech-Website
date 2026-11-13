@@ -2,7 +2,7 @@
 
 - Ngày: 2026-11-10
 - Nguồn update: Search Engine Roundtable, category `google-updates` + trang chủ (fetch bằng TinyFish, 20 bài, 21/05 → 09/11/2026)
-- Đối chiếu với: `KIMQ-AUDIT-TONG-HOP-2026-11-09.md` (đã recheck live 10/11: chưa có thay đổi)
+- Đối chiếu với: [`KIMQ-AUDIT-TONG-HOP-2026-11-09.md`](KIMQ-AUDIT-TONG-HOP-2026-11-09.md) (đã recheck live 10/11: chưa có thay đổi)
 - Giới hạn: KimQ chưa có dữ liệu GSC/GA4 → không đo được tác động thực tế của từng update, chỉ đánh giá rủi ro/mức sẵn sàng.
 
 ## 1. Timeline update (tóm tắt)

@@ -2,7 +2,7 @@
 
 Ngày: 13/11/2026 · Trạng thái: **Sẵn sàng, chờ Dev đưa lên** · Nguồn: nội dung live của từng trang (crawl 09/11, TinyFish 10/11)
 
-Làm theo `05-noi-dung-trang-san-pham.md` §3, khối 1. **Không thêm thông tin mới.** Mỗi ý đều lấy từ mô tả đầu trang, FAQ hoặc giới hạn mà trang đã tự nêu; cột "Căn cứ" ghi rõ lấy từ đâu.
+Làm theo [`05-noi-dung-trang-san-pham.md`](05-noi-dung-trang-san-pham.md) §3, khối 1. **Không thêm thông tin mới.** Mỗi ý đều lấy từ mô tả đầu trang, FAQ hoặc giới hạn mà trang đã tự nêu; cột "Căn cứ" ghi rõ lấy từ đâu.
 
 ## Cách đặt lên trang
 
@@ -10,7 +10,7 @@ Làm theo `05-noi-dung-trang-san-pham.md` §3, khối 1. **Không thêm thông t
 - **Cấu trúc:** `H2` "Phù hợp với ai" → hai cột (điện thoại: hai khối chồng nhau): "Phù hợp khi" (3 ý, dấu ✓) và "Chưa phù hợp khi" (1–2 ý, dấu –). Hai tiêu đề con dùng `H3`.
 - **Tiếng Anh:** `H2` "Who it's for", `H3` "A good fit if" / "Not the right fit if".
 - **Link:** ý "Chưa phù hợp" nào gợi ý sản phẩm khác thì có link nội bộ tới sản phẩm đó (giữ người đọc trên site và tăng internal link).
-- **Dữ liệu máy đọc:** `phu-hop-voi-ai.json` (cùng thư mục), có cả `vi` và `en`.
+- **Dữ liệu máy đọc:** [`phu-hop-voi-ai.json`](phu-hop-voi-ai.json) (cùng thư mục), có cả `vi` và `en`.
 - **Không** đưa khối này vào schema FAQPage. Nó là nội dung trang thường.
 
 Lưu ý riêng: **AI Gateway** chỉ có 1 ý "Chưa phù hợp" vì trang không nêu giới hạn nào khác. Câu về lưu nội dung câu hỏi **cố ý chưa viết**, chờ Q1.
@@ -571,7 +571,7 @@ Căn cứ: H1 + FAQ hạn mức, key nhân viên nghỉ, dự phòng, cài tại
 
 ## Nghiệm thu
 
-- [ ] Dev thêm component khối "Phù hợp với ai" đọc từ `phu-hop-voi-ai.json`, đặt trước FAQ ở 19 trang
+- [ ] Dev thêm component khối "Phù hợp với ai" đọc từ [`phu-hop-voi-ai.json`](phu-hop-voi-ai.json), đặt trước FAQ ở 19 trang
 - [ ] Có trong HTML gốc sau khi prerender
 - [ ] Link nội bộ trong ý "Chưa phù hợp" bấm được
 - [ ] Owner rà nhanh 19 khối (mỗi khối 5 dòng) xem có ý nào không còn đúng với sản phẩm hiện tại

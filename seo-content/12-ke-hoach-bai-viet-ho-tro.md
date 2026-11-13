@@ -10,7 +10,7 @@ Trang sản phẩm phục vụ người **đã biết mình cần phần mềm**
 
 - **Nhu cầu tìm kiếm:** lấy từ Google gợi ý tìm kiếm (autocomplete, `hl=vi`, `gl=vn`) ngày 13/11/2026. Gợi ý xuất hiện nghĩa là **có người tìm**, nhưng **chưa có số lượt tìm**. Kiểm lại bằng Google Keyword Planner hoặc Search Console sau 28 ngày có dữ liệu (task T22), rồi đổi thứ tự nếu cần.
 - **Khớp sản phẩm:** chỉ chọn chủ đề mà trang sản phẩm đã có sẵn kiến thức để dẫn chứng.
-- **Không làm:** bài theo tỉnh/quận, bài biến thể từ khoá hàng loạt, bài viết bằng AI không người rà (spam update 08–09/2026, xem `07` §3).
+- **Không làm:** bài theo tỉnh/quận, bài biến thể từ khoá hàng loạt, bài viết bằng AI không người rà (spam update 08–09/2026, xem [`07`](07-gsc-ga4-chinh-sach-ai-geo.md) §3).
 
 ## Danh sách
 
@@ -31,7 +31,7 @@ Site **chưa có mục bài viết**. Cần:
 - Route `/kien-thuc` (danh sách) và `/kien-thuc/<slug>` (bài), có trong HTML gốc (prerender, xem tracker A2).
 - Schema `Article` (tác giả `Person`, người rà, `datePublished`, `dateModified` thật) + `BreadcrumbList`.
 - Thêm vào `sitemap.xml` với `lastmod` thật.
-- Byline và ngày cập nhật theo mẫu `06-byline-ngay-cap-nhat-huong-dan.md`.
+- Byline và ngày cập nhật theo mẫu [`06-byline-ngay-cap-nhat-huong-dan.md`](06-byline-ngay-cap-nhat-huong-dan.md).
 - Ở trang sản phẩm tương ứng: thêm link "Đọc thêm" tới bài.
 
 ---

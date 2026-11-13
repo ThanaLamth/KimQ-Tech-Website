@@ -61,4 +61,4 @@ Trạng thái: **Bản chốt đề xuất, chờ duyệt** · Thay cho cột "S
 ## Dev áp dụng thế nào
 - Title, meta, canonical, og:title, og:description, og:url phải có trong **HTML gốc** (prerender/SSG), không chỉ sau khi JS chạy.
 - `og:title` = title, `og:description` = meta, `og:url` = canonical.
-- Bản máy đọc được: `meta-40-url.json` (cùng thư mục).
+- Bản máy đọc được: [`meta-40-url.json`](meta-40-url.json) (cùng thư mục).

@@ -21,22 +21,22 @@ Ngày: 12/11/2026 · Trạng thái: **Chờ trả lời**
 
 **Rủi ro:** hứa "không lưu" mà thực tế có lưu là rủi ro pháp lý theo Luật 91/2025/QH15 và NĐ 356/2025/NĐ-CP. Đồng thời làm mất lòng tin của khách hàng doanh nghiệp.
 
-**Phương án** (chi tiết câu chữ ở `01-sua-claim-ai-gateway.md`):
+**Phương án** (chi tiết câu chữ ở [`01-sua-claim-ai-gateway.md`](01-sua-claim-ai-gateway.md)):
 - **A (khuyến nghị):** mặc định lưu nội dung đã che dữ liệu cá nhân, và tắt được. Chỉ sửa trang sản phẩm.
 - **B:** không lưu nội dung. Sửa trang hướng dẫn và schema.
 
 **Chờ câu trả lời này:**
-- `site-patch/client/src/content/trust/chinh-sach-du-lieu-ai.md` (đang viết theo phương án A)
-- `cam-ket-xu-ly-du-lieu.md` (DPA)
-- `bao-mat-du-lieu.md`
-- `schema/san-pham/ai-gateway.jsonld`
-- `schema/huong-dan/ai-gateway.jsonld`
+- [`site-patch/client/src/content/trust/chinh-sach-du-lieu-ai.md`](../site-patch/client/src/content/trust/chinh-sach-du-lieu-ai.md) (đang viết theo phương án A)
+- [`cam-ket-xu-ly-du-lieu.md`](../site-patch/client/src/content/trust/cam-ket-xu-ly-du-lieu.md) (DPA)
+- [`bao-mat-du-lieu.md`](../site-patch/client/src/content/trust/bao-mat-du-lieu.md)
+- [`schema/san-pham/ai-gateway.jsonld`](schema/san-pham/ai-gateway.jsonld)
+- [`schema/huong-dan/ai-gateway.jsonld`](schema/huong-dan/ai-gateway.jsonld)
 
 **Cách trả lời:** CTO kiểm tra trên bản đang chạy thật, không dựa vào tài liệu.
 
 ## Q2 — Tên thương hiệu dùng thế nào? ✅ ĐÃ CHỐT
 
-**Kết quả (13/11/2026):** thương hiệu công khai là **KimQ Tech**. Không dùng "KimQ Studio". Pháp nhân giữ **Công ty Cổ phần KimQ**. Sản phẩm video giữ tên **AI Studio**. Đã cập nhật: `02`, `04`, `meta-40-url.json`, `schema/`, `site-patch/`, XLSX.
+**Kết quả (13/11/2026):** thương hiệu công khai là **KimQ Tech**. Không dùng "KimQ Studio". Pháp nhân giữ **Công ty Cổ phần KimQ**. Sản phẩm video giữ tên **AI Studio**. Đã cập nhật: [`02`](02-brand-va-trang-chu.md), [`04`](04-metadata-40-url.md), [`meta-40-url.json`](meta-40-url.json), [`schema/`](schema/), [`site-patch/`](../site-patch/), XLSX.
 
 Phần dưới là lý do ban đầu, giữ lại để tham khảo.
 
@@ -52,7 +52,7 @@ Phần dưới là lý do ban đầu, giữ lại để tham khảo.
 
 **Rủi ro:** Google và các công cụ AI khó hiểu KimQ là công ty hay là một sản phẩm, nên entity bị tách và tín hiệu thương hiệu yếu đi.
 
-**Quy ước đã chốt** (chi tiết ở `02-brand-va-trang-chu.md`):
+**Quy ước đã chốt** (chi tiết ở [`02-brand-va-trang-chu.md`](02-brand-va-trang-chu.md)):
 - **KimQ Tech:** thương hiệu công khai, title (` | KimQ Tech`), schema `name`, tên hiển thị mạng xã hội. Trong đoạn văn, lần sau được viết gọn "KimQ".
 - **Công ty Cổ phần KimQ:** pháp nhân, footer, hợp đồng, schema `legalName`.
 - **AI Studio:** sản phẩm video/ảnh AI. Bỏ "KimQ Studio".
@@ -72,13 +72,13 @@ Handle TikTok `@kimqaitech` không bắt buộc đổi. Tên hiển thị trên 
 | B. Bỏ chặn Google-Extended, GPTBot, ClaudeBot | Mô hình AI có thể "biết" KimQ nhiều hơn; đổi lại nội dung được dùng để huấn luyện |
 
 **Chờ câu trả lời này:**
-- Mục "Hành vi bị cấm" trong `dieu-khoan-su-dung.md`.
+- Mục "Hành vi bị cấm" trong [`dieu-khoan-su-dung.md`](../site-patch/client/src/content/trust/dieu-khoan-su-dung.md).
 - Cài đặt Search generative AI control trong Search Console (phải đặt cùng chính sách với `robots.txt`).
-- Chiến lược GEO trong `07-gsc-ga4-chinh-sach-ai-geo.md`.
+- Chiến lược GEO trong [`07-gsc-ga4-chinh-sach-ai-geo.md`](07-gsc-ga4-chinh-sach-ai-geo.md).
 
 ## Q4 — Bản tiếng Anh có URL riêng (hreflang) không?
 
-**Tại sao phải hỏi:** nút chuyển ngôn ngữ hiện chỉ đổi chữ trên trình duyệt (lưu trong `localStorage`, khoá `language`) và **giữ nguyên URL**. Google chỉ thấy bản tiếng Việt, nên bản tiếng Anh gần như không được lập chỉ mục. Đây là mục #10 (P1) trong `../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`.
+**Tại sao phải hỏi:** nút chuyển ngôn ngữ hiện chỉ đổi chữ trên trình duyệt (lưu trong `localStorage`, khoá `language`) và **giữ nguyên URL**. Google chỉ thấy bản tiếng Việt, nên bản tiếng Anh gần như không được lập chỉ mục. Đây là mục #10 (P1) trong [`../KIMQ-AUDIT-TONG-HOP-2026-11-09.md`](../KIMQ-AUDIT-TONG-HOP-2026-11-09.md).
 
 | Phương án | Cần làm |
 |---|---|

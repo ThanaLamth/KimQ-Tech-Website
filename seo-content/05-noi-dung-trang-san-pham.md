@@ -33,7 +33,7 @@ Dev nên cho phép khai báo `related: [...]` riêng cho từng sản phẩm tha
 
 ## 2. FAQ cho `/san-pham/tinh-luong-phong-kham` (trang duy nhất chưa có FAQ)
 
-Mọi câu trả lời lấy từ nội dung đang có trên trang. Sau khi đăng, thêm FAQPage vào `schema/san-pham/tinh-luong-phong-kham.jsonld`.
+Mọi câu trả lời lấy từ nội dung đang có trên trang. Sau khi đăng, thêm FAQPage vào [`schema/san-pham/tinh-luong-phong-kham.jsonld`](schema/san-pham/tinh-luong-phong-kham.jsonld).
 
 **Phòng khám đang dùng MISA thì có phải bỏ không?**
 Không. Bộ máy tính lương kết nối MISA AMIS Tiền lương phòng khám đang dùng, thêm mô-đun tính lương hiệu suất (P3) riêng cho công thức của bác sĩ; bút toán lương chuyển sang MISA Kế toán một bước.

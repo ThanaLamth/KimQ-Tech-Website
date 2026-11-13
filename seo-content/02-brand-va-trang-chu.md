@@ -25,7 +25,7 @@ Trạng thái: **Q2 đã chốt ngày 13/11/2026: thương hiệu là KimQ Tech*
 - `<title>` mặc định trong `index.html` ("KimQ Studio") → title trang chủ bên dưới.
 - Trang chủ: H3 "KimQ Studio" và câu "sản xuất video AI với KimQ Studio" → "AI Studio".
 - H1 trang `/san-pham/ai-studio/huong-dan`: "KimQ Studio: tạo ảnh và video…" → "AI Studio: tạo ảnh và video…".
-- Hậu tố title của 39 trang: "· KimQ" → " | KimQ Tech" (đã có trong `04` và `meta-40-url.json`).
+- Hậu tố title của 39 trang: "· KimQ" → " | KimQ Tech" (đã có trong [`04`](04-metadata-40-url.md) và [`meta-40-url.json`](meta-40-url.json)).
 
 ## 3. Trang chủ `/`
 

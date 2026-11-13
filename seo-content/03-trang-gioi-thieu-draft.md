@@ -1,7 +1,7 @@
 # 03 — Trang Giới thiệu (About): bản nháp
 
 Trạng thái: **Nháp**. Các chỗ `[CẦN ĐIỀN]` phải lấy thông tin thật, **không tự bịa**.
-URL đề xuất: `/gioi-thieu` · Link từ menu chính và footer · Schema: `AboutPage` + `Organization` (dùng `schema/home.jsonld`, `@id` `https://kimq.tech/#organization`)
+URL đề xuất: `/gioi-thieu` · Link từ menu chính và footer · Schema: `AboutPage` + `Organization` (dùng [`schema/home.jsonld`](schema/home.jsonld), `@id` `https://kimq.tech/#organization`)
 
 Mọi câu không có `[CẦN ĐIỀN]` đều lấy từ nội dung đang có trên kimq.tech.
 
@@ -87,4 +87,4 @@ Email: contact@kimq.tech · Nhóm Zalo cộng đồng KimQ · Địa chỉ: Tầ
 }
 ```
 
-`sameAs` trong `schema/home.jsonld` đã có Facebook, Instagram, Threads, TikTok. Thêm LinkedIn công ty, Zalo OA, YouTube khi có.
+`sameAs` trong [`schema/home.jsonld`](schema/home.jsonld) đã có Facebook, Instagram, Threads, TikTok. Thêm LinkedIn công ty, Zalo OA, YouTube khi có.

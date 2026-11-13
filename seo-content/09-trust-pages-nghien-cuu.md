@@ -6,7 +6,7 @@ Phương pháp:
 - Playwright đọc footer của 12 site SaaS Việt Nam.
 - TinyFish đọc 20 trang pháp lý/trust mẫu.
 Phát hiện dựa trên link có trên **trang chủ**. Trang nào chỉ được link từ chỗ khác thì có thể bị sót.
-Bản nháp chi tiết các trang P0–P1: xem `08-trust-pages-footer.md`.
+Bản nháp chi tiết các trang P0–P1: xem [`08-trust-pages-footer.md`](08-trust-pages-footer.md).
 
 ## 1. Nhóm site đã khảo sát
 
@@ -46,24 +46,24 @@ Bản nháp chi tiết các trang P0–P1: xem `08-trust-pages-footer.md`.
 
 ## 3. Danh sách trust pages cho KimQ
 
-Hiện tại KimQ có **0** trang trong danh sách dưới đây (xem `08`).
+Hiện tại KimQ có **0** trang trong danh sách dưới đây (xem [`08`](08-trust-pages-footer.md)).
 
 ### P0: làm ngay (pháp lý + nền tảng)
 
 | # | Trang / thành phần | URL đề xuất | Nội dung chính (theo mẫu tốt) | Ai làm |
 |---|---|---|---|---|
-| 1 | Chính sách bảo vệ dữ liệu cá nhân (website, KimQ là **bên kiểm soát**) | `/chinh-sach-bao-mat` | Theo khung base.vn: định nghĩa → dữ liệu thu (email form, log) → mục đích → bên nhận → quyền chủ thể + cách thực hiện → biện pháp bảo vệ → thời gian lưu → chuyển ra nước ngoài → cam kết không mua bán → ngày hiệu lực → liên hệ. Khung có sẵn ở `08` mục 4.2 | Owner + luật sư → Dev |
-| 2 | Câu thông báo + link chính sách dưới form "Quan tâm" | 19 trang SP | `08` mục 4.4 | Dev |
-| 3 | Footer có pháp nhân đầy đủ | sitewide | Theo misa/fpt-is: **Công ty Cổ phần KimQ · Giấy CNĐKDN/MST 0319416034 do `[CẦN ĐIỀN: nơi cấp]` cấp ngày `[CẦN ĐIỀN]`** · địa chỉ · hotline · email · 4 cột link (`08` mục 3) | Owner điền → Dev |
+| 1 | Chính sách bảo vệ dữ liệu cá nhân (website, KimQ là **bên kiểm soát**) | `/chinh-sach-bao-mat` | Theo khung base.vn: định nghĩa → dữ liệu thu (email form, log) → mục đích → bên nhận → quyền chủ thể + cách thực hiện → biện pháp bảo vệ → thời gian lưu → chuyển ra nước ngoài → cam kết không mua bán → ngày hiệu lực → liên hệ. Khung có sẵn ở [`08`](08-trust-pages-footer.md) mục 4.2 | Owner + luật sư → Dev |
+| 2 | Câu thông báo + link chính sách dưới form "Quan tâm" | 19 trang SP | [`08`](08-trust-pages-footer.md) mục 4.4 | Dev |
+| 3 | Footer có pháp nhân đầy đủ | sitewide | Theo misa/fpt-is: **Công ty Cổ phần KimQ · Giấy CNĐKDN/MST 0319416034 do `[CẦN ĐIỀN: nơi cấp]` cấp ngày `[CẦN ĐIỀN]`** · địa chỉ · hotline · email · 4 cột link ([`08`](08-trust-pages-footer.md) mục 3) | Owner điền → Dev |
 | 4 | Trang 404 thật (HTTP 404, tiếng Việt, có link về SP) | mọi URL lạ | Hiện đang là soft 404 template dev | Dev |
 
 ### P1: trong 2–4 tuần (E-E-A-T + bán B2B)
 
 | # | Trang | URL đề xuất | Nội dung chính | Ai làm |
 |---|---|---|---|---|
-| 5 | Giới thiệu | `/gioi-thieu` | Theo base.vn + fpt.ai: câu chuyện, sứ mệnh, giá trị, **đội ngũ có tên thật**, hành trình theo năm, chứng nhận/giải thưởng (nếu có thật). Nháp: `03` | Owner + Content |
-| 6 | Liên hệ | `/lien-he` | Theo kiotviet: hotline nổi bật, giờ làm việc, địa chỉ + bản đồ, form có câu đồng ý. Nháp: `08` mục 4.1 | Content + Dev |
-| 7 | Điều khoản sử dụng website | `/dieu-khoan-su-dung` | `08` mục 4.3. Điều khoản dịch vụ từng sản phẩm để sang hợp đồng, hoặc trang riêng như 1office | Luật sư |
+| 5 | Giới thiệu | `/gioi-thieu` | Theo base.vn + fpt.ai: câu chuyện, sứ mệnh, giá trị, **đội ngũ có tên thật**, hành trình theo năm, chứng nhận/giải thưởng (nếu có thật). Nháp: [`03`](03-trang-gioi-thieu-draft.md) | Owner + Content |
+| 6 | Liên hệ | `/lien-he` | Theo kiotviet: hotline nổi bật, giờ làm việc, địa chỉ + bản đồ, form có câu đồng ý. Nháp: [`08`](08-trust-pages-footer.md) mục 4.1 | Content + Dev |
+| 7 | Điều khoản sử dụng website | `/dieu-khoan-su-dung` | [`08`](08-trust-pages-footer.md) mục 4.3. Điều khoản dịch vụ từng sản phẩm để sang hợp đồng, hoặc trang riêng như 1office | Luật sư |
 | 8 | **Bảo mật & dữ liệu** (trust center gọn) | `/bao-mat-du-lieu` | Theo notion/linear/portkey, **chỉ ghi điều đang làm thật**: nơi đặt máy chủ (VN / on-premise), mã hoá, phân quyền, nhật ký kiểm toán, che dữ liệu cá nhân (AI Gateway), sao lưu, quy trình xử lý sự cố, chứng chỉ (chưa có thì không ghi), liên hệ báo lỗ hổng | CTO + Content |
 | 9 | Cam kết xử lý dữ liệu, KimQ là **bên xử lý** (DPA) | `/cam-ket-xu-ly-du-lieu` | Theo base.vn "Bên xử lý" và 1office: KimQ xử lý dữ liệu khách hàng đưa vào Công nợ, Lương, Health, LIMS, AI Gateway theo chỉ dẫn của khách; bảo mật; bên xử lý phụ; thông báo sự cố; xoá/trả dữ liệu khi kết thúc. **Dữ liệu sức khoẻ = nhạy cảm** | Luật sư + CTO |
 | 10 | Chính sách dữ liệu AI | mục trong #8 hoặc `/chinh-sach-ai` | Model/nhà cung cấp nào được dùng; dữ liệu khách **có hay không** dùng để huấn luyện; AI Gateway có lưu nội dung không (**phải chốt Q1 trước**); người duyệt trước khi AI ghi dữ liệu (đã có trên trang Công nợ: "chỉ tạo yêu cầu chờ duyệt") | Owner + CTO |
@@ -76,7 +76,7 @@ Hiện tại KimQ có **0** trang trong danh sách dưới đây (xem `08`).
 | 12 | Danh sách bên xử lý phụ | Khi ký hợp đồng với doanh nghiệp vừa/lớn hoặc bệnh viện | vercel sub-processors (tên, mục đích, quốc gia) |
 | 13 | Cam kết SLA & hỗ trợ | Khi bán gói có phí | 1office.vn/cam-ket-sla |
 | 14 | Chính sách cookie + bảng đồng ý | **Bắt buộc trước khi bật GA4** | fastwork.vn (nhóm cookie, danh mục, cách từ chối) |
-| 15 | `/.well-known/security.txt` + chính sách báo lỗ hổng | Nên làm sớm, tốn 10 phút | `08` mục 5 |
+| 15 | `/.well-known/security.txt` + chính sách báo lỗ hổng | Nên làm sớm, tốn 10 phút | [`08`](08-trust-pages-footer.md) mục 5 |
 | 16 | Trang trạng thái hệ thống | Khi có khách trả phí dùng hằng ngày | status.portkey.ai |
 | 17 | Tuyển dụng | Tuỳ chọn: tín hiệu "công ty thật, đang phát triển" | about.kiotviet.vn/tuyen-dung |
 | 18 | Tuyên bố tiếp cận | Tuỳ chọn | xero, hubspot |
@@ -92,13 +92,13 @@ Hiện tại KimQ có **0** trang trong danh sách dưới đây (xem `08`).
 
 ## 4. Quy tắc viết (áp dụng cho mọi trang trust)
 
-- **Không ghi điều chưa làm.** Trang bảo mật nói sai còn hại hơn không có. Mâu thuẫn AI Gateway (`01`) là ví dụ.
+- **Không ghi điều chưa làm.** Trang bảo mật nói sai còn hại hơn không có. Mâu thuẫn AI Gateway ([`01`](01-sua-claim-ai-gateway.md)) là ví dụ.
 - Mỗi trang chính sách ghi **ngày hiệu lực + ngày cập nhật**, và lưu bản cũ (như base.vn, fpt-is.com, fastwork.vn).
 - Dẫn đúng căn cứ hiện hành: **Luật 91/2025/QH15, NĐ 356/2025/NĐ-CP**. Không dẫn NĐ 13/2023, vì nghị định này đã hết hiệu lực.
 - Tách hai vai trò:
   - **website** (KimQ là bên kiểm soát): trang #1;
   - **sản phẩm** (KimQ là bên xử lý dữ liệu khách hàng): trang #9.
-- NAP (tên, địa chỉ, điện thoại) và MST phải trùng từng chữ giữa footer, `/lien-he`, `/gioi-thieu` và `schema/home.jsonld`.
+- NAP (tên, địa chỉ, điện thoại) và MST phải trùng từng chữ giữa footer, `/lien-he`, `/gioi-thieu` và [`schema/home.jsonld`](schema/home.jsonld).
 - Trang trust phải được index, có trong sitemap, render sẵn HTML, và có link từ footer trên mọi trang.
 - Trang có `[CẦN ĐIỀN]` thì chưa được đưa lên.
 

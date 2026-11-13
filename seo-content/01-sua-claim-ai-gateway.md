@@ -34,7 +34,7 @@ Nên thêm 1 câu FAQ mới trên trang sản phẩm để khớp với hướng
 > **Có thể tắt hẳn việc lưu nội dung không?**
 > Có. Quản trị viên tắt lưu nội dung cho toàn cổng; khi đó nhật ký chỉ còn ai, lúc nào, model nào, bao nhiêu token. Với từng lượt đặc biệt nhạy cảm, ứng dụng gửi kèm header không ghi nhật ký.
 
-Schema `schema/san-pham/ai-gateway.jsonld` và `schema/huong-dan/ai-gateway.jsonld` **đã viết theo phương án A**.
+Schema [`schema/san-pham/ai-gateway.jsonld`](schema/san-pham/ai-gateway.jsonld) và [`schema/huong-dan/ai-gateway.jsonld`](schema/huong-dan/ai-gateway.jsonld) **đã viết theo phương án A**.
 
 ## Phương án B: sản phẩm thật sự không lưu nội dung
 

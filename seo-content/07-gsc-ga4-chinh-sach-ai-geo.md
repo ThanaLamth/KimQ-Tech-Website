@@ -67,7 +67,7 @@ Ngày 28/05/2026, Google cảnh báo rằng mua hoặc thao túng việc nhắc 
 
 **Làm**
 - Case study thật, có sự đồng ý công khai của khách (task T16).
-- Hồ sơ nhất quán: LinkedIn công ty, Facebook, Zalo OA, YouTube (video AI Studio), Masothue/Trang vàng. Dùng cùng tên "KimQ Tech", tên pháp nhân, địa chỉ và website. Sau đó thêm vào `sameAs` (`schema/home.jsonld`).
+- Hồ sơ nhất quán: LinkedIn công ty, Facebook, Zalo OA, YouTube (video AI Studio), Masothue/Trang vàng. Dùng cùng tên "KimQ Tech", tên pháp nhân, địa chỉ và website. Sau đó thêm vào `sameAs` ([`schema/home.jsonld`](schema/home.jsonld)).
 - Bài chuyên môn của người thật trong đội (byline, file 06) trên các kênh ngành: kế toán, y tế, thẩm định.
 - Đối tác tích hợp có trang liệt kê thật (ví dụ đối tác HIS, MISA, ngân hàng) nếu được phép.
 

@@ -13,20 +13,20 @@ Rủi ro lớn nhất là **pháp lý**: 19 trang sản phẩm có form thu emai
 
 ## 1. Trust pages
 
-Đã thử 21 URL ứng viên. Tất cả đều trả **"404 Page Not Found — Did you forget to add the page to the router?"** với HTTP 200. Riêng `security.txt` trả 404 thật.
+Đã thử 21 URL ứng viên. Tất cả đều trả **"404 Page Not Found — Did you forget to add the page to the router?"** với HTTP 200. Riêng [`security.txt`](../site-patch/client/public/.well-known/security.txt) trả 404 thật.
 
 | Trang | URL đã thử | Hiện trạng | Đánh giá | Việc cần làm |
 |---|---|---|---|---|
-| Giới thiệu | `/gioi-thieu`, `/ve-chung-toi`, `/about` | Chỉ có anchor `#about` trên trang chủ | ❌ | Dùng nháp `03-trang-gioi-thieu-draft.md` |
+| Giới thiệu | `/gioi-thieu`, `/ve-chung-toi`, `/about` | Chỉ có anchor `#about` trên trang chủ | ❌ | Dùng nháp [`03-trang-gioi-thieu-draft.md`](03-trang-gioi-thieu-draft.md) |
 | Liên hệ | `/lien-he`, `/contact` | Anchor `#contact`: tên công ty, MST, địa chỉ, email. Không có SĐT, giờ làm việc, bản đồ | ⚠️ | Tạo `/lien-he` (mục 4.1) |
 | Chính sách bảo mật | `/chinh-sach-bao-mat`, `/privacy`, `/privacy-policy`, `/bao-mat` | Không có | ❌ **P0** | Mục 4.2; cần luật sư rà |
 | Điều khoản sử dụng | `/dieu-khoan`, `/dieu-khoan-su-dung`, `/terms` | Không có | ❌ P1 | Mục 4.3 |
-| Chính sách cookie | `/chinh-sach-cookie`, `/cookies` | Không có. Hiện **không có cookie** và không có script bên thứ ba (chỉ 1 bundle `index-*.js`) | ✅ Chưa cần | Bắt buộc phải có khi gắn GA4 (xem `07`) |
+| Chính sách cookie | `/chinh-sach-cookie`, `/cookies` | Không có. Hiện **không có cookie** và không có script bên thứ ba (chỉ 1 bundle `index-*.js`) | ✅ Chưa cần | Bắt buộc phải có khi gắn GA4 (xem [`07`](07-gsc-ga4-chinh-sach-ai-geo.md)) |
 | Đội ngũ / khách hàng / case study | `/khach-hang`, `/case-study`, `/tuyen-dung` | Không có | ❌ P2 | Gộp vào `/gioi-thieu` trước; làm case study khi có khách đồng ý |
 | Blog / tin tức | `/blog`, `/tin-tuc` | Không có (19 trang hướng dẫn đang đóng vai trò này) | — Tuỳ chọn | Không bắt buộc |
 | `/.well-known/security.txt` | | 404 | ❌ P2 | Mục 5 |
 | Trang 404 | URL bất kỳ | Template dev tiếng Anh, HTTP 200 | ❌ P0 | Đã ghi ở audit #5 |
-| Organization schema | | 0 JSON-LD trên site | ❌ | Đã soạn trong `schema/home.jsonld` |
+| Organization schema | | 0 JSON-LD trên site | ❌ | Đã soạn trong [`schema/home.jsonld`](schema/home.jsonld) |
 
 ## 2. Footer
 
@@ -35,7 +35,7 @@ Rủi ro lớn nhất là **pháp lý**: 19 trang sản phẩm có form thu emai
 | Thẻ `<footer>` | Có | ✅ |
 | Logo | `logo.webp`, alt "CÔNG TY CỔ PHẦN KIMQ"; thiếu `width`/`height` | ⚠️ |
 | Ảnh trang trí `footer-lotus.webp` | `alt=""` | ✅ Đúng với ảnh trang trí |
-| Copyright | `© 2026 KimQ JSC.` | ⚠️ "KimQ JSC" là tên thứ 4, không khớp quy ước ở `02` |
+| Copyright | `© 2026 KimQ JSC.` | ⚠️ "KimQ JSC" là tên thứ 4, không khớp quy ước ở [`02`](02-brand-va-trang-chu.md) |
 | Tên pháp nhân, MST, địa chỉ | Không có trong footer. Chỉ có ở `#contact` trên `/` và `/san-pham` | ❌ |
 | Email | Không có trong footer. 40/40 trang có `contact@kimq.tech` ở section `#contact` | ⚠️ |
 | Số điện thoại / hotline | Không có ở đâu trên site | ❌ (B2B nên có, hoặc ghi rõ kênh Zalo OA) |
@@ -61,8 +61,8 @@ Footer phải giống nhau trên mọi trang, render sẵn trong HTML (prerender
 
 Yêu cầu:
 - Năm copyright lấy theo năm hiện tại khi build.
-- Thông tin NAP (tên, địa chỉ, SĐT) trong footer **phải trùng từng chữ** với `schema/home.jsonld` và trang `/lien-he`.
-- `sameAs` trong `schema/home.jsonld` và `COMPANY.social` trong `site-patch` đã có 4 hồ sơ.
+- Thông tin NAP (tên, địa chỉ, SĐT) trong footer **phải trùng từng chữ** với [`schema/home.jsonld`](schema/home.jsonld) và trang `/lien-he`.
+- `sameAs` trong [`schema/home.jsonld`](schema/home.jsonld) và `COMPANY.social` trong [`site-patch`](../site-patch/) đã có 4 hồ sơ.
 - Mobile: các cột chuyển thành accordion hoặc xếp dọc; vùng chạm ≥ 44px.
 - Thêm 4 URL mới vào `sitemap.xml`.
 - Mỗi trang mới cần title, meta, canonical riêng (bảng mục 6).
@@ -155,7 +155,7 @@ Policy: https://kimq.tech/chinh-sach-bao-mat
 
 | URL | Title | Meta description | Schema |
 |---|---|---|---|
-| `/gioi-thieu` | Giới thiệu Công ty Cổ phần KimQ | xem `03` | `AboutPage` |
+| `/gioi-thieu` | Giới thiệu Công ty Cổ phần KimQ | xem [`03`](03-trang-gioi-thieu-draft.md) | `AboutPage` |
 | `/lien-he` | Liên hệ KimQ – Tư vấn & báo giá phần mềm | Liên hệ Công ty Cổ phần KimQ: email contact@kimq.tech, địa chỉ tại TP. Hồ Chí Minh. Tư vấn sản phẩm, báo giá và hỗ trợ kỹ thuật. | `ContactPage` |
 | `/chinh-sach-bao-mat` | Chính sách bảo mật – KimQ | KimQ thu thập dữ liệu gì trên website, dùng để làm gì, lưu bao lâu và cách anh/chị yêu cầu xem, sửa hoặc xoá dữ liệu cá nhân. | `WebPage` |
 | `/dieu-khoan-su-dung` | Điều khoản sử dụng website – KimQ | Điều khoản khi sử dụng website kimq.tech: quyền sở hữu nội dung, giới hạn trách nhiệm, liên kết bên ngoài và luật áp dụng. | `WebPage` |
@@ -169,6 +169,6 @@ Policy: https://kimq.tech/chinh-sach-bao-mat
 - [ ] Footer giống nhau trên 40+ trang, có link tới 4 trang mới, NAP trùng schema.
 - [ ] Copyright: "Công ty Cổ phần KimQ", không còn "KimQ JSC".
 - [ ] Form "Quan tâm" có câu đồng ý + link chính sách.
-- [ ] `security.txt` trả 200.
+- [ ] [`security.txt`](../site-patch/client/public/.well-known/security.txt) trả 200.
 - [x] `sameAs` có ít nhất 1 hồ sơ mạng xã hội thật.
 - [ ] Gắn GA4 → bổ sung chính sách cookie + thông báo/Consent Mode **trước** khi bật.

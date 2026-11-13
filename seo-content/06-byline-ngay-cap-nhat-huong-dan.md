@@ -4,7 +4,7 @@ Trạng thái: **Mẫu + checklist; cần Owner điền tên người thật** �
 
 ## Hiện trạng
 - 19/19 trang hướng dẫn **không có** tác giả, người rà soát hay ngày cập nhật hiển thị.
-- 19/19 trang **không có** TechArticle schema (đã soạn sẵn trong `schema/huong-dan/`, chỉ còn thiếu ngày thật).
+- 19/19 trang **không có** TechArticle schema (đã soạn sẵn trong [`schema/huong-dan/`](schema/huong-dan/), chỉ còn thiếu ngày thật).
 - Nội dung dài và chi tiết (1.200–10.250 từ, 3–10 FAQ mỗi trang). Đây là tài sản E-E-A-T tốt nhất của site. Chỉ thiếu tín hiệu "ai viết, ai chịu trách nhiệm, đúng tới ngày nào".
 
 ## Khối byline (đặt ngay dưới H1)
@@ -27,7 +27,7 @@ Tên người rà soát nên link sang mục Đội ngũ trên trang Giới thi�
 - `Cập nhật` và `dateModified` trong schema = ngày **sửa nội dung thật**, không phải ngày build hay deploy.
 - Sitemap `lastmod` dùng **cùng ngày này**, hoặc bỏ `lastmod` nếu chưa lấy được ngày đúng. Google nói ngày 16/07/2026 rằng lastmod sai thì thà bỏ.
 - Không đổi ngày chỉ vì sửa chính tả, footer hay năm bản quyền.
-- Trong `schema/huong-dan/*.jsonld`, thay `__DIEN_NGAY_THAT_YYYY-MM-DD__` bằng ngày thật. **Không deploy file còn placeholder.**
+- Trong [`schema/huong-dan/*.jsonld`](schema/huong-dan/), thay `__DIEN_NGAY_THAT_YYYY-MM-DD__` bằng ngày thật. **Không deploy file còn placeholder.**
 
 ## Checklist 19 trang
 

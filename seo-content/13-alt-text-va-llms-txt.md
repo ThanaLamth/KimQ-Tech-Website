@@ -1,4 +1,4 @@
-# 13 — Alt text ảnh trang Bệnh viện và `llms.txt`
+# 13 — Alt text ảnh trang Bệnh viện và [`llms.txt`](llms.txt)
 
 Ngày: 13/11/2026 · Trạng thái: **Sẵn sàng, chờ Dev đưa lên** · Nguồn: chú thích đang hiển thị trên https://kimq.tech/san-pham/benh-vien (crawl 09/11, TinyFish 10/11)
 
@@ -26,16 +26,16 @@ Thẻ `<video>` chính (`video-dieu-hanh.mp4`) chưa có nhãn. Đề xuất th�
 Ghi chú:
 - Nếu thumbnail nằm trong nút bấm mở video thì alt của ảnh chính là tên nút, nên giữ dạng "Video …" như trên.
 - Nếu bên cạnh ảnh đã có chữ chú thích y hệt thì dùng `alt=""` cho ảnh và đặt `aria-label` cho nút, để trình đọc màn hình không đọc lặp hai lần.
-- Ảnh hero: alt `Linh vật rùa của KimQ` (đã ghi trong `02`).
+- Ảnh hero: alt `Linh vật rùa của KimQ` (đã ghi trong [`02`](02-brand-va-trang-chu.md)).
 
-## 2. `llms.txt` (tuỳ chọn)
+## 2. [`llms.txt`](llms.txt) (tuỳ chọn)
 
-File: `seo-content/llms.txt`, gồm giới thiệu ngắn về KimQ Tech, 19 sản phẩm (title và meta mới trong `meta-40-url.json`), 19 trang hướng dẫn và các trang công ty.
+File: [`seo-content/llms.txt`](llms.txt), gồm giới thiệu ngắn về KimQ Tech, 19 sản phẩm (title và meta mới trong [`meta-40-url.json`](meta-40-url.json)), 19 trang hướng dẫn và các trang công ty.
 
-- **Tác dụng:** chưa có công cụ tìm kiếm lớn nào xác nhận dùng `llms.txt`; Google cho biết không cần file đặc biệt nào để xuất hiện trong tính năng AI của Search. Đây chỉ là bản tóm tắt site dễ đọc cho AI agent. Chi phí thấp, nên coi là việc phụ, **không** thay cho sitemap hay schema.
+- **Tác dụng:** chưa có công cụ tìm kiếm lớn nào xác nhận dùng [`llms.txt`](llms.txt); Google cho biết không cần file đặc biệt nào để xuất hiện trong tính năng AI của Search. Đây chỉ là bản tóm tắt site dễ đọc cho AI agent. Chi phí thấp, nên coi là việc phụ, **không** thay cho sitemap hay schema.
 - **Điều kiện trước khi đưa lên:**
   1. Đã chốt **Q3** (chính sách bot AI). Nếu chặn bot AI thì không cần đưa file này.
   2. Các trang `/gioi-thieu`, `/lien-he`, `/chinh-sach-bao-mat` đã live, vì file có link tới chúng.
-  3. Title và meta mới (`04`) đã lên site, để mô tả trong file khớp với trang.
+  3. Title và meta mới ([`04`](04-metadata-40-url.md)) đã lên site, để mô tả trong file khớp với trang.
 - **Cách đưa lên:** copy vào `client/public/llms.txt`, kiểm tra `https://kimq.tech/llms.txt` trả 200 và `Content-Type: text/plain`.
 - **Mô tả AI Gateway:** sau khi chốt Q1, sửa lại dòng AI Gateway nếu câu trả lời ảnh hưởng tới phần "nhật ký".

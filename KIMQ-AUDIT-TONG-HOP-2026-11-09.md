@@ -5,7 +5,7 @@ Tổng hợp các lần kiểm tra `https://kimq.tech/` ngày 09/11/2026:
 1. SEO kỹ thuật theo [NEWS-SITE-BUILD-CHECKLIST](https://github.com/ThanaLamth/nextjs/blob/main/docs/NEWS-SITE-BUILD-CHECKLIST.md) + checklist SEO 20 mục
 2. Quy tắc UX loading (dưới 1s / 1–10s / trên 10s / thao tác đơn giản)
 3. Security review theo [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
-4. Đối chiếu file `KimQ_SEO_GEO_Master_Audit_90_Days.xlsx` với site live bằng [claude-seo](https://github.com/AgriciDaniel/claude-seo), theo nguyên tắc "evidence before claims" của [superpowers](https://github.com/obra/superpowers)
+4. Đối chiếu file [`KimQ_SEO_GEO_Master_Audit_90_Days.xlsx`](KimQ_SEO_GEO_Master_Audit_90_Days.xlsx) với site live bằng [claude-seo](https://github.com/AgriciDaniel/claude-seo), theo nguyên tắc "evidence before claims" của [superpowers](https://github.com/obra/superpowers)
 
 > Mọi số liệu dưới đây đo trực tiếp trên production ngày 09/11/2026. Kết luận nào chưa đo được đều ghi rõ là "cần xác minh".
 
@@ -116,7 +116,7 @@ Checklist viết cho site tin tức Headless WP + Next.js; kimq.tech là site do
 | §3 Indexing | ❌ Soft 404 chưa noindex. Canonical: thiếu ở trang chủ. robots không chặn assets ✅, nhưng không khai báo sitemap |
 | §4 Sitemap | ❌ Không có |
 | §5 Structured data | ❌ 0 khối JSON-LD (cần Organization + WebSite, SoftwareApplication/Service, BreadcrumbList) |
-| §6 E-E-A-T | ❌ Không có trang About/Contact/Privacy/Terms riêng (chỉ anchor `#about`, `#contact`), không có editorial/team page. Chi tiết và bản nháp: `seo-content/08-trust-pages-footer.md` |
+| §6 E-E-A-T | ❌ Không có trang About/Contact/Privacy/Terms riêng (chỉ anchor `#about`, `#contact`), không có editorial/team page. Chi tiết và bản nháp: [`seo-content/08-trust-pages-footer.md`](seo-content/08-trust-pages-footer.md) |
 | §7 CWV | ❌ Xem mục 3. Ảnh below-fold đã `loading="lazy"` ✅; ảnh LCP có `fetchpriority="high"` nhưng phát hiện muộn |
 | §8 Bảo mật | ⚠️ Xem mục 6 |
 | §9 Deploy | ❌ Build không phải production mode |
@@ -183,7 +183,7 @@ Lưu ý: `Google-Extended` và `GoogleOther` bị chặn, nên khi đọc kết 
 
 ---
 
-## 8. Đánh giá file `KimQ_SEO_GEO_Master_Audit_90_Days.xlsx` (5 sheet)
+## 8. Đánh giá file [`KimQ_SEO_GEO_Master_Audit_90_Days.xlsx`](KimQ_SEO_GEO_Master_Audit_90_Days.xlsx) (5 sheet)
 
 File dựng từ `KIMQ-TOAN-BO-CONTENT.md` (xuất 05/11/2026) và đã tự ghi rõ là chưa xác minh trên HTML thật. Đối chiếu live 09/11:
 
@@ -242,12 +242,12 @@ Cả 8 claim đều đang có trên site:
 | W2 | `sitemap.xml` 40 URL + `Sitemap:` trong robots; 404 thật + noindex; 301 cho `tuan-thu-hoa-chat` và `www` | Index sạch |
 | W2 | Canonical + og:image cho trang chủ; title trang chủ rõ ràng sau khi chốt tên thương hiệu | |
 | W3 | JSON-LD: Organization + WebSite, SoftwareApplication/Service, BreadcrumbList | Rich result và entity |
-| W3 | Security headers ở Cloudflare; `security.txt` | Hardening |
+| W3 | Security headers ở Cloudflare; [`security.txt`](site-patch/client/public/.well-known/security.txt) | Hardening |
 | W3 | Cập nhật XLSX: thêm 7 URL, cập nhật T02–T07/T14, mở rộng Dashboard | Kế hoạch khớp thực tế |
 | **W1 (mới)** | Xác minh GSC (Domain property) + GA4 ngay, trước core update kế tiếp | Có baseline để đo tác động update |
 | W2 | Sitemap: `lastmod` = ngày sửa nội dung thật hoặc bỏ hẳn (không lấy ngày build) | Google tin tưởng lastmod |
 | W2 | Thêm About/đội ngũ/pháp nhân, tác giả + ngày cập nhật cho 19 guide; làm khác biệt nội dung 19 trang sản phẩm | Giảm rủi ro core/spam update |
-| W1–W2 | Chính sách bảo mật + câu đồng ý cho form (P0 pháp lý); `/lien-he`, `/dieu-khoan-su-dung`; footer 4 cột có NAP + link pháp lý (`seo-content/08`) | Đủ trust pages, giảm rủi ro pháp lý |
+| W1–W2 | Chính sách bảo mật + câu đồng ý cho form (P0 pháp lý); `/lien-he`, `/dieu-khoan-su-dung`; footer 4 cột có NAP + link pháp lý ([`seo-content/08`](seo-content/08-trust-pages-footer.md)) | Đủ trust pages, giảm rủi ro pháp lý |
 | W3 | Chốt chính sách AI: robots.txt (Google-Extended…) và *Search generative AI control* trong GSC nhất quán; ghi vào plan GEO "không mua mentions" | GEO an toàn |
 | Sau đó | Xác minh 5 mục needs_validation khi có source server; chạy GEO Test Set | |
 
