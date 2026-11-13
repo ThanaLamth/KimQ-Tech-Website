@@ -232,7 +232,7 @@ Làm cùng Đợt 1–2. Chép **nguyên văn** từ file nguồn, không tự v
 | S5 | Trang chủ, ảnh hero | alt "KimQ turtle illustration" | alt "Linh vật rùa của KimQ Tech" |
 | S6 | `/san-pham/benh-vien` | 5 ảnh video thiếu alt, video thiếu nhãn | Theo bảng trong [`13` §1](seo-content/13-alt-text-va-llms-txt.md) |
 | S7 | LIMS, Kiểm soát tài chính… | Khối "Sản phẩm liên quan" link sai nhóm | Theo bảng trong [`05` §1](seo-content/05-noi-dung-trang-san-pham.md) |
-| S8 | Toàn site (40 trang), schema, `mailto:` | Đang ghi email `contact@kimq.tech` | Đổi hết thành **`social@kimq.tech`** (Owner chốt 13/11/2026). Patch đã dùng email mới: [`site-config.ts`](site-patch/client/src/lib/site-config.ts), [`security.txt`](site-patch/client/public/.well-known/security.txt), [`home.jsonld`](seo-content/schema/home.jsonld). Kiểm tra: `curl -s https://kimq.tech/ | grep -c contact@` ra 0 |
+| S8 | Toàn site (40 trang), schema, `mailto:` | Đang ghi email `contact@kimq.tech` | Đổi hết thành **`social@kimq.tech`** (Owner chốt 13/11/2026). Patch đã dùng email mới: [`site-config.ts`](site-patch/client/src/lib/site-config.ts), [`security.txt`](site-patch/client/public/.well-known/security.txt), [`home.jsonld`](seo-content/schema/home.jsonld). Kiểm tra: mở trang bất kỳ, tìm "contact@" không còn kết quả |
 
 Hai câu AI Gateway về **dữ liệu** (trang sản phẩm "che trước khi gửi đi", trang hướng dẫn "che trước khi lưu", và chuyện có lưu nội dung câu hỏi hay không) **chưa sửa**, chờ CTO xác nhận rồi bổ sung vào đây.
 
