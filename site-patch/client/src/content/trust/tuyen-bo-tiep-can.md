@@ -62,7 +62,7 @@ Nếu anh/chị gặp khó khi dùng website, xin cho chúng tôi biết:
 - Email: [contact@kimq.tech](mailto:contact@kimq.tech), tiêu đề "Tiếp cận".
 - Xin ghi: đường dẫn trang, việc đang làm, thiết bị, trình duyệt và phần mềm hỗ trợ đang dùng (nếu có).
 
-Chúng tôi **phản hồi trong 5 ngày làm việc**. Nếu chưa sửa được ngay, chúng tôi sẽ gửi nội danh/chị cần qua email ở dạng dễ đọc (văn bản thuần hoặc PDF có thẻ).
+Chúng tôi **phản hồi trong 5 ngày làm việc**. Nếu chưa sửa được ngay, chúng tôi sẽ gửi nội dung anh/chị cần qua email ở dạng dễ đọc (văn bản thuần hoặc PDF có thẻ).
 
 ## Cập nhật
 

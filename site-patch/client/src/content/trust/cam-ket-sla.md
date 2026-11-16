@@ -28,14 +28,13 @@ AI Gateway tự chuyển sang tài khoản hoặc nhà cung cấp dự phòng kh
 
 | Mức độ | Ví dụ | Phản hồi đầu tiên | Mục tiêu khắc phục hoặc có cách làm tạm |
 |---|---|---|---|
-| Nghiêm trọng | Không đăng nhập được, nghi mất hoặc lộ dữ liệu, cả doanh nghiệp không dùng được | 2 giờ, kể cả ngoài giờ làm việc | 8 giờ |
-| Cao | Một chức năng chính lỗi, không có cách làm tạm | 4 giờ làm việc | 2 ngày làm việc |
-| Thường | Lỗi nhỏ, có cách làm tạm | 1 ngày làm việc | Trong bản cập nhật kế tiếp |
-| Câu hỏi, yêu cầu | Hướng dẫn sử dụng, góp ý tính năng | 1 ngày làm việc | — |
+| Nghiêm trọng | Không đăng nhập được, nghi mất hoặc lộ dữ liệu, cả doanh nghiệp không dùng được | 2 giờ | 8 giờ |
+| Cao | Một chức năng chính lỗi, không có cách làm tạm | 4 giờ | 48 giờ |
+| Thường | Lỗi nhỏ, có cách làm tạm | 24 giờ | Trong bản cập nhật kế tiếp |
+| Câu hỏi, yêu cầu | Hướng dẫn sử dụng, góp ý tính năng | 24 giờ | — |
 
 - **Kênh hỗ trợ:** [contact@kimq.tech](mailto:contact@kimq.tech), tiêu đề "Hỗ trợ – [tên doanh nghiệp] – [tên sản phẩm]", hoặc nhóm hỗ trợ riêng thống nhất khi triển khai.
-- **Giờ làm việc:** Thứ Hai – Thứ Sáu, 8:30 – 17:30 (GMT+7), trừ ngày nghỉ lễ theo quy định.
-- **Ngoài giờ:** chỉ tiếp nhận sự cố mức Nghiêm trọng.
+- **Giờ hỗ trợ:** **24/7**, tất cả các ngày trong tuần, kể cả ngày lễ (GMT+7). Thời gian phản hồi ở bảng trên tính theo giờ thực tế.
 
 Để xử lý nhanh, xin ghi rõ: người gặp lỗi, thời điểm, màn hình hoặc thao tác, ảnh chụp nếu có. Không gửi mật khẩu qua email.
 

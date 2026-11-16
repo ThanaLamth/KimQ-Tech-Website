@@ -77,14 +77,14 @@ Ngày 13/11/2026, cả 13 trang đã điền đủ (0 chỗ `[CẦN ĐIỀN]`) v
 | # | Giá trị đã điền | Nguồn | Ai xác nhận | File |
 |---|---|---|---|---|
 | 1 | Người đại diện: Nguyễn Văn An; đăng ký lần đầu 23/02/2026; VPĐD Số 71 đường 61-TML, P. Cát Lái (MST 0319416034-001) | Đăng ký doanh nghiệp | Owner | Giới thiệu, Chính sách bảo mật, `site-config.ts` |
-| 2 | Giờ làm việc T2–T6, 8:30–17:30; phản hồi email trong 1 ngày làm việc; không công bố số điện thoại | Đề xuất | Owner | Liên hệ, schema |
+| 2 | Giờ làm việc **24/7** (Owner chốt 16/11/2026); phản hồi email trong 24 giờ; không công bố số điện thoại | Đề xuất | Owner | Liên hệ, schema |
 | 3 | Bên xử lý: Cloudflare, Railway, Lark, Google Fonts (website); thêm OpenAI, Zalo (VNG), Meta (sản phẩm); dữ liệu Railway và Lark nằm ngoài Việt Nam | DNS, header | CTO | Chính sách bảo mật, Bên xử lý phụ |
 | 4 | Lưu dữ liệu form và email 24 tháng; nhật ký 90 ngày; CV 12 tháng | Đề xuất | Owner + luật sư | Chính sách bảo mật, Tuyển dụng |
 | 5 | Sao lưu hằng ngày, giữ ≥ 7 ngày; mã hoá khi lưu và khi truyền; bật 2FA nội bộ; chưa có ISO/SOC 2 | Đề xuất | CTO | Bảo mật & dữ liệu |
 | 6 | Báo khách sự cố trong 48 giờ; báo trước 30 ngày khi đổi bên xử lý phụ; xuất dữ liệu trong 30 ngày; xoá trong 30 ngày, bản sao lưu trong 90 ngày | Đề xuất (NĐ 356 yêu cầu báo cơ quan 72 giờ) | CTO + luật sư | DPA, Bảo mật & dữ liệu |
 | 7 | OpenAI là ví dụ nhà cung cấp mô hình; KimQ không huấn luyện mô hình trên dữ liệu khách | Đề xuất | CTO | Chính sách dữ liệu AI |
 | 8 | **Q1 = phương án A**: AI Gateway lưu nội dung sau khi che dữ liệu nhạy cảm | Đề xuất | CTO | Chính sách dữ liệu AI |
-| 9 | SLA: mục tiêu 99,5%; mức Nghiêm trọng phản hồi 2 giờ, khắc phục 8 giờ; bảo trì 22:00–06:00, báo trước 48 giờ; bù phí chỉ theo hợp đồng | Đề xuất | Owner + CTO | Cam kết SLA |
+| 9 | SLA: mục tiêu 99,5%; hỗ trợ 24/7, mức Nghiêm trọng phản hồi 2 giờ, khắc phục 8 giờ; bảo trì 22:00–06:00, báo trước 48 giờ; bù phí chỉ theo hợp đồng | Đề xuất | Owner + CTO | Cam kết SLA |
 | 10 | **Q3**: cho phép công cụ tìm kiếm và trợ lý AI đọc theo `robots.txt`; cấm thu thập hàng loạt để tái xuất bản | Đề xuất | Owner | Điều khoản |
 | 11 | Tranh chấp: thương lượng 30 ngày, sau đó Toà án nhân dân có thẩm quyền tại TP.HCM | Đề xuất | Luật sư | Điều khoản |
 | 12 | Khách hàng: chưa nêu tên khách nào; trang mô tả ngành, quy trình và nguyên tắc công bố | Thực tế hiện tại | Owner | Khách hàng |

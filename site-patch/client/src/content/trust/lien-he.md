@@ -11,7 +11,7 @@ review: Owner
 form: true
 ---
 
-Anh/chị cần tư vấn sản phẩm, muốn xem thử trên dữ liệu và quy trình của chính doanh nghiệp mình, cần báo giá hay hỗ trợ kỹ thuật? Gửi email hoặc để lại email ở form bên dưới. KimQ phản hồi trong **01 ngày làm việc**.
+Anh/chị cần tư vấn sản phẩm, muốn xem thử trên dữ liệu và quy trình của chính doanh nghiệp mình, cần báo giá hay hỗ trợ kỹ thuật? Gửi email hoặc để lại email ở form bên dưới. KimQ làm việc **24/7** và phản hồi trong **24 giờ**, kể cả cuối tuần và ngày lễ.
 
 ## Thông tin liên hệ
 
@@ -22,7 +22,7 @@ Anh/chị cần tư vấn sản phẩm, muốn xem thử trên dữ liệu và q
 | Trụ sở | Tầng 2, số 02 Song Hành, Phường Bình Trưng, Thành phố Hồ Chí Minh, Việt Nam |
 | Văn phòng đại diện | Số 71 đường 61-TML, khu phố 14, Phường Cát Lái, Thành phố Hồ Chí Minh (MST 0319416034-001) |
 | Email | [contact@kimq.tech](mailto:contact@kimq.tech) |
-| Giờ làm việc | Thứ Hai – Thứ Sáu, 8:30 – 17:30 (giờ Việt Nam, GMT+7). Email nhận 24/7, trả lời trong giờ làm việc |
+| Giờ làm việc | **24/7**: tất cả các ngày trong tuần, kể cả ngày lễ (giờ Việt Nam, GMT+7) |
 | Mạng xã hội | [Facebook](https://www.facebook.com/profile.php?id=61595159860837) · [Instagram](https://www.instagram.com/kimqtech/) · [Threads](https://www.threads.com/@kimqtech) · [TikTok](https://www.tiktok.com/@kimqaitech) |
 | Bản đồ | [Xem trụ sở trên Google Maps](https://www.google.com/maps/search/?api=1&query=T%E1%BA%A7ng+2%2C+s%E1%BB%91+02+Song+H%C3%A0nh%2C+Ph%C6%B0%E1%BB%9Dng+B%C3%ACnh+Tr%C6%B0ng%2C+TP+H%E1%BB%93+Ch%C3%AD+Minh) |
 
