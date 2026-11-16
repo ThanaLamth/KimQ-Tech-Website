@@ -8,7 +8,7 @@ Bấm vào mã việc (A1, A2…) trong bảng để xem **cách làm chi tiết
 
 ---
 
-## Đợt 1 — Làm ngay (P0, ~1 tuần)
+## Stage 1 — Làm trước (P0)
 
 Không phụ thuộc quyết định nào của Owner.
 
@@ -26,7 +26,7 @@ Không phụ thuộc quyết định nào của Owner.
 | [A3](#a3) | Hiệu năng mobile: `srcset` + `preload` ảnh hero, `width/height` cho logo, giảm CSS chặn render | [Audit §3](KIMQ-AUDIT-TONG-HOP-2026-11-09.md) | Lighthouse mobile ≥ 80, LCP < 2,5 s |
 | [F1](#f1) | Thêm bản ghi **TXT DNS** để verify Google Search Console (SEO gửi mã) | [`07` §1](seo-content/07-gsc-ga4-chinh-sach-ai-geo.md) | GSC báo đã xác minh |
 
-## Đợt 2 — Trong 2–3 tuần (P1)
+## Stage 2 — Làm sau Stage 1 (P1)
 
 | # | Việc | Dùng file | Kiểm tra xong |
 |---|---|---|---|
@@ -41,7 +41,7 @@ Không phụ thuộc quyết định nào của Owner.
 | [E2](#e2) | Rà code server 5 điểm: rate limit, cờ `?kqtest=1`, escape dữ liệu lead, email xác nhận, chặn truy cập thẳng origin Railway | [Audit §6](KIMQ-AUDIT-TONG-HOP-2026-11-09.md) | Báo lại kết quả từng điểm |
 | [C5](#c5) | Tạo mục **`/kien-thuc`** (danh sách bài + trang bài, có byline, ngày, breadcrumb, Article schema, vào sitemap) | [`12`](seo-content/12-ke-hoach-bai-viet-ho-tro.md) | Đăng được bài nháp thử |
 
-## Đợt 3 — Khi có điều kiện (P2)
+## Stage 3 — Khi có điều kiện (P2)
 
 | # | Việc | Dùng file |
 |---|---|---|
@@ -207,7 +207,7 @@ Báo lại kết quả từng điểm để cập nhật tracker.
 
 ## Nội dung cần thêm / sửa trên trang (chữ đã viết sẵn, Dev chỉ dán vào)
 
-Làm cùng Đợt 1–2. Chép **nguyên văn** từ file nguồn, không tự viết lại.
+Làm cùng Stage 1–2. Chép **nguyên văn** từ file nguồn, không tự viết lại.
 
 ### Thêm mới
 
@@ -237,7 +237,7 @@ Hai câu AI Gateway về **dữ liệu** (trang sản phẩm "che trước khi g
 
 ### Blog `/kien-thuc`
 
-Dev chỉ cần dựng mục (C5 ở Đợt 2). Bài viết do Content gửi riêng khi xong; kế hoạch 6 bài ở [`12`](seo-content/12-ke-hoach-bai-viet-ho-tro.md).
+Dev chỉ cần dựng mục (C5 ở Stage 2). Bài viết do Content gửi riêng khi xong; kế hoạch 6 bài ở [`12`](seo-content/12-ke-hoach-bai-viet-ho-tro.md).
 
 ## Trang tin cậy (13 trang) — đã viết đủ, `status: ready`
 

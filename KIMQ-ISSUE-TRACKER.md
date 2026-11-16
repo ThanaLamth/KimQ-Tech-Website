@@ -113,13 +113,13 @@ Một số mục có nhiều trạng thái (ví dụ "📝 nội dung sẵn · �
 
 ## Thứ tự đề xuất
 
-| Tuần | Việc | Mục |
+| Stage | Việc | Mục |
 |---|---|---|
-| Ngay | CTO trả lời Q1; Owner trả lời Q3, Q4 (Q2 đã chốt: KimQ Tech) | C1, F2, B5 |
-| W1 | Build production; verify GSC + GA4; ảnh hero responsive | A1, F1, A3 |
-| W1–W2 | Ghép [`site-patch`](site-patch/) (404 thật, 301, footer, câu đồng ý, security.txt); Owner điền thông tin, luật sư duyệt Chính sách bảo mật | A5, A6, D1–D3, D7, D9 |
-| W2 | Prerender 40 route + title/meta/schema; sitemap; DNS `www` | A2, B1–B3, A4, A7 |
-| W3 | Security headers + rà server; trang P1; internal link | E1–E3, D4, D5, B4 |
-| Sau prerender | Test GEO 22 câu hỏi; byline hướng dẫn; case study | F5, C3, C4 |
+| 0 | CTO trả lời Q1; Owner trả lời Q3, Q4 (Q2 đã chốt: KimQ Tech) | C1, F2, B5 |
+| 1 | Build production; verify GSC + GA4; ảnh hero responsive | A1, F1, A3 |
+| 1 | Ghép [`site-patch`](site-patch/) (404 thật, 301, footer, câu đồng ý, security.txt); Owner điền thông tin, luật sư duyệt Chính sách bảo mật | A5, A6, D1–D3, D7, D9 |
+| 2 | Prerender 40 route + title/meta/schema; sitemap; DNS `www` | A2, B1–B3, A4, A7 |
+| 3 | Security headers + rà server; trang P1; internal link | E1–E3, D4, D5, B4 |
+| 4 | Test GEO 22 câu hỏi; byline hướng dẫn; case study | F5, C3, C4 |
 
 Khi một mục thay đổi trạng thái, cập nhật dòng tương ứng ở đây và trong XLSX (sheet Roadmap).
